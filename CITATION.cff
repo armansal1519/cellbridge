@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: CellBridge
+message: If you use this software, please cite it.
+type: software
+authors:
+  - family-names: Salehi
+    given-names: Arman
+    email: armansal1519@gmail.com
+repository-code: https://github.com/armansal1519/cellbridge
+url: https://github.com/armansal1519/cellbridge
+version: 1.0.0
+license: MIT
+date-released: 2026-10-07
+abstract: >-
+  CellBridge fits one closed-form slope per protein and predicts a donor's
+  protein change from RNA and eight anchor antibodies. On GSE334503 the
+  prespecified sequence beat the mean, two ridges and totalVI. On E-MTAB-9357
+  the same frozen method stopped at the primary-endpoint comparison with the
+  mean. A Zenodo DOI is not assigned yet.

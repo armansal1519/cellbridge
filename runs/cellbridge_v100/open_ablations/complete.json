@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "exploratory": true,
+  "scipenn": "not run; it is not installed, and installing it into the locked environment would change the results-lock freeze",
+  "grid": "k=1, tau=0, 8 lambdas. The full-grid subgrid table is subgrid_means.csv.",
+  "seconds": 365.8014438152313
+}

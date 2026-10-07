@@ -1,0 +1,12 @@
+{
+  "files": {
+    "core.npz": "3f0b9a5a5aab3604d4b38830eb297d817422c84886427e5ea74d1dfcac6debfa",
+    "totalvi.npz": "58957b4daef0722a682d84d0843e59ad2283fe3a8e09aac0c36c0164b0a9adb1"
+  },
+  "fit_receipt_sha256": "96c0209f019aa5f516e7b651d08b43b1ca1c48c3c6d0b7836cd4ecf0743b79a3",
+  "freeze_sha256": "8938d4d449a9e971a7f6802a2418dbefe9a82910ba45fdb59eb6477254b54576",
+  "hidden_outcomes_opened": false,
+  "sealed_at": "2026-10-07T12:46:56.735401+00:00",
+  "v050_prediction_seal_sha256": "d5b2b577ec077911b67d84a22938f6471f0cdfabdc06dba9089f04b2b1e9a747",
+  "v050_predictions_sha256": "fb8a292b407699d3298a7f72bb483d22e6493857cc048f99cccf7fb1a338e693"
+}

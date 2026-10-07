@@ -1,0 +1,6 @@
+{
+  "cohort": "GSE334503",
+  "method": "cellbridge",
+  "note": "Recomputed from the sealed predictions. Matches the sealed E1 mean.",
+  "post_hoc": true
+}

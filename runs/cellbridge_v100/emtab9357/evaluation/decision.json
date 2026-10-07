@@ -1,0 +1,244 @@
+{
+  "conformal": {
+    "cellbridge": {
+      "pooled_standardized_quantile": 1.1965189058267374,
+      "test_coverage_all_hidden": 0.9260536398467433,
+      "test_coverage_primary": 0.8793103448275862
+    },
+    "joint_ridge": {
+      "pooled_standardized_quantile": 1.9691263383283133,
+      "test_coverage_all_hidden": 0.8921455938697318,
+      "test_coverage_primary": 0.8793103448275862
+    },
+    "rna_ridge": {
+      "pooled_standardized_quantile": 1.9691263383283133,
+      "test_coverage_all_hidden": 0.8921455938697318,
+      "test_coverage_primary": 0.8793103448275862
+    },
+    "totalvi": {
+      "pooled_standardized_quantile": 1.9190203113707052,
+      "test_coverage_all_hidden": 0.8848659003831417,
+      "test_coverage_primary": 0.896551724137931
+    },
+    "v040_abundance_shrinkage": {
+      "pooled_standardized_quantile": 1.186539194185426,
+      "test_coverage_all_hidden": 0.9260536398467433,
+      "test_coverage_primary": 0.896551724137931
+    }
+  },
+  "dry_run": false,
+  "hypotheses": [
+    {
+      "comparator": "mean",
+      "difference_ci95": [
+        0.10772224510136912,
+        0.668423964279076
+      ],
+      "donor_wins": 21,
+      "endpoint": "E2_all_hidden",
+      "id": "H1",
+      "mean_difference": 0.35313467170193014,
+      "mean_loss_cellbridge": 0.47065888781004206,
+      "mean_loss_comparator": 0.8237935595119721,
+      "model": "cellbridge",
+      "n_donors": 29,
+      "rejected_null": true,
+      "relative_gain": 0.4286688911614366,
+      "sign_flip_p_two_sided": 9.999000099990002e-05,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "joint_ridge",
+      "difference_ci95": [
+        0.10772224510136912,
+        0.668423964279076
+      ],
+      "donor_wins": 21,
+      "endpoint": "E2_all_hidden",
+      "id": "H2",
+      "mean_difference": 0.35313467170193014,
+      "mean_loss_cellbridge": 0.47065888781004206,
+      "mean_loss_comparator": 0.8237935595119721,
+      "model": "cellbridge",
+      "n_donors": 29,
+      "rejected_null": true,
+      "relative_gain": 0.4286688911614366,
+      "sign_flip_p_two_sided": 9.999000099990002e-05,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "rna_ridge",
+      "difference_ci95": [
+        0.10772224510136912,
+        0.668423964279076
+      ],
+      "donor_wins": 21,
+      "endpoint": "E2_all_hidden",
+      "id": "H3",
+      "mean_difference": 0.35313467170193014,
+      "mean_loss_cellbridge": 0.47065888781004206,
+      "mean_loss_comparator": 0.8237935595119721,
+      "model": "cellbridge",
+      "n_donors": 29,
+      "rejected_null": true,
+      "relative_gain": 0.4286688911614366,
+      "sign_flip_p_two_sided": 9.999000099990002e-05,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "mean",
+      "difference_ci95": [
+        0.03160185322829422,
+        0.7799338611419928
+      ],
+      "donor_wins": 16,
+      "endpoint": "E1_primary",
+      "id": "H4",
+      "mean_difference": 0.3587832446559098,
+      "mean_loss_cellbridge": 0.5298187398263612,
+      "mean_loss_comparator": 0.8886019844822711,
+      "model": "cellbridge",
+      "n_donors": 29,
+      "rejected_null": false,
+      "relative_gain": 0.40376147130140483,
+      "sign_flip_p_two_sided": 0.06059394060593941,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "joint_ridge",
+      "difference_ci95": [
+        0.03160185322829422,
+        0.7799338611419928
+      ],
+      "donor_wins": 16,
+      "endpoint": "E1_primary",
+      "id": "H5",
+      "mean_difference": 0.3587832446559098,
+      "mean_loss_cellbridge": 0.5298187398263612,
+      "mean_loss_comparator": 0.8886019844822711,
+      "model": "cellbridge",
+      "n_donors": 29,
+      "rejected_null": false,
+      "relative_gain": 0.40376147130140483,
+      "sign_flip_p_two_sided": 0.06059394060593941,
+      "tested_in_sequence": false
+    },
+    {
+      "comparator": "rna_ridge",
+      "difference_ci95": [
+        0.03160185322829422,
+        0.7799338611419928
+      ],
+      "donor_wins": 16,
+      "endpoint": "E1_primary",
+      "id": "H6",
+      "mean_difference": 0.3587832446559098,
+      "mean_loss_cellbridge": 0.5298187398263612,
+      "mean_loss_comparator": 0.8886019844822711,
+      "model": "cellbridge",
+      "n_donors": 29,
+      "rejected_null": false,
+      "relative_gain": 0.40376147130140483,
+      "sign_flip_p_two_sided": 0.06059394060593941,
+      "tested_in_sequence": false
+    },
+    {
+      "comparator": "totalvi",
+      "difference_ci95": [
+        0.11349981795900546,
+        0.7069330569207714
+      ],
+      "donor_wins": 21,
+      "endpoint": "E2_all_hidden",
+      "id": "H7",
+      "mean_difference": 0.373746141927965,
+      "mean_loss_cellbridge": 0.47065888781004206,
+      "mean_loss_comparator": 0.8444050297380071,
+      "model": "cellbridge",
+      "n_donors": 29,
+      "rejected_null": false,
+      "relative_gain": 0.4426147746229401,
+      "sign_flip_p_two_sided": 0.00019998000199980003,
+      "tested_in_sequence": false
+    },
+    {
+      "comparator": "totalvi",
+      "difference_ci95": [
+        0.062196592115560514,
+        0.8239529621655473
+      ],
+      "donor_wins": 18,
+      "endpoint": "E1_primary",
+      "id": "H8",
+      "mean_difference": 0.3988659665160513,
+      "mean_loss_cellbridge": 0.5298187398263612,
+      "mean_loss_comparator": 0.9286847063424125,
+      "model": "cellbridge",
+      "n_donors": 29,
+      "rejected_null": false,
+      "relative_gain": 0.4294955691549708,
+      "sign_flip_p_two_sided": 0.030296970302969704,
+      "tested_in_sequence": false
+    },
+    {
+      "comparator": "v040_abundance_shrinkage",
+      "difference_ci95": [
+        -0.028436450527815446,
+        0.02945713160999794
+      ],
+      "donor_wins": 15,
+      "endpoint": "E2_all_hidden",
+      "id": "H9",
+      "mean_difference": 0.0013596158815060786,
+      "mean_loss_cellbridge": 0.47065888781004206,
+      "mean_loss_comparator": 0.47201850369154813,
+      "model": "cellbridge",
+      "n_donors": 29,
+      "rejected_null": false,
+      "relative_gain": 0.0028804292011284094,
+      "sign_flip_p_two_sided": 0.9307069293070693,
+      "tested_in_sequence": false
+    },
+    {
+      "comparator": "v040_abundance_shrinkage",
+      "difference_ci95": [
+        -0.07307008187854451,
+        0.06453430758162382
+      ],
+      "donor_wins": 14,
+      "endpoint": "E1_primary",
+      "id": "H10",
+      "mean_difference": -0.0033876483648128983,
+      "mean_loss_cellbridge": 0.5298187398263612,
+      "mean_loss_comparator": 0.5264310914615482,
+      "model": "cellbridge",
+      "n_donors": 29,
+      "rejected_null": false,
+      "relative_gain": -0.006435122126635218,
+      "sign_flip_p_two_sided": 0.9308069193080692,
+      "tested_in_sequence": false
+    }
+  ],
+  "noninferiority_vs_v040": [
+    {
+      "endpoint": "E1_primary",
+      "margin": 0.05,
+      "mean_excess_loss_cellbridge": 0.0033876483648128983,
+      "noninferior": false,
+      "upper_ci95_excess_loss": 0.07307008187854451
+    },
+    {
+      "endpoint": "E2_all_hidden",
+      "margin": 0.05,
+      "mean_excess_loss_cellbridge": -0.0013596158815060786,
+      "noninferior": true,
+      "upper_ci95_excess_loss": 0.028436450527815446
+    }
+  ],
+  "preregistration_osf_url": null,
+  "primary_claim_supported": false,
+  "sequence_stopped": "H4",
+  "training_mean_sse_reference": 8146.420726759707,
+  "unblinded_at": "2026-10-07T19:02:07.267816+00:00",
+  "version": "1.0.0-emtab9357"
+}

@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/DanHanh/scLinear",
+  "commit": "3affe8a3a142b07629772c1db0b371624d4f91f9",
+  "paper": "https://doi.org/10.1038/s42003-024-05958-4",
+  "license": "CC-BY-4.0",
+  "retrieved_date": "2026-10-05",
+  "files": {
+    "prediction.py": {
+      "sha256": "8cc64bdc84d1438a11146cc00bcae92bf043a95117652be3d6231d1bcd425b6e",
+      "source_url": "https://raw.githubusercontent.com/DanHanh/scLinear/3affe8a3a142b07629772c1db0b371624d4f91f9/inst/python/prediction.py"
+    },
+    "preprocessing.py": {
+      "sha256": "ee100d46bc80a2343bfb6af59d073a01aa44f89c79fb817b628d0f4326df8a1e",
+      "source_url": "https://raw.githubusercontent.com/DanHanh/scLinear/3affe8a3a142b07629772c1db0b371624d4f91f9/inst/python/preprocessing.py"
+    },
+    "LICENSE.md": {
+      "sha256": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+      "source_url": "https://raw.githubusercontent.com/DanHanh/scLinear/3affe8a3a142b07629772c1db0b371624d4f91f9/LICENSE.md"
+    }
+  },
+  "execution": "AST-extract unmodified GEXPreprocessor,zscore_normalization and ADTPredictor __init__/fit/_filter_gex_names/predict; skip unused deep-learning imports/methods",
+  "adaptations": [
+    "RNA normalized independently per cell to 10000 then log1p, not scran",
+    "Per-protein log1p raw ADT, no CLR",
+    "No transductive GEX: SVD fitted only on training cells",
+    "Random-state fixed on original TruncatedSVD object",
+    "Use at most 300 components capped by training dimensions; report cap",
+    "No target-cell filtering or cell-type inference by scLinear; shared predeclared RNA cohort",
+    "Official equal-cell linear fitting retained; donor-level evaluation has equal donor weights",
+    "Official nonnegative predicted-abundance clipping retained"
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "files_sha256": {
+    "analyses/cellbridge_v100/env_venv.txt": "12ee16a7732265c22899614e6713a0dfbe888ea3708287486a822cc2eacc8209",
+    "analyses/cellbridge_v100/env_venv_totalvi.txt": "9f1a0428d2238a89076ab656320e9596b3f2a5748d8e5e88d62774ca3239c378",
+    "analyses/cellbridge_v100/posthoc_policy.json": "d4086c63080e81c1ec07963443aebaf69c218beb705548c40b7dd5f75fbbb9a8",
+    "analyses/cellbridge_v100/report.md": "02a1947c6c28afb11e4340f48eaa32260e48a2aace6255a70c7928a505c935ca",
+    "configs/protocol_cellbridge_v100.json": "a5780e2eae3279ab3be95d029bf1e8cfcc66e093577ad575c54a91c0a05d4994",
+    "manuscript/v100/figure_main.png": "bac8a4cfee90307a30283f25513941183b01be5a63255f2bc7799bacef6be0b6",
+    "manuscript/v100/source_data/development_summary.csv": "2d19765895c276c130230f864742b4918c736889eaada4dbeb56f29ea98969de",
+    "manuscript/v100/source_data/test_donor_losses_E1_primary.csv": "e132da4973b3f7bb627f2d53b8076570aec99183b97dcde24423b29831526181",
+    "manuscript/v100/source_data/test_donor_losses_E2_all_hidden.csv": "0236fbe09e0cf2400402dfc296fe071cd42d797403ebcfb93b47c705bde08b02",
+    "runs/cellbridge_v100/analysis/development/donors.csv": "74e846d84796cc72e643d6805ce78a2e11fe47c10e266ab5bd1eec92543349bc",
+    "runs/cellbridge_v100/analysis/development/summary.csv": "7889c209d9540827375fc38bfb7c9ebedccb2b3d6ae1960602d125aa08794fb6",
+    "runs/cellbridge_v100/analysis/development_tau/donors.csv": "b24a35657d2a9baf14b268560d947152b6a5bdc6041fd79889a0b50a2340d735",
+    "runs/cellbridge_v100/analysis/development_tau/summary.csv": "7da686cfa05c7e2e4b3364075d9cec56d7895f6565f08905f159168b4df16f6a",
+    "runs/cellbridge_v100/analysis/development_tau_union/donors.csv": "349879ab3a69e65f04a667fe167aa60eff66ddc1c5a9bfb4e65a817603632596",
+    "runs/cellbridge_v100/analysis/development_tau_union/summary.csv": "1926e44334119471e3242f169ffdd1eb42215f9688cdabd2894358810284a773",
+    "runs/cellbridge_v100/gse334503/evaluation/complete.json": "68f9eb49eb0ef71266a40665b213a36c9497337fccbd016edc87c2c21571bffa",
+    "runs/cellbridge_v100/gse334503/evaluation/decision.json": "90c0d0052937c7e41f5d601b2ea5dfc810a49e61821138cbfe4bc1037af50187",
+    "runs/cellbridge_v100/gse334503/evaluation/donor_losses.csv": "e6f2acb5e3a45acf4cf3ef1b81f4c2cda0ea644d5f5c1d7505b77508e653b049",
+    "runs/cellbridge_v100/gse334503/evaluation/per_protein.csv": "02ee551161b73633202bc5fc6d27e9e1a3d916fd4a319435f1c22d5aed4c8269",
+    "runs/cellbridge_v100/gse334503/evaluation/summary.csv": "13c8dcc830dcc7e8798da83867fbf110d22e3c298a952a7c029fcf71594c92a7",
+    "runs/cellbridge_v100/gse334503/fit/cellbridge_model.npz": "7347656becda5a0a099e9609cc98b164d08ac8fb89e818fcdaac50ae8455c138",
+    "runs/cellbridge_v100/gse334503/fit/complete.json": "96c0209f019aa5f516e7b651d08b43b1ca1c48c3c6d0b7836cd4ecf0743b79a3",
+    "runs/cellbridge_v100/gse334503/fit/fit.json": "35bb4eb3a75c38eaaa327b61a48ace6e8f36c249a81a07f988cec4a75310358d",
+    "runs/cellbridge_v100/gse334503/fit/selection.json": "430cc2a2b952aba253a7a59f0ab56eee5f76b86e9b29b3d8434ae3d989168057",
+    "runs/cellbridge_v100/gse334503/freeze.json": "8938d4d449a9e971a7f6802a2418dbefe9a82910ba45fdb59eb6477254b54576",
+    "runs/cellbridge_v100/gse334503/prediction_seal.json": "38c60f38c6bca1c4552d378a19b1b680ddc14cdad34ee0a30e3e643071cf6293",
+    "runs/cellbridge_v100/gse334503/predictions/core.npz": "3f0b9a5a5aab3604d4b38830eb297d817422c84886427e5ea74d1dfcac6debfa",
+    "runs/cellbridge_v100/gse334503/predictions/totalvi.npz": "58957b4daef0722a682d84d0843e59ad2283fe3a8e09aac0c36c0164b0a9adb1",
+    "runs/cellbridge_v100/gse334503/totalvi_log.json": "d806de9fc258b5cb03099dba8327150352c2341e1a83851a9c3154a87ba01079",
+    "scripts/cellbridge_dev_v100.py": "6153ec91f42c38dcc7c6d4b171dd44552540e383f63749738a9375201f29b644",
+    "scripts/cellbridge_gse_v100.py": "f7506c4e3b7719f2e014b3b27f7d0c3029d6bb0d2a9e384972f25b20873282b2",
+    "scripts/cellbridge_totalvi_v100.py": "be4c3d49283e21bbd8d4b546a857748228b3ee1492f94663fc10a1c51aed2899",
+    "src/responsebridge/abundance_response.py": "79383d8e49337a84886072b73fe0276c4e35f8fc87c1f0b07b388510eedafd29",
+    "src/responsebridge/artifacts.py": "7777d3a2ea52a45722027451479a9ee47fc5672da20ab04138f5b7584c78d40a",
+    "src/responsebridge/benchmark_data.py": "e9f2ea43e453c0f2ae37e56deaacc594470560ad9bbc6d60e13d91a3ba731f05",
+    "src/responsebridge/cellbridge.py": "c8236ceae490cd5f7a04b4d1b395afe3d50b50d627516791c035efaee4748ef3",
+    "src/responsebridge/cellbridge_data.py": "6de41d6f13dc9d2c20a948d2b2016ff3695f00607b1765e7059cdcb2c5384883",
+    "src/responsebridge/reliability.py": "3d9812d3cd724cdd25177b0c235a0c044924800b5f892bf6475eecc93c5db198",
+    "src/responsebridge/response_baselines.py": "7744321f0ad973296870e6d1475fd12628e26232e5e53ca5418f7435190a4148",
+    "src/responsebridge/response_downstream_v050.py": "c9d3839f5cad3f90e60e1ad217720ab359138c4bbe29f0897250e9211497fa58",
+    "src/responsebridge/response_experiment_v050.py": "1ca6d81f7f5f7d8d6812a449dc3855378a2a9bc95fec4a4323eab4d5da020fbb",
+    "src/responsebridge/rna.py": "ecab8c477b5d32f1b0d62f0085a09340722356161b6a18be64bd4d3d536ad7e2",
+    "src/responsebridge/shrinkage.py": "a7967e56a57690d883135e79235873912f29e953b5b0e8eb3de83ca3f526769a"
+  },
+  "headlines": {
+    "hypotheses": [
+      {
+        "comparator": "mean",
+        "donor_wins": 10,
+        "endpoint": "E2_all_hidden",
+        "id": "H1",
+        "mean_difference": 0.32097827393739176,
+        "n_donors": 10,
+        "rejected_null": true,
+        "sign_flip_p_two_sided": 0.001953125,
+        "tested_in_sequence": true
+      },
+      {
+        "comparator": "joint_ridge",
+        "donor_wins": 9,
+        "endpoint": "E2_all_hidden",
+        "id": "H2",
+        "mean_difference": 0.3996534940908161,
+        "n_donors": 10,
+        "rejected_null": true,
+        "sign_flip_p_two_sided": 0.005859375,
+        "tested_in_sequence": true
+      },
+      {
+        "comparator": "rna_ridge",
+        "donor_wins": 9,
+        "endpoint": "E2_all_hidden",
+        "id": "H3",
+        "mean_difference": 0.43246183578815556,
+        "n_donors": 10,
+        "rejected_null": true,
+        "sign_flip_p_two_sided": 0.005859375,
+        "tested_in_sequence": true
+      },
+      {
+        "comparator": "mean",
+        "donor_wins": 9,
+        "endpoint": "E1_primary",
+        "id": "H4",
+        "mean_difference": 0.22715682856217803,
+        "n_donors": 10,
+        "rejected_null": true,
+        "sign_flip_p_two_sided": 0.00390625,
+        "tested_in_sequence": true
+      },
+      {
+        "comparator": "joint_ridge",
+        "donor_wins": 10,
+        "endpoint": "E1_primary",
+        "id": "H5",
+        "mean_difference": 0.4721839375118275,
+        "n_donors": 10,
+        "rejected_null": true,
+        "sign_flip_p_two_sided": 0.001953125,
+        "tested_in_sequence": true
+      },
+      {
+        "comparator": "rna_ridge",
+        "donor_wins": 10,
+        "endpoint": "E1_primary",
+        "id": "H6",
+        "mean_difference": 0.5156735040359185,
+        "n_donors": 10,
+        "rejected_null": true,
+        "sign_flip_p_two_sided": 0.001953125,
+        "tested_in_sequence": true
+      },
+      {
+        "comparator": "totalvi",
+        "donor_wins": 9,
+        "endpoint": "E2_all_hidden",
+        "id": "H7",
+        "mean_difference": 0.0722569184527266,
+        "n_donors": 10,
+        "rejected_null": true,
+        "sign_flip_p_two_sided": 0.009765625,
+        "tested_in_sequence": true
+      },
+      {
+        "comparator": "totalvi",
+        "donor_wins": 8,
+        "endpoint": "E1_primary",
+        "id": "H8",
+        "mean_difference": 0.10900261958536488,
+        "n_donors": 10,
+        "rejected_null": true,
+        "sign_flip_p_two_sided": 0.015625,
+        "tested_in_sequence": true
+      },
+      {
+        "comparator": "v040_abundance_shrinkage",
+        "donor_wins": 7,
+        "endpoint": "E2_all_hidden",
+        "id": "H9",
+        "mean_difference": 0.037004499748773304,
+        "n_donors": 10,
+        "rejected_null": false,
+        "sign_flip_p_two_sided": 0.154296875,
+        "tested_in_sequence": true
+      },
+      {
+        "comparator": "v040_abundance_shrinkage",
+        "donor_wins": 5,
+        "endpoint": "E1_primary",
+        "id": "H10",
+        "mean_difference": 0.03155453009953334,
+        "n_donors": 10,
+        "rejected_null": false,
+        "sign_flip_p_two_sided": 0.4921875,
+        "tested_in_sequence": false
+      }
+    ],
+    "methods": {
+      "cellbridge": {
+        "E1_primary": {
+          "skill_vs_training_mean": 0.6905664345747045,
+          "standardized_mae": 0.28353922220101974,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": 0.7309051614834525,
+          "standardized_mae": 0.3223943435496791,
+          "test_donors": 10
+        }
+      },
+      "cellbridge_rna_only": {
+        "E1_primary": {
+          "skill_vs_training_mean": 0.35154359018171255,
+          "standardized_mae": 0.37625232987199275,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": 0.40560349746305313,
+          "standardized_mae": 0.4611324652021169,
+          "test_donors": 10
+        }
+      },
+      "ensemble_cellbridge_v040": {
+        "E1_primary": {
+          "skill_vs_training_mean": 0.7003423625480356,
+          "standardized_mae": 0.27288019677475217,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": 0.7420186369606159,
+          "standardized_mae": 0.31656501759202177,
+          "test_donors": 10
+        }
+      },
+      "joint_ridge": {
+        "E1_primary": {
+          "skill_vs_training_mean": -1.420285986365263,
+          "standardized_mae": 0.7557231597128473,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": -0.45539288016502777,
+          "standardized_mae": 0.7220478376404952,
+          "test_donors": 10
+        }
+      },
+      "mean": {
+        "E1_primary": {
+          "skill_vs_training_mean": 0.0,
+          "standardized_mae": 0.5106960507631977,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": 0.0,
+          "standardized_mae": 0.6433726174870709,
+          "test_donors": 10
+        }
+      },
+      "rna_ridge": {
+        "E1_primary": {
+          "skill_vs_training_mean": -1.7268712475755286,
+          "standardized_mae": 0.7992127262369382,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": -0.6156190104649648,
+          "standardized_mae": 0.7548561793378348,
+          "test_donors": 10
+        }
+      },
+      "totalvi": {
+        "E1_primary": {
+          "skill_vs_training_mean": 0.4051897927518884,
+          "standardized_mae": 0.3925418417863847,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": 0.5669183002721457,
+          "standardized_mae": 0.39465126200240574,
+          "test_donors": 10
+        }
+      },
+      "v040_abundance_shrinkage": {
+        "E1_primary": {
+          "skill_vs_training_mean": 0.6330176136046106,
+          "standardized_mae": 0.31509375230055314,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": 0.646792369391773,
+          "standardized_mae": 0.3593988432984524,
+          "test_donors": 10
+        }
+      },
+      "v050_gated_abundance_response": {
+        "E1_primary": {
+          "skill_vs_training_mean": 0.0,
+          "standardized_mae": 0.5106960507631977,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": 0.06949095344762934,
+          "standardized_mae": 0.5934241975057117,
+          "test_donors": 10
+        }
+      },
+      "v050_joint_ridge": {
+        "E1_primary": {
+          "skill_vs_training_mean": -1.4438553296078278,
+          "standardized_mae": 0.7587009104365017,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": -0.4703839568673378,
+          "standardized_mae": 0.7234125128032071,
+          "test_donors": 10
+        }
+      },
+      "v050_rna_only": {
+        "E1_primary": {
+          "skill_vs_training_mean": -0.5202126067162063,
+          "standardized_mae": 0.5331349613059602,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": -0.14137535718861405,
+          "standardized_mae": 0.6392924131289661,
+          "test_donors": 10
+        }
+      },
+      "v050_training_mean": {
+        "E1_primary": {
+          "skill_vs_training_mean": 0.0,
+          "standardized_mae": 0.5106960507631977,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": 0.0,
+          "standardized_mae": 0.6433726174870709,
+          "test_donors": 10
+        }
+      },
+      "v050_two_penalty_ridge": {
+        "E1_primary": {
+          "skill_vs_training_mean": -1.4438553296078278,
+          "standardized_mae": 0.7587009104365017,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": -0.4703839568673378,
+          "standardized_mae": 0.7234125128032071,
+          "test_donors": 10
+        }
+      },
+      "v050_ungated": {
+        "E1_primary": {
+          "skill_vs_training_mean": 0.6759199131938634,
+          "standardized_mae": 0.27643172869148824,
+          "test_donors": 10
+        },
+        "E2_all_hidden": {
+          "skill_vs_training_mean": 0.6520374017639323,
+          "standardized_mae": 0.3612830077311239,
+          "test_donors": 10
+        }
+      }
+    },
+    "noninferiority_vs_v040": [
+      {
+        "endpoint": "E1_primary",
+        "margin": 0.05,
+        "mean_excess_loss_cellbridge": -0.03155453009953334,
+        "noninferior": true,
+        "upper_ci95_excess_loss": 0.04999837683751155
+      },
+      {
+        "endpoint": "E2_all_hidden",
+        "margin": 0.05,
+        "mean_excess_loss_cellbridge": -0.037004499748773304,
+        "noninferior": true,
+        "upper_ci95_excess_loss": 0.0026097437655758773
+      }
+    ],
+    "primary_claim_supported": true,
+    "sealed_at": "2026-10-07T12:46:56.735401+00:00"
+  },
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "purpose": "Tamper-evident lock of the GSE334503 CellBridge v1.0 sealed test.",
+  "python": "3.11.15 (main, Jul 23 2026, 14:34:23) [Clang 22.1.3 ]",
+  "version": "1.0.0"
+}

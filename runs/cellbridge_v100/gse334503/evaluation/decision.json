@@ -1,0 +1,260 @@
+{
+  "conformal": {
+    "cellbridge": {
+      "n_calibration_scores": 1098,
+      "pooled_standardized_quantile": 0.6352154261568266,
+      "standardized_half_width": 0.6352154261568266,
+      "test_coverage_all_hidden": 0.8827868852459017,
+      "test_coverage_primary": 0.95
+    },
+    "joint_ridge": {
+      "n_calibration_scores": 1098,
+      "pooled_standardized_quantile": 1.1015495847069734,
+      "standardized_half_width": 1.1015495847069734,
+      "test_coverage_all_hidden": 0.7459016393442623,
+      "test_coverage_primary": 0.75
+    },
+    "rna_ridge": {
+      "n_calibration_scores": 1098,
+      "pooled_standardized_quantile": 1.1321536745339384,
+      "standardized_half_width": 1.1321536745339384,
+      "test_coverage_all_hidden": 0.740983606557377,
+      "test_coverage_primary": 0.75
+    },
+    "v040_abundance_shrinkage": {
+      "n_calibration_scores": 1098,
+      "pooled_standardized_quantile": 0.6840022406948155,
+      "standardized_half_width": 0.6840022406948155,
+      "test_coverage_all_hidden": 0.860655737704918,
+      "test_coverage_primary": 0.9
+    }
+  },
+  "freeze_frozen_at": "2026-10-07T11:58:41.930099+00:00",
+  "hypotheses": [
+    {
+      "comparator": "mean",
+      "difference_ci95": [
+        0.2375615671921666,
+        0.4101501095142003
+      ],
+      "donor_wins": 10,
+      "endpoint": "E2_all_hidden",
+      "id": "H1",
+      "mean_difference": 0.32097827393739176,
+      "mean_loss_cellbridge": 0.3223943435496791,
+      "mean_loss_comparator": 0.6433726174870709,
+      "model": "cellbridge",
+      "n_donors": 10,
+      "rejected_null": true,
+      "relative_gain": 0.4988994949631068,
+      "sign_flip_p_two_sided": 0.001953125,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "joint_ridge",
+      "difference_ci95": [
+        0.1584702483867256,
+        0.6824325504437964
+      ],
+      "donor_wins": 9,
+      "endpoint": "E2_all_hidden",
+      "id": "H2",
+      "mean_difference": 0.3996534940908161,
+      "mean_loss_cellbridge": 0.3223943435496791,
+      "mean_loss_comparator": 0.7220478376404952,
+      "model": "cellbridge",
+      "n_donors": 10,
+      "rejected_null": true,
+      "relative_gain": 0.5535000220993695,
+      "sign_flip_p_two_sided": 0.005859375,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "rna_ridge",
+      "difference_ci95": [
+        0.16925916559480425,
+        0.741519287033344
+      ],
+      "donor_wins": 9,
+      "endpoint": "E2_all_hidden",
+      "id": "H3",
+      "mean_difference": 0.43246183578815556,
+      "mean_loss_cellbridge": 0.3223943435496791,
+      "mean_loss_comparator": 0.7548561793378348,
+      "model": "cellbridge",
+      "n_donors": 10,
+      "rejected_null": true,
+      "relative_gain": 0.5729062669494396,
+      "sign_flip_p_two_sided": 0.005859375,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "mean",
+      "difference_ci95": [
+        0.14169240578707878,
+        0.30461513641085525
+      ],
+      "donor_wins": 9,
+      "endpoint": "E1_primary",
+      "id": "H4",
+      "mean_difference": 0.22715682856217803,
+      "mean_loss_cellbridge": 0.28353922220101974,
+      "mean_loss_comparator": 0.5106960507631977,
+      "model": "cellbridge",
+      "n_donors": 10,
+      "rejected_null": true,
+      "relative_gain": 0.44479848282106116,
+      "sign_flip_p_two_sided": 0.00390625,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "joint_ridge",
+      "difference_ci95": [
+        0.1981824012835475,
+        0.7708478317539538
+      ],
+      "donor_wins": 10,
+      "endpoint": "E1_primary",
+      "id": "H5",
+      "mean_difference": 0.4721839375118275,
+      "mean_loss_cellbridge": 0.28353922220101974,
+      "mean_loss_comparator": 0.7557231597128473,
+      "model": "cellbridge",
+      "n_donors": 10,
+      "rejected_null": true,
+      "relative_gain": 0.6248107279009997,
+      "sign_flip_p_two_sided": 0.001953125,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "rna_ridge",
+      "difference_ci95": [
+        0.21802624842891247,
+        0.8460362399684822
+      ],
+      "donor_wins": 10,
+      "endpoint": "E1_primary",
+      "id": "H6",
+      "mean_difference": 0.5156735040359185,
+      "mean_loss_cellbridge": 0.28353922220101974,
+      "mean_loss_comparator": 0.7992127262369382,
+      "model": "cellbridge",
+      "n_donors": 10,
+      "rejected_null": true,
+      "relative_gain": 0.645226842750549,
+      "sign_flip_p_two_sided": 0.001953125,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "totalvi",
+      "difference_ci95": [
+        0.0320240241241213,
+        0.11268882259486657
+      ],
+      "donor_wins": 9,
+      "endpoint": "E2_all_hidden",
+      "id": "H7",
+      "mean_difference": 0.0722569184527266,
+      "mean_loss_cellbridge": 0.3223943435496791,
+      "mean_loss_comparator": 0.39465126200240574,
+      "model": "cellbridge",
+      "n_donors": 10,
+      "rejected_null": true,
+      "relative_gain": 0.18309055464843838,
+      "sign_flip_p_two_sided": 0.009765625,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "totalvi",
+      "difference_ci95": [
+        0.042942515399465676,
+        0.18263074765884837
+      ],
+      "donor_wins": 8,
+      "endpoint": "E1_primary",
+      "id": "H8",
+      "mean_difference": 0.10900261958536488,
+      "mean_loss_cellbridge": 0.28353922220101974,
+      "mean_loss_comparator": 0.3925418417863847,
+      "model": "cellbridge",
+      "n_donors": 10,
+      "rejected_null": true,
+      "relative_gain": 0.2776840784394202,
+      "sign_flip_p_two_sided": 0.015625,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "v040_abundance_shrinkage",
+      "difference_ci95": [
+        -0.0026097437655758773,
+        0.08468020660205747
+      ],
+      "donor_wins": 7,
+      "endpoint": "E2_all_hidden",
+      "id": "H9",
+      "mean_difference": 0.037004499748773304,
+      "mean_loss_cellbridge": 0.3223943435496791,
+      "mean_loss_comparator": 0.3593988432984524,
+      "model": "cellbridge",
+      "n_donors": 10,
+      "rejected_null": false,
+      "relative_gain": 0.10296221158965713,
+      "sign_flip_p_two_sided": 0.154296875,
+      "tested_in_sequence": true
+    },
+    {
+      "comparator": "v040_abundance_shrinkage",
+      "difference_ci95": [
+        -0.04999837683751155,
+        0.1129781014083367
+      ],
+      "donor_wins": 5,
+      "endpoint": "E1_primary",
+      "id": "H10",
+      "mean_difference": 0.03155453009953334,
+      "mean_loss_cellbridge": 0.28353922220101974,
+      "mean_loss_comparator": 0.31509375230055314,
+      "model": "cellbridge",
+      "n_donors": 10,
+      "rejected_null": false,
+      "relative_gain": 0.1001433061403103,
+      "sign_flip_p_two_sided": 0.4921875,
+      "tested_in_sequence": false
+    }
+  ],
+  "noninferiority_vs_v040": [
+    {
+      "endpoint": "E1_primary",
+      "margin": 0.05,
+      "mean_excess_loss_cellbridge": -0.03155453009953334,
+      "noninferior": true,
+      "upper_ci95_excess_loss": 0.04999837683751155
+    },
+    {
+      "endpoint": "E2_all_hidden",
+      "margin": 0.05,
+      "mean_excess_loss_cellbridge": -0.037004499748773304,
+      "noninferior": true,
+      "upper_ci95_excess_loss": 0.0026097437655758773
+    }
+  ],
+  "per_protein_win_fraction_vs": {
+    "cellbridge_rna_only": 0.9098360655737705,
+    "ensemble_cellbridge_v040": 0.4426229508196721,
+    "joint_ridge": 0.9754098360655737,
+    "mean": 0.9590163934426229,
+    "rna_ridge": 0.9754098360655737,
+    "totalvi": 0.7704918032786885,
+    "v040_abundance_shrinkage": 0.6557377049180327,
+    "v050_gated_abundance_response": 0.8852459016393442,
+    "v050_joint_ridge": 0.9754098360655737,
+    "v050_rna_only": 0.9344262295081968,
+    "v050_training_mean": 0.9590163934426229,
+    "v050_two_penalty_ridge": 0.9754098360655737,
+    "v050_ungated": 0.5327868852459017
+  },
+  "primary_claim_supported": true,
+  "sealed_at": "2026-10-07T12:46:56.735401+00:00",
+  "unblinded_at": "2026-10-07T12:47:06.292930+00:00",
+  "version": "1.0.0"
+}

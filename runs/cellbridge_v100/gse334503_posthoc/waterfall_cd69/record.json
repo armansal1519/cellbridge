@@ -1,0 +1,9 @@
+{
+  "cohort": "GSE334503",
+  "donor": "Donor013",
+  "observed": 0.04458457754616618,
+  "post_hoc": true,
+  "predicted": 0.016074643527809178,
+  "protein": "CD69",
+  "rule": "test donor whose absolute CD69 error is closest to the median"
+}

@@ -1,0 +1,70 @@
+{
+  "dry_run": false,
+  "frozen_at": "2026-10-07T11:58:41.930099+00:00",
+  "groups_receipt_sha256": "99bfbe44fa7c98554135679d1e1f78987837db5dd393068a4ae9e9c2c0929f95",
+  "hidden_outcomes_opened": false,
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1"
+  },
+  "prepared_manifest_sha256": "93a20bae1461e6f20dec8980d827b64768f7fe0f6c43c2346ef9804662c77656",
+  "protocol_sha256": "a5780e2eae3279ab3be95d029bf1e8cfcc66e093577ad575c54a91c0a05d4994",
+  "protocol_version": "1.0.0",
+  "role_lock_receipt_sha256": "4ed5650087a9f41e2abab40042e43c8af8862545e2e210f1f0ad8d3b574734b1",
+  "roles": {
+    "calibration": [
+      "Donor004",
+      "Donor010",
+      "Donor014",
+      "Donor027",
+      "Donor030",
+      "Donor034",
+      "Donor035",
+      "Donor036",
+      "Donor040"
+    ],
+    "test": [
+      "Donor002",
+      "Donor006",
+      "Donor008",
+      "Donor012",
+      "Donor013",
+      "Donor018",
+      "Donor021",
+      "Donor025",
+      "Donor032",
+      "Donor050"
+    ],
+    "train": [
+      "Donor001",
+      "Donor005",
+      "Donor011",
+      "Donor015",
+      "Donor017",
+      "Donor022",
+      "Donor024",
+      "Donor028",
+      "Donor037",
+      "Donor041",
+      "Donor051"
+    ]
+  },
+  "sources_sha256": {
+    "scripts/cellbridge_dev_v100.py": "6153ec91f42c38dcc7c6d4b171dd44552540e383f63749738a9375201f29b644",
+    "scripts/cellbridge_gse_v100.py": "f7506c4e3b7719f2e014b3b27f7d0c3029d6bb0d2a9e384972f25b20873282b2",
+    "scripts/cellbridge_totalvi_v100.py": "be4c3d49283e21bbd8d4b546a857748228b3ee1492f94663fc10a1c51aed2899",
+    "src/responsebridge/abundance_response.py": "79383d8e49337a84886072b73fe0276c4e35f8fc87c1f0b07b388510eedafd29",
+    "src/responsebridge/artifacts.py": "7777d3a2ea52a45722027451479a9ee47fc5672da20ab04138f5b7584c78d40a",
+    "src/responsebridge/benchmark_data.py": "e9f2ea43e453c0f2ae37e56deaacc594470560ad9bbc6d60e13d91a3ba731f05",
+    "src/responsebridge/cellbridge.py": "c8236ceae490cd5f7a04b4d1b395afe3d50b50d627516791c035efaee4748ef3",
+    "src/responsebridge/cellbridge_data.py": "6de41d6f13dc9d2c20a948d2b2016ff3695f00607b1765e7059cdcb2c5384883",
+    "src/responsebridge/reliability.py": "3d9812d3cd724cdd25177b0c235a0c044924800b5f892bf6475eecc93c5db198",
+    "src/responsebridge/response_baselines.py": "7744321f0ad973296870e6d1475fd12628e26232e5e53ca5418f7435190a4148",
+    "src/responsebridge/response_downstream_v050.py": "c9d3839f5cad3f90e60e1ad217720ab359138c4bbe29f0897250e9211497fa58",
+    "src/responsebridge/response_experiment_v050.py": "1ca6d81f7f5f7d8d6812a449dc3855378a2a9bc95fec4a4323eab4d5da020fbb",
+    "src/responsebridge/rna.py": "ecab8c477b5d32f1b0d62f0085a09340722356161b6a18be64bd4d3d536ad7e2",
+    "src/responsebridge/shrinkage.py": "a7967e56a57690d883135e79235873912f29e953b5b0e8eb3de83ca3f526769a"
+  }
+}

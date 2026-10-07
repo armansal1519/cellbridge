@@ -1,0 +1,15 @@
+method,endpoint,standardized_mae,n_donors
+cellbridge,E1_primary,0.5298187398263612,29
+cellbridge,E2_all_hidden,0.47065888781004206,29
+cellbridge_rna_only,E1_primary,0.8890624898510447,29
+cellbridge_rna_only,E2_all_hidden,0.8146888879001551,29
+mean,E1_primary,0.8886019844822711,29
+mean,E2_all_hidden,0.8237935595119721,29
+rna_ridge,E1_primary,0.8886019844822711,29
+rna_ridge,E2_all_hidden,0.8237935595119721,29
+joint_ridge,E1_primary,0.8886019844822711,29
+joint_ridge,E2_all_hidden,0.8237935595119721,29
+v040_abundance_shrinkage,E1_primary,0.5264310914615482,29
+v040_abundance_shrinkage,E2_all_hidden,0.47201850369154813,29
+totalvi,E1_primary,0.9286847063424125,29
+totalvi,E2_all_hidden,0.8444050297380071,29

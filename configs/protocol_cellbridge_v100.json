@@ -1,0 +1,256 @@
+{
+  "project": "ResponseBridge 1.0 - CellBridge",
+  "version": "1.0.0",
+  "model": "cellbridge",
+  "seed": 20261007,
+  "dataset": "GSE334503",
+  "lineage": "T",
+  "control": "D0",
+  "perturbed": "TyphimVi_day7",
+  "minimum_cells_per_arm": 30,
+  "estimand": "Per donor, RNA-defined T-cell mean of cellwise log1p raw ADT counts, Typhim Vi day 7 minus day 0; RNA and the eight anchor ADTs observed in both arms; all other ADTs hidden for calibration and test donors.",
+  "roles": {
+    "calibration": [
+      "Donor004",
+      "Donor010",
+      "Donor014",
+      "Donor027",
+      "Donor030",
+      "Donor034",
+      "Donor035",
+      "Donor036",
+      "Donor040"
+    ],
+    "test": [
+      "Donor002",
+      "Donor006",
+      "Donor008",
+      "Donor012",
+      "Donor013",
+      "Donor018",
+      "Donor021",
+      "Donor025",
+      "Donor032",
+      "Donor050"
+    ],
+    "train": [
+      "Donor001",
+      "Donor005",
+      "Donor011",
+      "Donor015",
+      "Donor017",
+      "Donor022",
+      "Donor024",
+      "Donor028",
+      "Donor037",
+      "Donor041",
+      "Donor051"
+    ]
+  },
+  "anchors": [
+    "CD38",
+    "ICOS",
+    "PD-1",
+    "HLA-DR",
+    "CD127",
+    "CD27",
+    "CD28",
+    "CD45RO"
+  ],
+  "primary_targets": [
+    "CD25",
+    "CD69"
+  ],
+  "targets": "All 122 prepared proteins outside the anchor panel; no outcome-based filtering",
+  "cellbridge": {
+    "n_genes": 1000,
+    "gene_rule": "cell",
+    "gene_selection_donors": "training donors only (RNA only); cognate genes of all panel proteins forced in",
+    "technical_covariates": [
+      "log1p RNA UMIs",
+      "log1p RNA genes detected"
+    ],
+    "feature_sets": [
+      "rna",
+      "rna_anchor"
+    ],
+    "metacell_sizes": [
+      1,
+      5,
+      20,
+      60
+    ],
+    "mixes": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.25,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        16.0,
+        0.0
+      ],
+      [
+        64.0,
+        0.0
+      ],
+      [
+        256.0,
+        0.0
+      ]
+    ],
+    "lambdas": [
+      1000000.0,
+      464158.8833612782,
+      215443.46900318822,
+      100000.0,
+      46415.88833612782,
+      21544.346900318866,
+      10000.0,
+      4641.588833612782,
+      2154.4346900318847,
+      1000.0,
+      464.1588833612782,
+      215.44346900318845,
+      100.0,
+      46.41588833612782,
+      21.544346900318867,
+      10.0,
+      4.641588833612782,
+      2.1544346900318865,
+      1.0,
+      0.4641588833612782,
+      0.21544346900318867,
+      0.1,
+      0.04641588833612782,
+      0.021544346900318867,
+      0.01
+    ],
+    "strategy": "shared_top",
+    "top": 0.05,
+    "selection": "Leave-one-training-donor-out over the full grid; average of the best 5% of configurations by target-pooled standardized MAE; no calibration or test outcome is used"
+  },
+  "baselines": {
+    "mean": "training-donor mean response",
+    "rna_ridge": "pseudobulk response ridge on 2000 response-variance HVGs, alpha in {0.1,1,10,100,None} by inner LODO over all hidden targets",
+    "joint_ridge": "as rna_ridge plus anchor responses",
+    "v040_abundance_shrinkage": "ResponseBridge 0.4 estimator, nested alpha x shrinkage by inner LODO over all hidden targets",
+    "totalvi": "scvi-tools TOTALVI, one prespecified fit (see totalvi block); query donors' non-anchor ADTs encoded as missing",
+    "v050_sealed": "ResponseBridge 0.5 predictions sealed on 2026-10-07 before any outcome access; secondary only"
+  },
+  "totalvi": {
+    "n_genes": 4000,
+    "max_epochs": 200,
+    "batch_size": 256,
+    "max_training_cells_per_donor_arm": 1500,
+    "n_samples": 10,
+    "aggregation": "mean log1p of imputed protein counts per arm, transform_batch = training donors"
+  },
+  "metric": "Per donor standardized MAE (absolute error / training-donor response SD per protein), averaged over the endpoint's proteins, then over the 10 test donors",
+  "endpoints": {
+    "E1_primary": "CD25 and CD69",
+    "E2_all_hidden": "all 122 non-anchor proteins"
+  },
+  "alpha": 0.05,
+  "testing": "Fixed-sequence (hierarchical) testing in the listed order; each hypothesis tested at two-sided alpha only if all previous nulls were rejected; exact sign-flip test on per-donor loss differences (2^10 patterns) and paired donor bootstrap 95% CI (10000). A hypothesis whose comparator could not be executed before the seal is removed without consuming alpha.",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "endpoint": "E2_all_hidden",
+      "comparator": "mean"
+    },
+    {
+      "id": "H2",
+      "endpoint": "E2_all_hidden",
+      "comparator": "joint_ridge"
+    },
+    {
+      "id": "H3",
+      "endpoint": "E2_all_hidden",
+      "comparator": "rna_ridge"
+    },
+    {
+      "id": "H4",
+      "endpoint": "E1_primary",
+      "comparator": "mean"
+    },
+    {
+      "id": "H5",
+      "endpoint": "E1_primary",
+      "comparator": "joint_ridge"
+    },
+    {
+      "id": "H6",
+      "endpoint": "E1_primary",
+      "comparator": "rna_ridge"
+    },
+    {
+      "id": "H7",
+      "endpoint": "E2_all_hidden",
+      "comparator": "totalvi"
+    },
+    {
+      "id": "H8",
+      "endpoint": "E1_primary",
+      "comparator": "totalvi"
+    },
+    {
+      "id": "H9",
+      "endpoint": "E2_all_hidden",
+      "comparator": "v040_abundance_shrinkage"
+    },
+    {
+      "id": "H10",
+      "endpoint": "E1_primary",
+      "comparator": "v040_abundance_shrinkage"
+    }
+  ],
+  "primary_claim_hypotheses": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6"
+  ],
+  "noninferiority_margin_vs_v040": 0.05,
+  "conformal_alpha": 0.1,
+  "secondary": [
+    "cellbridge_rna_only anchor ablation",
+    "ensemble_cellbridge_v040 (fixed 50/50 average)",
+    "per-protein win fractions",
+    "pooled split-conformal coverage from 9 calibration donors",
+    "fit time",
+    "exact additive explanations"
+  ],
+  "variant_selection": {
+    "rule": "Lowest mean all-hidden standardized MAE over 9 development tasks (8 Lawlor arms + LODO within the 11 GSE334503 training donors), selection rule shared_top05 fixed before variants were compared",
+    "candidates": {
+      "tau0_cell_genes": 0.7773,
+      "tau_grid_cell_genes": 0.7816,
+      "tau_grid_union_genes": 0.7902,
+      "tau0_union_genes": 0.7878
+    },
+    "selected": "tau0_cell_genes"
+  },
+  "development_evidence": "runs/cellbridge_v100/analysis/development/summary.csv",
+  "supersedes": "The v0.5 freeze (runs/freeze_v050) and GSE334503 v0.5 seal are superseded before any GSE334503 calibration/test outcome access. v0.5 sealed predictions remain sealed secondary comparators.",
+  "amendment_before_unblinding": "E2 (all hidden proteins) added as an endpoint ahead of the v0.4/v0.5 CD25/CD69-only endpoint; decided from development data only.",
+  "limitations": [
+    "Single independent cohort with 10 test donors",
+    "Lawlor development outcomes were exposed in earlier versions",
+    "Vaccine day-7 change is not a causal vaccine effect",
+    "Predictions cannot recover target-only changes invisible to RNA and anchors"
+  ]
+}

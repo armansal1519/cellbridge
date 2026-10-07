@@ -1,0 +1,178 @@
+{
+  "methods": [
+    "cellbridge",
+    "cellbridge_rna_only",
+    "joint_ridge",
+    "mean",
+    "rna_ridge",
+    "v040_abundance_shrinkage"
+  ],
+  "n_cells": {
+    "Donor001": [
+      1901,
+      1570
+    ],
+    "Donor005": [
+      1406,
+      2148
+    ],
+    "Donor011": [
+      6111,
+      6179
+    ],
+    "Donor015": [
+      2220,
+      1758
+    ],
+    "Donor017": [
+      4990,
+      3562
+    ],
+    "Donor022": [
+      3389,
+      3394
+    ],
+    "Donor024": [
+      4584,
+      3761
+    ],
+    "Donor028": [
+      4929,
+      4583
+    ],
+    "Donor037": [
+      4158,
+      4029
+    ],
+    "Donor041": [
+      4519,
+      4317
+    ],
+    "Donor051": [
+      2845,
+      4639
+    ]
+  },
+  "n_genes": 1056,
+  "outcome_access": "Target ADTs read only for training donors; queries use RNA and anchor ADTs",
+  "query_cells": {
+    "Donor002": [
+      1617,
+      1946
+    ],
+    "Donor004": [
+      5488,
+      5727
+    ],
+    "Donor006": [
+      5364,
+      5187
+    ],
+    "Donor008": [
+      2156,
+      2135
+    ],
+    "Donor010": [
+      6157,
+      6832
+    ],
+    "Donor012": [
+      2770,
+      2660
+    ],
+    "Donor013": [
+      5792,
+      5170
+    ],
+    "Donor014": [
+      5308,
+      4682
+    ],
+    "Donor018": [
+      4637,
+      4808
+    ],
+    "Donor021": [
+      5075,
+      4923
+    ],
+    "Donor025": [
+      2328,
+      2591
+    ],
+    "Donor027": [
+      3689,
+      2864
+    ],
+    "Donor030": [
+      2494,
+      2455
+    ],
+    "Donor032": [
+      3728,
+      2896
+    ],
+    "Donor034": [
+      5704,
+      5486
+    ],
+    "Donor035": [
+      4824,
+      4266
+    ],
+    "Donor036": [
+      3324,
+      3259
+    ],
+    "Donor040": [
+      2405,
+      3528
+    ],
+    "Donor050": [
+      2911,
+      2480
+    ]
+  },
+  "query_donors": [
+    "Donor004",
+    "Donor010",
+    "Donor014",
+    "Donor027",
+    "Donor030",
+    "Donor034",
+    "Donor035",
+    "Donor036",
+    "Donor040",
+    "Donor002",
+    "Donor006",
+    "Donor008",
+    "Donor012",
+    "Donor013",
+    "Donor018",
+    "Donor021",
+    "Donor025",
+    "Donor032",
+    "Donor050"
+  ],
+  "timing_seconds": {
+    "cellbridge_fit_seconds": 9.179039001464844,
+    "cellbridge_rna_only_fit_seconds": 4.7330169677734375,
+    "joint_ridge_fit_seconds": 0.1432948112487793,
+    "load_seconds": 16.774457931518555,
+    "rna_ridge_fit_seconds": 0.14680981636047363,
+    "v040_fit_seconds": 7.190037965774536
+  },
+  "training_donors": [
+    "Donor001",
+    "Donor005",
+    "Donor011",
+    "Donor015",
+    "Donor017",
+    "Donor022",
+    "Donor024",
+    "Donor028",
+    "Donor037",
+    "Donor041",
+    "Donor051"
+  ]
+}

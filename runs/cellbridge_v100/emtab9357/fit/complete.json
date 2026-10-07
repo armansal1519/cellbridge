@@ -1,0 +1,6 @@
+{
+  "dry_run": false,
+  "n_queries": 60,
+  "n_train": 64,
+  "status": "fit_complete"
+}

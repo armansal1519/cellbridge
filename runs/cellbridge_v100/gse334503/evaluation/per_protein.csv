@@ -1,0 +1,1709 @@
+method,protein,primary,standardized_mae
+cellbridge,CD86.1,False,0.5861515057114185
+cellbridge,CD274 (B7-H1; PD-L1),False,0.22126183017804454
+cellbridge,CD270 (HVEM; TR2),False,0.16760093056891973
+cellbridge,CD155 (PVR),False,0.30876942653292666
+cellbridge,CD112 (Nectin-2),False,0.19132959224635476
+cellbridge,CD47.1,False,0.29239262255433746
+cellbridge,CD48.1,False,0.18565717471200854
+cellbridge,CD40.1,False,0.22143281582880658
+cellbridge,CD154,False,0.1634336653702735
+cellbridge,CD52.1,False,0.2720979617203061
+cellbridge,CD3,False,0.3004651964149362
+cellbridge,CD8,False,0.3733190874973047
+cellbridge,CD56,False,0.4478087966544081
+cellbridge,CD19.1,False,0.3616731246590229
+cellbridge,CD33.1,False,0.3190778088812691
+cellbridge,CD11c,False,0.30162901634365613
+cellbridge,HLA-A;B;C,False,0.3524257370200713
+cellbridge,CD45RA,False,0.5465045622190596
+cellbridge,CD123,False,0.2729707830778856
+cellbridge,CD7.1,False,0.35881119296125047
+cellbridge,CD105,False,0.25699944730351787
+cellbridge,anti-human/mouse CD49f,False,0.2219954743099442
+cellbridge,CD194 (CCR4),False,0.26811210412588377
+cellbridge,CD4.1,False,0.35410500908016174
+cellbridge,anti-mouse/human CD44,False,0.20124481615810166
+cellbridge,CD14.1,False,0.6949713728428442
+cellbridge,CD16,False,0.3506026482422754
+cellbridge,CD25,True,0.20351436403672177
+cellbridge,TIGIT (VSTM3),False,0.2358644799709801
+cellbridge,CD20,False,0.39794978782232043
+cellbridge,CD335 (NKp46),False,0.21002929401640685
+cellbridge,CD31,False,0.4056659190905142
+cellbridge,CD146,False,0.2529450401606745
+cellbridge,IgM,False,0.24836050047748817
+cellbridge,CD5.1,False,0.3048516815142649
+cellbridge,CD183 (CXCR3),False,0.4363475659766437
+cellbridge,CD195 (CCR5),False,0.4544785706450396
+cellbridge,CD32,False,0.25784457044852094
+cellbridge,CD196 (CCR6),False,0.42108079847849167
+cellbridge,CD185 (CXCR5),False,0.2257893431220987
+cellbridge,CD103 (Integrin αE),False,0.30524842697579724
+cellbridge,CD69,True,0.36356408036531784
+cellbridge,CD62L,False,0.606088367824179
+cellbridge,CD161,False,0.23854360313215253
+cellbridge,CD152 (CTLA-4),False,0.24985774884578102
+cellbridge,CD223 (LAG-3),False,0.2646209025842971
+cellbridge,KLRG1 (MAFA),False,0.24464190256708998
+cellbridge,CD107a (LAMP-1),False,0.20359564045274164
+cellbridge,CD95 (Fas),False,0.14386074807046692
+cellbridge,CD134 (OX40),False,0.17301231015812732
+cellbridge,CD1c,False,0.2218228256455148
+cellbridge,CD11b,False,0.3643901569631615
+cellbridge,CD64,False,0.5498408170817983
+cellbridge,CD141 (Thrombomodulin),False,0.25574526396843067
+cellbridge,CD1d,False,0.33570102224525283
+cellbridge,CD314 (NKG2D),False,0.23184955344420172
+cellbridge,CD35,False,0.4387942927658631
+cellbridge,CD57 Recombinant,False,0.2789689875915038
+cellbridge,CD272 (BTLA),False,0.2860272586911915
+cellbridge,CD58 (LFA-3),False,0.165863835429707
+cellbridge,CD39,False,0.3358948942260527
+cellbridge,CX3CR1.1,False,0.3267004290321942
+cellbridge,CD24.1,False,0.19416477714006525
+cellbridge,CD21,False,0.3463611395848409
+cellbridge,CD11a,False,0.2374660686215051
+cellbridge,CD79b (Igβ),False,0.19201032425108355
+cellbridge,CD244 (2B4),False,0.26678210748793085
+cellbridge,CD169 (Sialoadhesin; Siglec-1),False,0.18390669745849744
+cellbridge,anti-human/mouse integrin β7,False,0.8508530014100367
+cellbridge,CD268 (BAFF-R),False,0.26946221145742066
+cellbridge,CD42b,False,0.33784407457637317
+cellbridge,CD54,False,0.17536632822842066
+cellbridge,CD62P (P-Selectin),False,1.1353005861628716
+cellbridge,CD119 (IFN-γ R α chain),False,0.1646781836365007
+cellbridge,TCR α/β,False,0.3761708188345062
+cellbridge,CD122 (IL-2Rβ),False,0.18533723696178922
+cellbridge,CD267 (TACI),False,0.23622640673137468
+cellbridge,FcεRIα,False,0.4061250432395046
+cellbridge,CD41,False,0.8651853756481259
+cellbridge,CD137 (4-1BB),False,0.24264658339254921
+cellbridge,CD163.1,False,0.37379023891164104
+cellbridge,CD83.1,False,0.22901550661066866
+cellbridge,CD124 (IL-4Rα),False,0.13181735301051575
+cellbridge,CD13,False,0.4046890848495316
+cellbridge,CD2.1,False,0.34020133425018645
+cellbridge,CD226 (DNAM-1),False,0.15539097144256483
+cellbridge,CD29,False,0.21117582370650165
+cellbridge,CD303 (BDCA-2),False,0.20753667464919112
+cellbridge,CD49b,False,0.8012553291130295
+cellbridge,CD81 (TAPA-1),False,0.49160651681137074
+cellbridge,IgD,False,0.19006784295132323
+cellbridge,CD18,False,0.17312544801212423
+cellbridge,CD45,False,0.24661475036617544
+cellbridge,CD22.1,False,0.2407586123492614
+cellbridge,CD71,False,0.5495652863761832
+cellbridge,CD26,False,0.31360789032797215
+cellbridge,CD36.1,False,0.9251202138035793
+cellbridge,CD158 (KIR2DL1/S1/S3/S5),False,0.3541510103360939
+cellbridge,CD49a,False,0.6739937181900324
+cellbridge,CD49d,False,0.24231508381306982
+cellbridge,CD73 (Ecto-5'-nucleotidase),False,0.3773965670878238
+cellbridge,TCR Vα7.2,False,0.43665756567681113
+cellbridge,TCR Vδ2,False,0.45055310085335465
+cellbridge,LOX-1,False,0.2684752389255237
+cellbridge,CD158b (KIR2DL2/L3;  NKAT2),False,0.23308958382532366
+cellbridge,CD158e1 (KIR3DL1; NKB1),False,0.24509805436199947
+cellbridge,CD319 (CRACC),False,0.20991589209847267
+cellbridge,CD99.1,False,0.2979862318288299
+cellbridge,CLEC12A.1,False,0.6214583378898677
+cellbridge,CD352 (NTB-A),False,0.2904596999083681
+cellbridge,CD94,False,0.1329725129563668
+cellbridge,Ig light chain κ,False,0.1548120306053426
+cellbridge,CD85j (ILT2),False,0.18950488804214471
+cellbridge,CD23,False,0.24554901931441445
+cellbridge,Ig light chain λ,False,0.20333809034135664
+cellbridge,CD328 (Siglec-7),False,0.33507527440593565
+cellbridge,GPR56,False,0.19040853408677952
+cellbridge,HLA-E.1,False,0.2962776604801598
+cellbridge,CD82.1,False,0.2217269429934361
+cellbridge,CD101 (BB27),False,0.44928024151096047
+cellbridge,CD88 (C5aR),False,0.16440145973944625
+cellbridge,CD224,False,0.16378864438774815
+cellbridge_rna_only,CD86.1,False,0.591307360592219
+cellbridge_rna_only,CD274 (B7-H1; PD-L1),False,0.4303557514593697
+cellbridge_rna_only,CD270 (HVEM; TR2),False,0.4672755065815225
+cellbridge_rna_only,CD155 (PVR),False,0.5127891022043575
+cellbridge_rna_only,CD112 (Nectin-2),False,0.4482020580326864
+cellbridge_rna_only,CD47.1,False,0.4646176271958405
+cellbridge_rna_only,CD48.1,False,0.2968491886682881
+cellbridge_rna_only,CD40.1,False,0.3679243251648579
+cellbridge_rna_only,CD154,False,0.37142328114734274
+cellbridge_rna_only,CD52.1,False,0.5070757837953777
+cellbridge_rna_only,CD3,False,0.5007437694470631
+cellbridge_rna_only,CD8,False,0.432337304066874
+cellbridge_rna_only,CD56,False,0.5260938373638877
+cellbridge_rna_only,CD19.1,False,0.5387322441830489
+cellbridge_rna_only,CD33.1,False,0.49516341741160297
+cellbridge_rna_only,CD11c,False,0.4666528856144045
+cellbridge_rna_only,HLA-A;B;C,False,0.4519142584458352
+cellbridge_rna_only,CD45RA,False,0.6201332311998999
+cellbridge_rna_only,CD123,False,0.4451193811523594
+cellbridge_rna_only,CD7.1,False,0.5302687263887564
+cellbridge_rna_only,CD105,False,0.4745692276633198
+cellbridge_rna_only,anti-human/mouse CD49f,False,0.3965890213652436
+cellbridge_rna_only,CD194 (CCR4),False,0.4183542686272775
+cellbridge_rna_only,CD4.1,False,0.5453692508610197
+cellbridge_rna_only,anti-mouse/human CD44,False,0.33662653020694194
+cellbridge_rna_only,CD14.1,False,0.7348603725958365
+cellbridge_rna_only,CD16,False,0.3982033214815486
+cellbridge_rna_only,CD25,True,0.4404928567478107
+cellbridge_rna_only,TIGIT (VSTM3),False,0.40935260575855487
+cellbridge_rna_only,CD20,False,0.6078566751430049
+cellbridge_rna_only,CD335 (NKp46),False,0.3099699942217154
+cellbridge_rna_only,CD31,False,0.612789028186965
+cellbridge_rna_only,CD146,False,0.38022245283478395
+cellbridge_rna_only,IgM,False,0.27940983148284537
+cellbridge_rna_only,CD5.1,False,0.45797056731785285
+cellbridge_rna_only,CD183 (CXCR3),False,0.5197206316519035
+cellbridge_rna_only,CD195 (CCR5),False,0.6381580350727516
+cellbridge_rna_only,CD32,False,0.2811826457088439
+cellbridge_rna_only,CD196 (CCR6),False,0.5028498041018803
+cellbridge_rna_only,CD185 (CXCR5),False,0.3943062006198096
+cellbridge_rna_only,CD103 (Integrin αE),False,0.38223719758269903
+cellbridge_rna_only,CD69,True,0.31201180299617487
+cellbridge_rna_only,CD62L,False,0.6854352998114163
+cellbridge_rna_only,CD161,False,0.37290112734985864
+cellbridge_rna_only,CD152 (CTLA-4),False,0.37069940062834694
+cellbridge_rna_only,CD223 (LAG-3),False,0.48397175677760007
+cellbridge_rna_only,KLRG1 (MAFA),False,0.40422739391165335
+cellbridge_rna_only,CD107a (LAMP-1),False,0.4877110050241112
+cellbridge_rna_only,CD95 (Fas),False,0.3588691032389809
+cellbridge_rna_only,CD134 (OX40),False,0.4141548197818886
+cellbridge_rna_only,CD1c,False,0.41450653958259487
+cellbridge_rna_only,CD11b,False,0.4825562645177893
+cellbridge_rna_only,CD64,False,0.5523397158811325
+cellbridge_rna_only,CD141 (Thrombomodulin),False,0.48566485150316596
+cellbridge_rna_only,CD1d,False,0.47222256760208897
+cellbridge_rna_only,CD314 (NKG2D),False,0.3663055939169507
+cellbridge_rna_only,CD35,False,0.5604179266280507
+cellbridge_rna_only,CD57 Recombinant,False,0.3074915471572676
+cellbridge_rna_only,CD272 (BTLA),False,0.5674452270333519
+cellbridge_rna_only,CD58 (LFA-3),False,0.4242985491049659
+cellbridge_rna_only,CD39,False,0.5120188089073154
+cellbridge_rna_only,CX3CR1.1,False,0.41995372828674143
+cellbridge_rna_only,CD24.1,False,0.3858018320536148
+cellbridge_rna_only,CD21,False,0.523919510651068
+cellbridge_rna_only,CD11a,False,0.402159719858572
+cellbridge_rna_only,CD79b (Igβ),False,0.39456666568871446
+cellbridge_rna_only,CD244 (2B4),False,0.3823067387865885
+cellbridge_rna_only,CD169 (Sialoadhesin; Siglec-1),False,0.3289183623085718
+cellbridge_rna_only,anti-human/mouse integrin β7,False,0.6518912986339429
+cellbridge_rna_only,CD268 (BAFF-R),False,0.45523130195986916
+cellbridge_rna_only,CD42b,False,0.4057655460940556
+cellbridge_rna_only,CD54,False,0.30805162110196127
+cellbridge_rna_only,CD62P (P-Selectin),False,1.0282943759197647
+cellbridge_rna_only,CD119 (IFN-γ R α chain),False,0.42614966382602876
+cellbridge_rna_only,TCR α/β,False,0.6509139223011255
+cellbridge_rna_only,CD122 (IL-2Rβ),False,0.358462635102498
+cellbridge_rna_only,CD267 (TACI),False,0.4308108083071187
+cellbridge_rna_only,FcεRIα,False,0.5635042979046402
+cellbridge_rna_only,CD41,False,0.8094533841781366
+cellbridge_rna_only,CD137 (4-1BB),False,0.44447621231269974
+cellbridge_rna_only,CD163.1,False,0.5047471719014425
+cellbridge_rna_only,CD83.1,False,0.43551964446501507
+cellbridge_rna_only,CD124 (IL-4Rα),False,0.3553146982324576
+cellbridge_rna_only,CD13,False,0.49023135807068624
+cellbridge_rna_only,CD2.1,False,0.50024322080505
+cellbridge_rna_only,CD226 (DNAM-1),False,0.378134466616174
+cellbridge_rna_only,CD29,False,0.37658444067560776
+cellbridge_rna_only,CD303 (BDCA-2),False,0.3605530191431608
+cellbridge_rna_only,CD49b,False,0.7009667882113091
+cellbridge_rna_only,CD81 (TAPA-1),False,0.7145054526998693
+cellbridge_rna_only,IgD,False,0.2819728562590388
+cellbridge_rna_only,CD18,False,0.2538863035509194
+cellbridge_rna_only,CD45,False,0.39282403768980406
+cellbridge_rna_only,CD22.1,False,0.3088141943023393
+cellbridge_rna_only,CD71,False,0.4358918391195371
+cellbridge_rna_only,CD26,False,0.6644498115150338
+cellbridge_rna_only,CD36.1,False,0.8868336156915175
+cellbridge_rna_only,CD158 (KIR2DL1/S1/S3/S5),False,0.3191165659640858
+cellbridge_rna_only,CD49a,False,0.6276840270269841
+cellbridge_rna_only,CD49d,False,0.4066007011002252
+cellbridge_rna_only,CD73 (Ecto-5'-nucleotidase),False,0.6597577696226103
+cellbridge_rna_only,TCR Vα7.2,False,0.6266476904080365
+cellbridge_rna_only,TCR Vδ2,False,0.43036622713266126
+cellbridge_rna_only,LOX-1,False,0.47325349550983836
+cellbridge_rna_only,CD158b (KIR2DL2/L3;  NKAT2),False,0.3926227334536504
+cellbridge_rna_only,CD158e1 (KIR3DL1; NKB1),False,0.24004643597366346
+cellbridge_rna_only,CD319 (CRACC),False,0.41047715162155074
+cellbridge_rna_only,CD99.1,False,0.4073032019235674
+cellbridge_rna_only,CLEC12A.1,False,0.7955374824143251
+cellbridge_rna_only,CD352 (NTB-A),False,0.4879276353438941
+cellbridge_rna_only,CD94,False,0.16726779939157152
+cellbridge_rna_only,Ig light chain κ,False,0.3384566025665475
+cellbridge_rna_only,CD85j (ILT2),False,0.43285456980052517
+cellbridge_rna_only,CD23,False,0.3983288086496981
+cellbridge_rna_only,Ig light chain λ,False,0.35580759098299364
+cellbridge_rna_only,CD328 (Siglec-7),False,0.4769355869733428
+cellbridge_rna_only,GPR56,False,0.24582169974033166
+cellbridge_rna_only,HLA-E.1,False,0.48692389408403525
+cellbridge_rna_only,CD82.1,False,0.3427410286969006
+cellbridge_rna_only,CD101 (BB27),False,0.48497936731584784
+cellbridge_rna_only,CD88 (C5aR),False,0.438587954923519
+cellbridge_rna_only,CD224,False,0.37869132911027237
+mean,CD86.1,False,0.7192762540169795
+mean,CD274 (B7-H1; PD-L1),False,0.5594347537409883
+mean,CD270 (HVEM; TR2),False,0.6258296311767145
+mean,CD155 (PVR),False,0.6742417579336197
+mean,CD112 (Nectin-2),False,0.621726870996643
+mean,CD47.1,False,0.49465864834616563
+mean,CD48.1,False,0.34722264932336266
+mean,CD40.1,False,0.7512469711736555
+mean,CD154,False,0.562780611893114
+mean,CD52.1,False,0.613773357638802
+mean,CD3,False,0.5509431802734035
+mean,CD8,False,0.9436021029816658
+mean,CD56,False,0.6070203403507269
+mean,CD19.1,False,0.8539135164315315
+mean,CD33.1,False,0.6349107937911904
+mean,CD11c,False,0.7815680815683693
+mean,HLA-A;B;C,False,0.6322952577080764
+mean,CD45RA,False,1.0943090527066484
+mean,CD123,False,0.6615194235534729
+mean,CD7.1,False,0.8429154048154726
+mean,CD105,False,0.6305221856293122
+mean,anti-human/mouse CD49f,False,0.5348713573323255
+mean,CD194 (CCR4),False,0.7138780234182303
+mean,CD4.1,False,0.9579847071768327
+mean,anti-mouse/human CD44,False,0.4696438922609204
+mean,CD14.1,False,0.7641614701379627
+mean,CD16,False,0.4550583040121001
+mean,CD25,True,0.649356877310105
+mean,TIGIT (VSTM3),False,0.623515936113873
+mean,CD20,False,0.9485247226431006
+mean,CD335 (NKp46),False,0.497235087354386
+mean,CD31,False,0.9314104055254235
+mean,CD146,False,0.5218563712337356
+mean,IgM,False,0.5890051711661286
+mean,CD5.1,False,0.6813510571024765
+mean,CD183 (CXCR3),False,0.6191167605520952
+mean,CD195 (CCR5),False,0.8335256406659699
+mean,CD32,False,0.5783655022858715
+mean,CD196 (CCR6),False,0.4463833147671921
+mean,CD185 (CXCR5),False,0.5046616249126399
+mean,CD103 (Integrin αE),False,0.4973361526436658
+mean,CD69,True,0.37203522421629054
+mean,CD62L,False,0.9924031757948004
+mean,CD161,False,0.4363630065829449
+mean,CD152 (CTLA-4),False,0.5564386424544174
+mean,CD223 (LAG-3),False,0.6581631288384578
+mean,KLRG1 (MAFA),False,0.6933593691757993
+mean,CD107a (LAMP-1),False,0.624714080593263
+mean,CD95 (Fas),False,0.7180059367201098
+mean,CD134 (OX40),False,0.5546759215334223
+mean,CD1c,False,0.7777250306506949
+mean,CD11b,False,0.544928758742088
+mean,CD64,False,0.6125577231264258
+mean,CD141 (Thrombomodulin),False,0.6151420287328766
+mean,CD1d,False,0.6589841986490955
+mean,CD314 (NKG2D),False,0.6645211371611304
+mean,CD35,False,0.8015369936306971
+mean,CD57 Recombinant,False,0.6653727517285104
+mean,CD272 (BTLA),False,0.7605324879053565
+mean,CD58 (LFA-3),False,0.580412321257904
+mean,CD39,False,0.7963272633935986
+mean,CX3CR1.1,False,0.6754280133519531
+mean,CD24.1,False,0.6555512204127429
+mean,CD21,False,0.9335621080743367
+mean,CD11a,False,0.4741353466702485
+mean,CD79b (Igβ),False,0.6220131102657332
+mean,CD244 (2B4),False,0.6559542940543361
+mean,CD169 (Sialoadhesin; Siglec-1),False,0.5055204305256474
+mean,anti-human/mouse integrin β7,False,0.9624731785113056
+mean,CD268 (BAFF-R),False,0.6070789982356684
+mean,CD42b,False,0.500453947793287
+mean,CD54,False,0.5306014816932048
+mean,CD62P (P-Selectin),False,0.9177510663754653
+mean,CD119 (IFN-γ R α chain),False,0.5854675268319212
+mean,TCR α/β,False,0.7282349589842795
+mean,CD122 (IL-2Rβ),False,0.5889783604091854
+mean,CD267 (TACI),False,0.5902604566417884
+mean,FcεRIα,False,0.714715554659267
+mean,CD41,False,0.7480204075488396
+mean,CD137 (4-1BB),False,0.5991843223899098
+mean,CD163.1,False,0.6901784130886299
+mean,CD83.1,False,0.5923553025875189
+mean,CD124 (IL-4Rα),False,0.539981728814291
+mean,CD13,False,0.598182363968701
+mean,CD2.1,False,0.5862572722929457
+mean,CD226 (DNAM-1),False,0.5252842545918219
+mean,CD29,False,0.5104557006339141
+mean,CD303 (BDCA-2),False,0.4806988763308663
+mean,CD49b,False,0.66872408711042
+mean,CD81 (TAPA-1),False,0.8074107050825251
+mean,IgD,False,0.5689676010464801
+mean,CD18,False,0.2940410963786754
+mean,CD45,False,0.4500319738111159
+mean,CD22.1,False,0.6037183044539145
+mean,CD71,False,0.6855325511499595
+mean,CD26,False,0.9159664388669946
+mean,CD36.1,False,0.8536595991611324
+mean,CD158 (KIR2DL1/S1/S3/S5),False,0.4687143686471596
+mean,CD49a,False,0.7496943805872506
+mean,CD49d,False,0.5259712302749302
+mean,CD73 (Ecto-5'-nucleotidase),False,0.8363210414086911
+mean,TCR Vα7.2,False,0.5539619281335217
+mean,TCR Vδ2,False,0.26879491700567615
+mean,LOX-1,False,0.6056055183143421
+mean,CD158b (KIR2DL2/L3;  NKAT2),False,0.7014151284307463
+mean,CD158e1 (KIR3DL1; NKB1),False,0.3542530591542135
+mean,CD319 (CRACC),False,0.6215266627391329
+mean,CD99.1,False,0.5415124320601464
+mean,CLEC12A.1,False,0.9358559397101173
+mean,CD352 (NTB-A),False,0.6166412483416444
+mean,CD94,False,0.5612597203649481
+mean,Ig light chain κ,False,0.555149826750911
+mean,CD85j (ILT2),False,0.6096574614353563
+mean,CD23,False,0.5995122974927838
+mean,Ig light chain λ,False,0.5259354057379704
+mean,CD328 (Siglec-7),False,0.6899101081889696
+mean,GPR56,False,0.8106234260302262
+mean,HLA-E.1,False,0.6410102232685357
+mean,CD82.1,False,0.6169873016304546
+mean,CD101 (BB27),False,0.7291297642680231
+mean,CD88 (C5aR),False,0.6297862093385781
+mean,CD224,False,0.6702462757564673
+rna_ridge,CD86.1,False,0.7624697735981525
+rna_ridge,CD274 (B7-H1; PD-L1),False,0.8037409543753486
+rna_ridge,CD270 (HVEM; TR2),False,0.7622688137471265
+rna_ridge,CD155 (PVR),False,0.8723343459435661
+rna_ridge,CD112 (Nectin-2),False,0.8093886449809237
+rna_ridge,CD47.1,False,0.5029840476430266
+rna_ridge,CD48.1,False,0.5192028135505631
+rna_ridge,CD40.1,False,0.8835590185745584
+rna_ridge,CD154,False,0.7618200536242473
+rna_ridge,CD52.1,False,0.7646700085852091
+rna_ridge,CD3,False,0.824280905300926
+rna_ridge,CD8,False,0.6740578888918806
+rna_ridge,CD56,False,0.6526633997675895
+rna_ridge,CD19.1,False,1.042916629075825
+rna_ridge,CD33.1,False,0.6988763971170922
+rna_ridge,CD11c,False,0.7224739395285875
+rna_ridge,HLA-A;B;C,False,0.5530172554247683
+rna_ridge,CD45RA,False,1.013170416708902
+rna_ridge,CD123,False,0.7395362302594845
+rna_ridge,CD7.1,False,1.1385891308690295
+rna_ridge,CD105,False,0.8666469182518206
+rna_ridge,anti-human/mouse CD49f,False,0.522223472427906
+rna_ridge,CD194 (CCR4),False,0.8232760875549158
+rna_ridge,CD4.1,False,1.0664204499372618
+rna_ridge,anti-mouse/human CD44,False,0.6003330362364616
+rna_ridge,CD14.1,False,0.6582593886849637
+rna_ridge,CD16,False,0.7104167319052687
+rna_ridge,CD25,True,0.895199547545429
+rna_ridge,TIGIT (VSTM3),False,0.6461258134515027
+rna_ridge,CD20,False,1.0337058165778323
+rna_ridge,CD335 (NKp46),False,0.7075758744050271
+rna_ridge,CD31,False,0.9493120852900896
+rna_ridge,CD146,False,0.7663431424268327
+rna_ridge,IgM,False,0.7525049319472954
+rna_ridge,CD5.1,False,0.8754389349468374
+rna_ridge,CD183 (CXCR3),False,0.7949379034731285
+rna_ridge,CD195 (CCR5),False,0.8109259242498468
+rna_ridge,CD32,False,0.7208722303425701
+rna_ridge,CD196 (CCR6),False,0.6902696930488164
+rna_ridge,CD185 (CXCR5),False,0.6919511674521195
+rna_ridge,CD103 (Integrin αE),False,0.7880340089351427
+rna_ridge,CD69,True,0.7032259049284475
+rna_ridge,CD62L,False,1.1372067465567515
+rna_ridge,CD161,False,0.6719714240990886
+rna_ridge,CD152 (CTLA-4),False,0.7751124856062785
+rna_ridge,CD223 (LAG-3),False,0.7289596159659134
+rna_ridge,KLRG1 (MAFA),False,0.5303192328899083
+rna_ridge,CD107a (LAMP-1),False,0.7341570059445228
+rna_ridge,CD95 (Fas),False,0.7051207387421259
+rna_ridge,CD134 (OX40),False,0.788716490004178
+rna_ridge,CD1c,False,0.9394509424246618
+rna_ridge,CD11b,False,0.8052343363755113
+rna_ridge,CD64,False,0.6176632303817626
+rna_ridge,CD141 (Thrombomodulin),False,0.7975065930713552
+rna_ridge,CD1d,False,0.76671080435255
+rna_ridge,CD314 (NKG2D),False,0.636904215714467
+rna_ridge,CD35,False,0.905650791507095
+rna_ridge,CD57 Recombinant,False,0.3389717796634268
+rna_ridge,CD272 (BTLA),False,0.9035534722697101
+rna_ridge,CD58 (LFA-3),False,0.7001371097073644
+rna_ridge,CD39,False,0.94446362193439
+rna_ridge,CX3CR1.1,False,0.6273076048600835
+rna_ridge,CD24.1,False,0.7413433295171437
+rna_ridge,CD21,False,0.9845395043841727
+rna_ridge,CD11a,False,0.47767020249682196
+rna_ridge,CD79b (Igβ),False,0.8016122884723064
+rna_ridge,CD244 (2B4),False,0.4864224118410929
+rna_ridge,CD169 (Sialoadhesin; Siglec-1),False,0.755652581040092
+rna_ridge,anti-human/mouse integrin β7,False,0.9265323409138793
+rna_ridge,CD268 (BAFF-R),False,0.901828365123636
+rna_ridge,CD42b,False,0.7416508913735006
+rna_ridge,CD54,False,0.5492918933250335
+rna_ridge,CD62P (P-Selectin),False,1.064366418119428
+rna_ridge,CD119 (IFN-γ R α chain),False,0.7002069792162926
+rna_ridge,TCR α/β,False,0.9395760442457372
+rna_ridge,CD122 (IL-2Rβ),False,0.6092096524309218
+rna_ridge,CD267 (TACI),False,0.6868846816160205
+rna_ridge,FcεRIα,False,0.9079253908727427
+rna_ridge,CD41,False,0.9239385251103045
+rna_ridge,CD137 (4-1BB),False,0.8307363138425693
+rna_ridge,CD163.1,False,0.9210731176310496
+rna_ridge,CD83.1,False,0.7955746020334777
+rna_ridge,CD124 (IL-4Rα),False,0.6970788007448876
+rna_ridge,CD13,False,0.9388555348586977
+rna_ridge,CD2.1,False,0.6670885916735841
+rna_ridge,CD226 (DNAM-1),False,0.6804349310327327
+rna_ridge,CD29,False,0.5048315425088549
+rna_ridge,CD303 (BDCA-2),False,0.7119374882869312
+rna_ridge,CD49b,False,0.9235355021590997
+rna_ridge,CD81 (TAPA-1),False,0.8637882237471786
+rna_ridge,IgD,False,0.7445981565426396
+rna_ridge,CD18,False,0.3712112653003378
+rna_ridge,CD45,False,0.5699948273347271
+rna_ridge,CD22.1,False,0.7602786642295468
+rna_ridge,CD71,False,0.7839590714796462
+rna_ridge,CD26,False,0.9879188781287553
+rna_ridge,CD36.1,False,0.888681195415948
+rna_ridge,CD158 (KIR2DL1/S1/S3/S5),False,0.585651436446916
+rna_ridge,CD49a,False,0.8408051643240768
+rna_ridge,CD49d,False,0.7460113559786068
+rna_ridge,CD73 (Ecto-5'-nucleotidase),False,1.0551969696779488
+rna_ridge,TCR Vα7.2,False,0.6414837176815757
+rna_ridge,TCR Vδ2,False,0.6631038518035027
+rna_ridge,LOX-1,False,0.9148398676642364
+rna_ridge,CD158b (KIR2DL2/L3;  NKAT2),False,0.511295342148285
+rna_ridge,CD158e1 (KIR3DL1; NKB1),False,0.7318934696601305
+rna_ridge,CD319 (CRACC),False,0.6166819015492789
+rna_ridge,CD99.1,False,0.6075978289419457
+rna_ridge,CLEC12A.1,False,0.7331013596331809
+rna_ridge,CD352 (NTB-A),False,0.736208560102851
+rna_ridge,CD94,False,0.3736136019821812
+rna_ridge,Ig light chain κ,False,0.7626288772904556
+rna_ridge,CD85j (ILT2),False,0.6549593492117987
+rna_ridge,CD23,False,0.7259400377525694
+rna_ridge,Ig light chain λ,False,0.7617209877897686
+rna_ridge,CD328 (Siglec-7),False,0.7529341184502942
+rna_ridge,GPR56,False,0.4404299680878977
+rna_ridge,HLA-E.1,False,0.7252617777998871
+rna_ridge,CD82.1,False,0.712727160316194
+rna_ridge,CD101 (BB27),False,0.822735904136356
+rna_ridge,CD88 (C5aR),False,0.7037228627365284
+rna_ridge,CD224,False,0.8005422273421109
+joint_ridge,CD86.1,False,0.7401459547320179
+joint_ridge,CD274 (B7-H1; PD-L1),False,0.7579110887390639
+joint_ridge,CD270 (HVEM; TR2),False,0.7187321032535219
+joint_ridge,CD155 (PVR),False,0.82907049576974
+joint_ridge,CD112 (Nectin-2),False,0.767582107381322
+joint_ridge,CD47.1,False,0.47470282103025835
+joint_ridge,CD48.1,False,0.49560103354466384
+joint_ridge,CD40.1,False,0.8588103198065765
+joint_ridge,CD154,False,0.7170925019988053
+joint_ridge,CD52.1,False,0.7194271936712359
+joint_ridge,CD3,False,0.7830261237879347
+joint_ridge,CD8,False,0.6706578834484874
+joint_ridge,CD56,False,0.6314913877288875
+joint_ridge,CD19.1,False,1.0183346727578806
+joint_ridge,CD33.1,False,0.6626768615504897
+joint_ridge,CD11c,False,0.7045148195822801
+joint_ridge,HLA-A;B;C,False,0.5229123257653141
+joint_ridge,CD45RA,False,0.9878874776528896
+joint_ridge,CD123,False,0.698885511770053
+joint_ridge,CD7.1,False,1.1015062467294687
+joint_ridge,CD105,False,0.8230694461280121
+joint_ridge,anti-human/mouse CD49f,False,0.4939549348621801
+joint_ridge,CD194 (CCR4),False,0.7837032107454293
+joint_ridge,CD4.1,False,1.0238818317406106
+joint_ridge,anti-mouse/human CD44,False,0.5663201764646494
+joint_ridge,CD14.1,False,0.6290707985462389
+joint_ridge,CD16,False,0.700273952466972
+joint_ridge,CD25,True,0.8479727683632738
+joint_ridge,TIGIT (VSTM3),False,0.6122981275078667
+joint_ridge,CD20,False,1.0046753413896372
+joint_ridge,CD335 (NKp46),False,0.6694986688811925
+joint_ridge,CD31,False,0.9232971636610816
+joint_ridge,CD146,False,0.7218706845192073
+joint_ridge,IgM,False,0.7278170418088218
+joint_ridge,CD5.1,False,0.8304893410144579
+joint_ridge,CD183 (CXCR3),False,0.7520404707071486
+joint_ridge,CD195 (CCR5),False,0.7829700876943531
+joint_ridge,CD32,False,0.6929050872452583
+joint_ridge,CD196 (CCR6),False,0.657609087781943
+joint_ridge,CD185 (CXCR5),False,0.6488222291311307
+joint_ridge,CD103 (Integrin αE),False,0.748771692730428
+joint_ridge,CD69,True,0.6634735510624206
+joint_ridge,CD62L,False,1.097161064899249
+joint_ridge,CD161,False,0.6344498959147795
+joint_ridge,CD152 (CTLA-4),False,0.7333280171827977
+joint_ridge,CD223 (LAG-3),False,0.6855503801761527
+joint_ridge,KLRG1 (MAFA),False,0.5165906326260765
+joint_ridge,CD107a (LAMP-1),False,0.6946279249685576
+joint_ridge,CD95 (Fas),False,0.6651092156463589
+joint_ridge,CD134 (OX40),False,0.7429078607871036
+joint_ridge,CD1c,False,0.9154464091562913
+joint_ridge,CD11b,False,0.77010215795139
+joint_ridge,CD64,False,0.5954109282954845
+joint_ridge,CD141 (Thrombomodulin),False,0.7543127994045664
+joint_ridge,CD1d,False,0.7305598211771537
+joint_ridge,CD314 (NKG2D),False,0.6085090505506099
+joint_ridge,CD35,False,0.879180519162196
+joint_ridge,CD57 Recombinant,False,0.33456324434174556
+joint_ridge,CD272 (BTLA),False,0.8580711223937477
+joint_ridge,CD58 (LFA-3),False,0.6632380368288452
+joint_ridge,CD39,False,0.9147293415449121
+joint_ridge,CX3CR1.1,False,0.6015312453346418
+joint_ridge,CD24.1,False,0.7017791651435245
+joint_ridge,CD21,False,0.9566247337069491
+joint_ridge,CD11a,False,0.4485852603923071
+joint_ridge,CD79b (Igβ),False,0.7614669299805887
+joint_ridge,CD244 (2B4),False,0.46195158846880935
+joint_ridge,CD169 (Sialoadhesin; Siglec-1),False,0.7101669250162661
+joint_ridge,anti-human/mouse integrin β7,False,0.913232812762263
+joint_ridge,CD268 (BAFF-R),False,0.8676251936254997
+joint_ridge,CD42b,False,0.7066278655280132
+joint_ridge,CD54,False,0.5182075720990718
+joint_ridge,CD62P (P-Selectin),False,1.0487596349107042
+joint_ridge,CD119 (IFN-γ R α chain),False,0.6567853239887156
+joint_ridge,TCR α/β,False,0.8970879887935082
+joint_ridge,CD122 (IL-2Rβ),False,0.5733117906868215
+joint_ridge,CD267 (TACI),False,0.646336937143578
+joint_ridge,FcεRIα,False,0.8702341635120332
+joint_ridge,CD41,False,0.9225188989038257
+joint_ridge,CD137 (4-1BB),False,0.7870543273880468
+joint_ridge,CD163.1,False,0.8809996148792276
+joint_ridge,CD83.1,False,0.7553294456440399
+joint_ridge,CD124 (IL-4Rα),False,0.6558043953308229
+joint_ridge,CD13,False,0.9046320081418256
+joint_ridge,CD2.1,False,0.6260485209922774
+joint_ridge,CD226 (DNAM-1),False,0.6357205074597303
+joint_ridge,CD29,False,0.47004384129430987
+joint_ridge,CD303 (BDCA-2),False,0.6693065368373938
+joint_ridge,CD49b,False,0.9046966054037592
+joint_ridge,CD81 (TAPA-1),False,0.8260346834725842
+joint_ridge,IgD,False,0.7169373403404322
+joint_ridge,CD18,False,0.3480677644718617
+joint_ridge,CD45,False,0.5374439179365854
+joint_ridge,CD22.1,False,0.7309938069959774
+joint_ridge,CD71,False,0.7506804789584864
+joint_ridge,CD26,False,0.9451161962330051
+joint_ridge,CD36.1,False,0.8711041412029639
+joint_ridge,CD158 (KIR2DL1/S1/S3/S5),False,0.5486701000009602
+joint_ridge,CD49a,False,0.8126075432072545
+joint_ridge,CD49d,False,0.7071285607436206
+joint_ridge,CD73 (Ecto-5'-nucleotidase),False,1.0130574815821742
+joint_ridge,TCR Vα7.2,False,0.6310376632956285
+joint_ridge,TCR Vδ2,False,0.6449241719783607
+joint_ridge,LOX-1,False,0.8729819120000712
+joint_ridge,CD158b (KIR2DL2/L3;  NKAT2),False,0.4801444065063718
+joint_ridge,CD158e1 (KIR3DL1; NKB1),False,0.6972295402716191
+joint_ridge,CD319 (CRACC),False,0.5839592253838916
+joint_ridge,CD99.1,False,0.5774201056392935
+joint_ridge,CLEC12A.1,False,0.7143236772687376
+joint_ridge,CD352 (NTB-A),False,0.6976574360548218
+joint_ridge,CD94,False,0.3633870546645714
+joint_ridge,Ig light chain κ,False,0.724182485333202
+joint_ridge,CD85j (ILT2),False,0.6140311156774416
+joint_ridge,CD23,False,0.6845939087057159
+joint_ridge,Ig light chain λ,False,0.7241949603820007
+joint_ridge,CD328 (Siglec-7),False,0.7386595991636806
+joint_ridge,GPR56,False,0.4363373766863502
+joint_ridge,HLA-E.1,False,0.6869942829033667
+joint_ridge,CD82.1,False,0.67480974481968
+joint_ridge,CD101 (BB27),False,0.7928089530815751
+joint_ridge,CD88 (C5aR),False,0.6630589957026283
+joint_ridge,CD224,False,0.7671846799457274
+v040_abundance_shrinkage,CD86.1,False,0.40466863484408844
+v040_abundance_shrinkage,CD274 (B7-H1; PD-L1),False,0.331693313765972
+v040_abundance_shrinkage,CD270 (HVEM; TR2),False,0.18527818557543968
+v040_abundance_shrinkage,CD155 (PVR),False,0.30091255396859484
+v040_abundance_shrinkage,CD112 (Nectin-2),False,0.20816110690164527
+v040_abundance_shrinkage,CD47.1,False,0.27515395834339446
+v040_abundance_shrinkage,CD48.1,False,0.3015154483932071
+v040_abundance_shrinkage,CD40.1,False,0.4651458928503742
+v040_abundance_shrinkage,CD154,False,0.24472215772551445
+v040_abundance_shrinkage,CD52.1,False,0.2659821879699961
+v040_abundance_shrinkage,CD3,False,0.3461325518910924
+v040_abundance_shrinkage,CD8,False,0.671740116821107
+v040_abundance_shrinkage,CD56,False,0.28815660264336673
+v040_abundance_shrinkage,CD19.1,False,0.3928672192466803
+v040_abundance_shrinkage,CD33.1,False,0.3399458032280378
+v040_abundance_shrinkage,CD11c,False,0.4577690290642072
+v040_abundance_shrinkage,HLA-A;B;C,False,0.3157665839931624
+v040_abundance_shrinkage,CD45RA,False,0.74110108679459
+v040_abundance_shrinkage,CD123,False,0.30884035564193846
+v040_abundance_shrinkage,CD7.1,False,0.6436579520684427
+v040_abundance_shrinkage,CD105,False,0.2912036252193444
+v040_abundance_shrinkage,anti-human/mouse CD49f,False,0.24780025198393263
+v040_abundance_shrinkage,CD194 (CCR4),False,0.4543388184687712
+v040_abundance_shrinkage,CD4.1,False,0.5110772512663966
+v040_abundance_shrinkage,anti-mouse/human CD44,False,0.17350748132448465
+v040_abundance_shrinkage,CD14.1,False,0.6218751539654108
+v040_abundance_shrinkage,CD16,False,0.4346434846629793
+v040_abundance_shrinkage,CD25,True,0.22987740358206152
+v040_abundance_shrinkage,TIGIT (VSTM3),False,0.28134699585252004
+v040_abundance_shrinkage,CD20,False,0.3829173696669515
+v040_abundance_shrinkage,CD335 (NKp46),False,0.21545856904961452
+v040_abundance_shrinkage,CD31,False,0.5629566683404594
+v040_abundance_shrinkage,CD146,False,0.32095952684041834
+v040_abundance_shrinkage,IgM,False,0.42675360905792326
+v040_abundance_shrinkage,CD5.1,False,0.2829533073564792
+v040_abundance_shrinkage,CD183 (CXCR3),False,0.3075843289525973
+v040_abundance_shrinkage,CD195 (CCR5),False,0.3733148993560423
+v040_abundance_shrinkage,CD32,False,0.4521001908827499
+v040_abundance_shrinkage,CD196 (CCR6),False,0.4118422133611771
+v040_abundance_shrinkage,CD185 (CXCR5),False,0.3045230646276559
+v040_abundance_shrinkage,CD103 (Integrin αE),False,0.32833346884777137
+v040_abundance_shrinkage,CD69,True,0.4003101010190447
+v040_abundance_shrinkage,CD62L,False,0.7843973288612796
+v040_abundance_shrinkage,CD161,False,0.22734316522994402
+v040_abundance_shrinkage,CD152 (CTLA-4),False,0.2873760689650019
+v040_abundance_shrinkage,CD223 (LAG-3),False,0.23513515262772514
+v040_abundance_shrinkage,KLRG1 (MAFA),False,0.36136993844090715
+v040_abundance_shrinkage,CD107a (LAMP-1),False,0.17247116236967647
+v040_abundance_shrinkage,CD95 (Fas),False,0.2571841053890504
+v040_abundance_shrinkage,CD134 (OX40),False,0.20268743402397776
+v040_abundance_shrinkage,CD1c,False,0.2992662098038815
+v040_abundance_shrinkage,CD11b,False,0.37501579897828463
+v040_abundance_shrinkage,CD64,False,0.47638995790759464
+v040_abundance_shrinkage,CD141 (Thrombomodulin),False,0.254695287317921
+v040_abundance_shrinkage,CD1d,False,0.26695089279119777
+v040_abundance_shrinkage,CD314 (NKG2D),False,0.3021624217570401
+v040_abundance_shrinkage,CD35,False,0.45261672167063705
+v040_abundance_shrinkage,CD57 Recombinant,False,0.4353238033673096
+v040_abundance_shrinkage,CD272 (BTLA),False,0.21875134707611504
+v040_abundance_shrinkage,CD58 (LFA-3),False,0.21098383725762898
+v040_abundance_shrinkage,CD39,False,0.416183828244002
+v040_abundance_shrinkage,CX3CR1.1,False,0.414951842283641
+v040_abundance_shrinkage,CD24.1,False,0.16900303021149862
+v040_abundance_shrinkage,CD21,False,0.42985726176852096
+v040_abundance_shrinkage,CD11a,False,0.26946243566077427
+v040_abundance_shrinkage,CD79b (Igβ),False,0.2291409121601486
+v040_abundance_shrinkage,CD244 (2B4),False,0.35498423759012365
+v040_abundance_shrinkage,CD169 (Sialoadhesin; Siglec-1),False,0.18514143847658482
+v040_abundance_shrinkage,anti-human/mouse integrin β7,False,0.62134085917663
+v040_abundance_shrinkage,CD268 (BAFF-R),False,0.29668382307744895
+v040_abundance_shrinkage,CD42b,False,0.3629311462403102
+v040_abundance_shrinkage,CD54,False,0.16674903264406582
+v040_abundance_shrinkage,CD62P (P-Selectin),False,1.1673029108832018
+v040_abundance_shrinkage,CD119 (IFN-γ R α chain),False,0.11433548003229532
+v040_abundance_shrinkage,TCR α/β,False,0.4192035356726607
+v040_abundance_shrinkage,CD122 (IL-2Rβ),False,0.22529437243522965
+v040_abundance_shrinkage,CD267 (TACI),False,0.24924387399956652
+v040_abundance_shrinkage,FcεRIα,False,0.31539327591654387
+v040_abundance_shrinkage,CD41,False,0.8085240037293993
+v040_abundance_shrinkage,CD137 (4-1BB),False,0.25619632687021854
+v040_abundance_shrinkage,CD163.1,False,0.45470548391770144
+v040_abundance_shrinkage,CD83.1,False,0.25321207312255406
+v040_abundance_shrinkage,CD124 (IL-4Rα),False,0.18973034180607556
+v040_abundance_shrinkage,CD13,False,0.3018436324123263
+v040_abundance_shrinkage,CD2.1,False,0.30412332216637333
+v040_abundance_shrinkage,CD226 (DNAM-1),False,0.2196351230714765
+v040_abundance_shrinkage,CD29,False,0.26642484233634917
+v040_abundance_shrinkage,CD303 (BDCA-2),False,0.2323603080775823
+v040_abundance_shrinkage,CD49b,False,0.7474816590102935
+v040_abundance_shrinkage,CD81 (TAPA-1),False,0.3555432595158298
+v040_abundance_shrinkage,IgD,False,0.2320240721353859
+v040_abundance_shrinkage,CD18,False,0.32387842359755686
+v040_abundance_shrinkage,CD45,False,0.2900235390789466
+v040_abundance_shrinkage,CD22.1,False,0.29471499229372816
+v040_abundance_shrinkage,CD71,False,0.463260190015493
+v040_abundance_shrinkage,CD26,False,0.25746737524680285
+v040_abundance_shrinkage,CD36.1,False,0.9221619373126954
+v040_abundance_shrinkage,CD158 (KIR2DL1/S1/S3/S5),False,0.4748842641721739
+v040_abundance_shrinkage,CD49a,False,0.6199146395090682
+v040_abundance_shrinkage,CD49d,False,0.18734634650253223
+v040_abundance_shrinkage,CD73 (Ecto-5'-nucleotidase),False,0.47975161227228635
+v040_abundance_shrinkage,TCR Vα7.2,False,0.5416771835717241
+v040_abundance_shrinkage,TCR Vδ2,False,0.3412712369717282
+v040_abundance_shrinkage,LOX-1,False,0.2472774935434951
+v040_abundance_shrinkage,CD158b (KIR2DL2/L3;  NKAT2),False,0.3982623010858055
+v040_abundance_shrinkage,CD158e1 (KIR3DL1; NKB1),False,0.6025001874131215
+v040_abundance_shrinkage,CD319 (CRACC),False,0.26939865007490826
+v040_abundance_shrinkage,CD99.1,False,0.25322197435698035
+v040_abundance_shrinkage,CLEC12A.1,False,0.4305105095226862
+v040_abundance_shrinkage,CD352 (NTB-A),False,0.29112482735618983
+v040_abundance_shrinkage,CD94,False,0.28611520113459765
+v040_abundance_shrinkage,Ig light chain κ,False,0.21841856351117467
+v040_abundance_shrinkage,CD85j (ILT2),False,0.15816115281929272
+v040_abundance_shrinkage,CD23,False,0.2588980599002625
+v040_abundance_shrinkage,Ig light chain λ,False,0.24129967584670503
+v040_abundance_shrinkage,CD328 (Siglec-7),False,0.504652967861298
+v040_abundance_shrinkage,GPR56,False,0.4854107888015159
+v040_abundance_shrinkage,HLA-E.1,False,0.34606860626307967
+v040_abundance_shrinkage,CD82.1,False,0.21798559842229787
+v040_abundance_shrinkage,CD101 (BB27),False,0.6650104283691876
+v040_abundance_shrinkage,CD88 (C5aR),False,0.12274217435654504
+v040_abundance_shrinkage,CD224,False,0.29923107733169585
+totalvi,CD86.1,False,0.6798731235167488
+totalvi,CD274 (B7-H1; PD-L1),False,0.15202440495169273
+totalvi,CD270 (HVEM; TR2),False,0.34825109713307434
+totalvi,CD155 (PVR),False,0.30051139798807014
+totalvi,CD112 (Nectin-2),False,0.2293629999264606
+totalvi,CD47.1,False,0.41364043724627225
+totalvi,CD48.1,False,0.2509655452216284
+totalvi,CD40.1,False,0.13980524781095158
+totalvi,CD154,False,0.2613704427202335
+totalvi,CD52.1,False,0.4474789399429337
+totalvi,CD3,False,0.44146422878374
+totalvi,CD8,False,0.48417805663394003
+totalvi,CD56,False,0.7771173086518772
+totalvi,CD19.1,False,0.21813360851971733
+totalvi,CD33.1,False,0.46358223913312296
+totalvi,CD11c,False,0.4771678652963409
+totalvi,HLA-A;B;C,False,0.36691807151339606
+totalvi,CD45RA,False,0.5096991862254219
+totalvi,CD123,False,0.1807011233302146
+totalvi,CD7.1,False,0.4633348214608254
+totalvi,CD105,False,0.25599554505774524
+totalvi,anti-human/mouse CD49f,False,0.3511077173135416
+totalvi,CD194 (CCR4),False,0.5748605231967983
+totalvi,CD4.1,False,0.45089458686437833
+totalvi,anti-mouse/human CD44,False,0.22990695491691446
+totalvi,CD14.1,False,0.6827750092042579
+totalvi,CD16,False,0.30752215495061697
+totalvi,CD25,True,0.42572352756215404
+totalvi,TIGIT (VSTM3),False,0.289646772239322
+totalvi,CD20,False,0.28001417901593106
+totalvi,CD335 (NKp46),False,0.27635957187206384
+totalvi,CD31,False,0.4926666771364248
+totalvi,CD146,False,0.7806626702763186
+totalvi,IgM,False,0.19803759456156692
+totalvi,CD5.1,False,0.363888943009655
+totalvi,CD183 (CXCR3),False,0.4664379314323693
+totalvi,CD195 (CCR5),False,0.5944977497174575
+totalvi,CD32,False,0.24607756339277853
+totalvi,CD196 (CCR6),False,0.5501310355546283
+totalvi,CD185 (CXCR5),False,0.2802812144617249
+totalvi,CD103 (Integrin αE),False,0.31560879746330256
+totalvi,CD69,True,0.3593601560106153
+totalvi,CD62L,False,0.6476662408324415
+totalvi,CD161,False,0.28013856012083527
+totalvi,CD152 (CTLA-4),False,0.25855839128425884
+totalvi,CD223 (LAG-3),False,0.3147643177628839
+totalvi,KLRG1 (MAFA),False,0.3570050024881569
+totalvi,CD107a (LAMP-1),False,0.311318456738363
+totalvi,CD95 (Fas),False,0.24519551938724718
+totalvi,CD134 (OX40),False,0.2682863746912846
+totalvi,CD1c,False,0.16673496115270003
+totalvi,CD11b,False,0.36680361389262706
+totalvi,CD64,False,0.5565030763633549
+totalvi,CD141 (Thrombomodulin),False,0.2817184224970125
+totalvi,CD1d,False,0.28860697429345034
+totalvi,CD314 (NKG2D),False,0.29178766403597883
+totalvi,CD35,False,0.279107496750034
+totalvi,CD57 Recombinant,False,0.2801025899498456
+totalvi,CD272 (BTLA),False,0.4140659750868393
+totalvi,CD58 (LFA-3),False,0.2630358926666452
+totalvi,CD39,False,0.3007806301380484
+totalvi,CX3CR1.1,False,0.301845117353838
+totalvi,CD24.1,False,0.2915955155941382
+totalvi,CD21,False,0.3769107303045186
+totalvi,CD11a,False,0.3266013835004502
+totalvi,CD79b (Igβ),False,0.2653962481133478
+totalvi,CD244 (2B4),False,0.30924301912693686
+totalvi,CD169 (Sialoadhesin; Siglec-1),False,0.2106356867374906
+totalvi,anti-human/mouse integrin β7,False,0.7568992289064834
+totalvi,CD268 (BAFF-R),False,0.26295250193487896
+totalvi,CD42b,False,0.47909001578243393
+totalvi,CD54,False,0.2339135925546854
+totalvi,CD62P (P-Selectin),False,1.136096050472315
+totalvi,CD119 (IFN-γ R α chain),False,0.2464750081741776
+totalvi,TCR α/β,False,0.5986627588678978
+totalvi,CD122 (IL-2Rβ),False,0.19980366793963086
+totalvi,CD267 (TACI),False,0.29030482975115196
+totalvi,FcεRIα,False,0.3462549427645675
+totalvi,CD41,False,0.8781794155499396
+totalvi,CD137 (4-1BB),False,0.2809711835553175
+totalvi,CD163.1,False,0.3494802498525825
+totalvi,CD83.1,False,0.25662566576099033
+totalvi,CD124 (IL-4Rα),False,0.1803026600460159
+totalvi,CD13,False,0.33059684501532477
+totalvi,CD2.1,False,0.442072950874279
+totalvi,CD226 (DNAM-1),False,0.24976697433799422
+totalvi,CD29,False,0.32701428745019834
+totalvi,CD303 (BDCA-2),False,0.25791742100021936
+totalvi,CD49b,False,0.7845466730719206
+totalvi,CD81 (TAPA-1),False,0.6145731992544106
+totalvi,IgD,False,0.32001183412907025
+totalvi,CD18,False,0.2044747822513794
+totalvi,CD45,False,0.3590054851803542
+totalvi,CD22.1,False,0.34237666590689403
+totalvi,CD71,False,0.4264354501335104
+totalvi,CD26,False,0.49476042401830245
+totalvi,CD36.1,False,0.8559685360391545
+totalvi,CD158 (KIR2DL1/S1/S3/S5),False,0.6119841628595843
+totalvi,CD49a,False,1.130634946923332
+totalvi,CD49d,False,0.29488564181483856
+totalvi,CD73 (Ecto-5'-nucleotidase),False,0.3779478754446052
+totalvi,TCR Vα7.2,False,0.578606702801757
+totalvi,TCR Vδ2,False,0.9191501492782308
+totalvi,LOX-1,False,0.269388632290856
+totalvi,CD158b (KIR2DL2/L3;  NKAT2),False,0.29247149379211457
+totalvi,CD158e1 (KIR3DL1; NKB1),False,0.7481330036182653
+totalvi,CD319 (CRACC),False,0.2703672551452018
+totalvi,CD99.1,False,0.3163238783766767
+totalvi,CLEC12A.1,False,0.6687245494259206
+totalvi,CD352 (NTB-A),False,0.401196586431164
+totalvi,CD94,False,0.3057898685373067
+totalvi,Ig light chain κ,False,0.211308893160431
+totalvi,CD85j (ILT2),False,0.22766706781755058
+totalvi,CD23,False,0.2805584905250151
+totalvi,Ig light chain λ,False,0.1485009609949961
+totalvi,CD328 (Siglec-7),False,1.129050828492395
+totalvi,GPR56,False,0.2971544707081738
+totalvi,HLA-E.1,False,0.4155914291397959
+totalvi,CD82.1,False,0.2263219887619768
+totalvi,CD101 (BB27),False,0.40528462568719004
+totalvi,CD88 (C5aR),False,0.25967148356718106
+totalvi,CD224,False,0.22276079604290328
+v050_gated_abundance_response,CD86.1,False,2.0968685808270068e-17
+v050_gated_abundance_response,CD274 (B7-H1; PD-L1),False,0.5594347537409883
+v050_gated_abundance_response,CD270 (HVEM; TR2),False,8.33443489119227e-17
+v050_gated_abundance_response,CD155 (PVR),False,0.6742417579336197
+v050_gated_abundance_response,CD112 (Nectin-2),False,0.6217268709966433
+v050_gated_abundance_response,CD47.1,False,0.49465864834616563
+v050_gated_abundance_response,CD48.1,False,0.34722264932336266
+v050_gated_abundance_response,CD40.1,False,0.903045121697408
+v050_gated_abundance_response,CD154,False,0.562780611893114
+v050_gated_abundance_response,CD52.1,False,0.613773357638802
+v050_gated_abundance_response,CD3,False,0.5509431802734035
+v050_gated_abundance_response,CD8,False,0.6291663205234059
+v050_gated_abundance_response,CD56,False,0.6556202147453548
+v050_gated_abundance_response,CD19.1,False,0.91366102105114
+v050_gated_abundance_response,CD33.1,False,0.6349107937911904
+v050_gated_abundance_response,CD11c,False,0.7815680815683693
+v050_gated_abundance_response,HLA-A;B;C,False,0.6322952577080764
+v050_gated_abundance_response,CD45RA,False,1.0943090527066486
+v050_gated_abundance_response,CD123,False,0.6615194235534729
+v050_gated_abundance_response,CD7.1,False,0.8429154048154726
+v050_gated_abundance_response,CD105,False,4.6724437540867654e-17
+v050_gated_abundance_response,anti-human/mouse CD49f,False,0.49828239063662033
+v050_gated_abundance_response,CD194 (CCR4),False,0.6935428312169581
+v050_gated_abundance_response,CD4.1,False,0.8764599722829187
+v050_gated_abundance_response,anti-mouse/human CD44,False,0.4696438922609204
+v050_gated_abundance_response,CD14.1,False,0.7641614701379628
+v050_gated_abundance_response,CD16,False,0.4550583040121001
+v050_gated_abundance_response,CD25,True,0.649356877310105
+v050_gated_abundance_response,TIGIT (VSTM3),False,0.565596236496506
+v050_gated_abundance_response,CD20,False,0.9297392298930447
+v050_gated_abundance_response,CD335 (NKp46),False,0.497235087354386
+v050_gated_abundance_response,CD31,False,0.9314104055254235
+v050_gated_abundance_response,CD146,False,0.6195565266398827
+v050_gated_abundance_response,IgM,False,0.5890051711661286
+v050_gated_abundance_response,CD5.1,False,0.6813510571024765
+v050_gated_abundance_response,CD183 (CXCR3),False,0.6191167605520951
+v050_gated_abundance_response,CD195 (CCR5),False,0.8321404741145833
+v050_gated_abundance_response,CD32,False,0.5496595716860307
+v050_gated_abundance_response,CD196 (CCR6),False,0.4463833147671921
+v050_gated_abundance_response,CD185 (CXCR5),False,0.5046616249126399
+v050_gated_abundance_response,CD103 (Integrin αE),False,0.4973361526436658
+v050_gated_abundance_response,CD69,True,0.3720352242162906
+v050_gated_abundance_response,CD62L,False,0.9130376488170994
+v050_gated_abundance_response,CD161,False,0.5673585888105716
+v050_gated_abundance_response,CD152 (CTLA-4),False,0.5564386424544174
+v050_gated_abundance_response,CD223 (LAG-3),False,0.6581631288384578
+v050_gated_abundance_response,KLRG1 (MAFA),False,0.5641075301461819
+v050_gated_abundance_response,CD107a (LAMP-1),False,0.624714080593263
+v050_gated_abundance_response,CD95 (Fas),False,0.4681484943750774
+v050_gated_abundance_response,CD134 (OX40),False,9.458945320020651e-17
+v050_gated_abundance_response,CD1c,False,0.8001344286890294
+v050_gated_abundance_response,CD11b,False,0.6208916606734893
+v050_gated_abundance_response,CD64,False,0.6125577231264258
+v050_gated_abundance_response,CD141 (Thrombomodulin),False,0.6151420287328765
+v050_gated_abundance_response,CD1d,False,0.6589841986490955
+v050_gated_abundance_response,CD314 (NKG2D),False,0.5369951499794335
+v050_gated_abundance_response,CD35,False,0.8015369936306971
+v050_gated_abundance_response,CD57 Recombinant,False,0.6653727517285104
+v050_gated_abundance_response,CD272 (BTLA),False,0.7605324879053565
+v050_gated_abundance_response,CD58 (LFA-3),False,0.580412321257904
+v050_gated_abundance_response,CD39,False,0.962907857468067
+v050_gated_abundance_response,CX3CR1.1,False,0.6754280133519531
+v050_gated_abundance_response,CD24.1,False,0.6960156790583016
+v050_gated_abundance_response,CD21,False,0.9335621080743367
+v050_gated_abundance_response,CD11a,False,0.4741353466702485
+v050_gated_abundance_response,CD79b (Igβ),False,0.6220131102657332
+v050_gated_abundance_response,CD244 (2B4),False,0.4840947394445382
+v050_gated_abundance_response,CD169 (Sialoadhesin; Siglec-1),False,0.5262868758553559
+v050_gated_abundance_response,anti-human/mouse integrin β7,False,0.7576553273769161
+v050_gated_abundance_response,CD268 (BAFF-R),False,0.6070789982356682
+v050_gated_abundance_response,CD42b,False,0.5185509745079604
+v050_gated_abundance_response,CD54,False,1.3064857633887697e-17
+v050_gated_abundance_response,CD62P (P-Selectin),False,0.8760531025910497
+v050_gated_abundance_response,CD119 (IFN-γ R α chain),False,0.5854675268319213
+v050_gated_abundance_response,TCR α/β,False,0.7282349589842795
+v050_gated_abundance_response,CD122 (IL-2Rβ),False,3.880906215367925e-18
+v050_gated_abundance_response,CD267 (TACI),False,0.5902604566417885
+v050_gated_abundance_response,FcεRIα,False,0.7271901392449347
+v050_gated_abundance_response,CD41,False,0.8109601480778021
+v050_gated_abundance_response,CD137 (4-1BB),False,0.5991843223899098
+v050_gated_abundance_response,CD163.1,False,0.6901784130886299
+v050_gated_abundance_response,CD83.1,False,0.5923553025875189
+v050_gated_abundance_response,CD124 (IL-4Rα),False,0.539981728814291
+v050_gated_abundance_response,CD13,False,0.598182363968701
+v050_gated_abundance_response,CD2.1,False,0.5862572722929457
+v050_gated_abundance_response,CD226 (DNAM-1),False,0.525284254591822
+v050_gated_abundance_response,CD29,False,0.5104557006339141
+v050_gated_abundance_response,CD303 (BDCA-2),False,0.48421987386574583
+v050_gated_abundance_response,CD49b,False,0.7017533026281291
+v050_gated_abundance_response,CD81 (TAPA-1),False,0.8116247909627325
+v050_gated_abundance_response,IgD,False,0.5689676010464801
+v050_gated_abundance_response,CD18,False,0.2940410963786754
+v050_gated_abundance_response,CD45,False,0.4500319738111159
+v050_gated_abundance_response,CD22.1,False,0.6258980763138773
+v050_gated_abundance_response,CD71,False,0.6855325511499595
+v050_gated_abundance_response,CD26,False,0.9159664388669946
+v050_gated_abundance_response,CD36.1,False,0.8010487253298966
+v050_gated_abundance_response,CD158 (KIR2DL1/S1/S3/S5),False,0.4334524091167419
+v050_gated_abundance_response,CD49a,False,0.7305416669086608
+v050_gated_abundance_response,CD49d,False,0.5259712302749302
+v050_gated_abundance_response,CD73 (Ecto-5'-nucleotidase),False,0.8408552908485076
+v050_gated_abundance_response,TCR Vα7.2,False,0.5786674666096934
+v050_gated_abundance_response,TCR Vδ2,False,0.39329687222798376
+v050_gated_abundance_response,LOX-1,False,0.6300157191087765
+v050_gated_abundance_response,CD158b (KIR2DL2/L3;  NKAT2),False,0.5155796720465728
+v050_gated_abundance_response,CD158e1 (KIR3DL1; NKB1),False,0.3542530591542135
+v050_gated_abundance_response,CD319 (CRACC),False,5.861508101490238e-17
+v050_gated_abundance_response,CD99.1,False,0.5415124320601464
+v050_gated_abundance_response,CLEC12A.1,False,0.7076457766362063
+v050_gated_abundance_response,CD352 (NTB-A),False,0.6166412483416444
+v050_gated_abundance_response,CD94,False,0.28751799024550445
+v050_gated_abundance_response,Ig light chain κ,False,0.555149826750911
+v050_gated_abundance_response,CD85j (ILT2),False,0.6343801372456768
+v050_gated_abundance_response,CD23,False,0.5995122974927838
+v050_gated_abundance_response,Ig light chain λ,False,8.52607701395294e-17
+v050_gated_abundance_response,CD328 (Siglec-7),False,0.8328130311861182
+v050_gated_abundance_response,GPR56,False,0.45929798747242734
+v050_gated_abundance_response,HLA-E.1,False,0.6093545130324781
+v050_gated_abundance_response,CD82.1,False,0.6169873016304546
+v050_gated_abundance_response,CD101 (BB27),False,0.8664783223273854
+v050_gated_abundance_response,CD88 (C5aR),False,0.6297862093385781
+v050_gated_abundance_response,CD224,False,0.661129528595797
+v050_training_mean,CD86.1,False,0.7192762540169795
+v050_training_mean,CD274 (B7-H1; PD-L1),False,0.5594347537409883
+v050_training_mean,CD270 (HVEM; TR2),False,0.6258296311767145
+v050_training_mean,CD155 (PVR),False,0.6742417579336197
+v050_training_mean,CD112 (Nectin-2),False,0.6217268709966433
+v050_training_mean,CD47.1,False,0.49465864834616563
+v050_training_mean,CD48.1,False,0.34722264932336266
+v050_training_mean,CD40.1,False,0.7512469711736555
+v050_training_mean,CD154,False,0.562780611893114
+v050_training_mean,CD52.1,False,0.613773357638802
+v050_training_mean,CD3,False,0.5509431802734035
+v050_training_mean,CD8,False,0.9436021029816658
+v050_training_mean,CD56,False,0.6070203403507269
+v050_training_mean,CD19.1,False,0.8539135164315315
+v050_training_mean,CD33.1,False,0.6349107937911904
+v050_training_mean,CD11c,False,0.7815680815683693
+v050_training_mean,HLA-A;B;C,False,0.6322952577080764
+v050_training_mean,CD45RA,False,1.0943090527066486
+v050_training_mean,CD123,False,0.6615194235534729
+v050_training_mean,CD7.1,False,0.8429154048154726
+v050_training_mean,CD105,False,0.6305221856293122
+v050_training_mean,anti-human/mouse CD49f,False,0.5348713573323255
+v050_training_mean,CD194 (CCR4),False,0.7138780234182301
+v050_training_mean,CD4.1,False,0.9579847071768327
+v050_training_mean,anti-mouse/human CD44,False,0.4696438922609204
+v050_training_mean,CD14.1,False,0.7641614701379628
+v050_training_mean,CD16,False,0.4550583040121001
+v050_training_mean,CD25,True,0.649356877310105
+v050_training_mean,TIGIT (VSTM3),False,0.623515936113873
+v050_training_mean,CD20,False,0.9485247226431006
+v050_training_mean,CD335 (NKp46),False,0.497235087354386
+v050_training_mean,CD31,False,0.9314104055254235
+v050_training_mean,CD146,False,0.5218563712337356
+v050_training_mean,IgM,False,0.5890051711661286
+v050_training_mean,CD5.1,False,0.6813510571024765
+v050_training_mean,CD183 (CXCR3),False,0.6191167605520951
+v050_training_mean,CD195 (CCR5),False,0.8335256406659699
+v050_training_mean,CD32,False,0.5783655022858715
+v050_training_mean,CD196 (CCR6),False,0.4463833147671921
+v050_training_mean,CD185 (CXCR5),False,0.5046616249126399
+v050_training_mean,CD103 (Integrin αE),False,0.4973361526436658
+v050_training_mean,CD69,True,0.3720352242162906
+v050_training_mean,CD62L,False,0.9924031757948004
+v050_training_mean,CD161,False,0.4363630065829449
+v050_training_mean,CD152 (CTLA-4),False,0.5564386424544174
+v050_training_mean,CD223 (LAG-3),False,0.6581631288384578
+v050_training_mean,KLRG1 (MAFA),False,0.6933593691757993
+v050_training_mean,CD107a (LAMP-1),False,0.624714080593263
+v050_training_mean,CD95 (Fas),False,0.7180059367201098
+v050_training_mean,CD134 (OX40),False,0.5546759215334223
+v050_training_mean,CD1c,False,0.7777250306506949
+v050_training_mean,CD11b,False,0.544928758742088
+v050_training_mean,CD64,False,0.6125577231264258
+v050_training_mean,CD141 (Thrombomodulin),False,0.6151420287328765
+v050_training_mean,CD1d,False,0.6589841986490955
+v050_training_mean,CD314 (NKG2D),False,0.6645211371611304
+v050_training_mean,CD35,False,0.8015369936306971
+v050_training_mean,CD57 Recombinant,False,0.6653727517285104
+v050_training_mean,CD272 (BTLA),False,0.7605324879053565
+v050_training_mean,CD58 (LFA-3),False,0.580412321257904
+v050_training_mean,CD39,False,0.7963272633935986
+v050_training_mean,CX3CR1.1,False,0.6754280133519531
+v050_training_mean,CD24.1,False,0.6555512204127427
+v050_training_mean,CD21,False,0.9335621080743367
+v050_training_mean,CD11a,False,0.4741353466702485
+v050_training_mean,CD79b (Igβ),False,0.6220131102657332
+v050_training_mean,CD244 (2B4),False,0.6559542940543361
+v050_training_mean,CD169 (Sialoadhesin; Siglec-1),False,0.5055204305256474
+v050_training_mean,anti-human/mouse integrin β7,False,0.9624731785113056
+v050_training_mean,CD268 (BAFF-R),False,0.6070789982356682
+v050_training_mean,CD42b,False,0.500453947793287
+v050_training_mean,CD54,False,0.5306014816932048
+v050_training_mean,CD62P (P-Selectin),False,0.9177510663754653
+v050_training_mean,CD119 (IFN-γ R α chain),False,0.5854675268319213
+v050_training_mean,TCR α/β,False,0.7282349589842795
+v050_training_mean,CD122 (IL-2Rβ),False,0.5889783604091854
+v050_training_mean,CD267 (TACI),False,0.5902604566417885
+v050_training_mean,FcεRIα,False,0.714715554659267
+v050_training_mean,CD41,False,0.7480204075488396
+v050_training_mean,CD137 (4-1BB),False,0.5991843223899098
+v050_training_mean,CD163.1,False,0.6901784130886299
+v050_training_mean,CD83.1,False,0.5923553025875189
+v050_training_mean,CD124 (IL-4Rα),False,0.539981728814291
+v050_training_mean,CD13,False,0.598182363968701
+v050_training_mean,CD2.1,False,0.5862572722929457
+v050_training_mean,CD226 (DNAM-1),False,0.525284254591822
+v050_training_mean,CD29,False,0.5104557006339141
+v050_training_mean,CD303 (BDCA-2),False,0.4806988763308663
+v050_training_mean,CD49b,False,0.66872408711042
+v050_training_mean,CD81 (TAPA-1),False,0.8074107050825253
+v050_training_mean,IgD,False,0.5689676010464801
+v050_training_mean,CD18,False,0.2940410963786754
+v050_training_mean,CD45,False,0.4500319738111159
+v050_training_mean,CD22.1,False,0.6037183044539145
+v050_training_mean,CD71,False,0.6855325511499595
+v050_training_mean,CD26,False,0.9159664388669946
+v050_training_mean,CD36.1,False,0.8536595991611324
+v050_training_mean,CD158 (KIR2DL1/S1/S3/S5),False,0.4687143686471596
+v050_training_mean,CD49a,False,0.7496943805872506
+v050_training_mean,CD49d,False,0.5259712302749302
+v050_training_mean,CD73 (Ecto-5'-nucleotidase),False,0.8363210414086911
+v050_training_mean,TCR Vα7.2,False,0.5539619281335217
+v050_training_mean,TCR Vδ2,False,0.26879491700567615
+v050_training_mean,LOX-1,False,0.6056055183143421
+v050_training_mean,CD158b (KIR2DL2/L3;  NKAT2),False,0.7014151284307463
+v050_training_mean,CD158e1 (KIR3DL1; NKB1),False,0.3542530591542135
+v050_training_mean,CD319 (CRACC),False,0.6215266627391329
+v050_training_mean,CD99.1,False,0.5415124320601464
+v050_training_mean,CLEC12A.1,False,0.9358559397101173
+v050_training_mean,CD352 (NTB-A),False,0.6166412483416444
+v050_training_mean,CD94,False,0.5612597203649481
+v050_training_mean,Ig light chain κ,False,0.555149826750911
+v050_training_mean,CD85j (ILT2),False,0.6096574614353563
+v050_training_mean,CD23,False,0.5995122974927838
+v050_training_mean,Ig light chain λ,False,0.5259354057379704
+v050_training_mean,CD328 (Siglec-7),False,0.6899101081889696
+v050_training_mean,GPR56,False,0.8106234260302262
+v050_training_mean,HLA-E.1,False,0.6410102232685357
+v050_training_mean,CD82.1,False,0.6169873016304546
+v050_training_mean,CD101 (BB27),False,0.7291297642680231
+v050_training_mean,CD88 (C5aR),False,0.6297862093385781
+v050_training_mean,CD224,False,0.6702462757564673
+v050_rna_only,CD86.1,False,0.6881116356658906
+v050_rna_only,CD274 (B7-H1; PD-L1),False,0.578822476415729
+v050_rna_only,CD270 (HVEM; TR2),False,0.6106140554928764
+v050_rna_only,CD155 (PVR),False,0.6454326297847299
+v050_rna_only,CD112 (Nectin-2),False,0.6809663772887387
+v050_rna_only,CD47.1,False,0.42604047451750526
+v050_rna_only,CD48.1,False,0.3556205989600419
+v050_rna_only,CD40.1,False,0.903045121697408
+v050_rna_only,CD154,False,0.6070609997794152
+v050_rna_only,CD52.1,False,0.5547877579368631
+v050_rna_only,CD3,False,0.5570748309461057
+v050_rna_only,CD8,False,0.6091579411268118
+v050_rna_only,CD56,False,0.6556202147453548
+v050_rna_only,CD19.1,False,0.9734085256707485
+v050_rna_only,CD33.1,False,0.556377151730213
+v050_rna_only,CD11c,False,0.7472752266568684
+v050_rna_only,HLA-A;B;C,False,0.5471280159158617
+v050_rna_only,CD45RA,False,0.8792341505114021
+v050_rna_only,CD123,False,0.6656065146202712
+v050_rna_only,CD7.1,False,0.742592122227258
+v050_rna_only,CD105,False,0.7000215262844858
+v050_rna_only,anti-human/mouse CD49f,False,0.4517270373560097
+v050_rna_only,CD194 (CCR4),False,0.6460940494139904
+v050_rna_only,CD4.1,False,0.858431673674831
+v050_rna_only,anti-mouse/human CD44,False,0.4627798508573303
+v050_rna_only,CD14.1,False,0.6339793795997045
+v050_rna_only,CD16,False,0.5577421813383209
+v050_rna_only,CD25,True,0.5913960785497054
+v050_rna_only,TIGIT (VSTM3),False,0.565596236496506
+v050_rna_only,CD20,False,1.0120114570104044
+v050_rna_only,CD335 (NKp46),False,0.4863993767537701
+v050_rna_only,CD31,False,0.826281780017484
+v050_rna_only,CD146,False,0.6195565266398827
+v050_rna_only,IgM,False,0.6782452693151482
+v050_rna_only,CD5.1,False,0.5119408486680999
+v050_rna_only,CD183 (CXCR3),False,0.6214028397292592
+v050_rna_only,CD195 (CCR5),False,0.8321404741145833
+v050_rna_only,CD32,False,0.6143132341661508
+v050_rna_only,CD196 (CCR6),False,0.4606482059292206
+v050_rna_only,CD185 (CXCR5),False,0.5072008302027408
+v050_rna_only,CD103 (Integrin αE),False,0.5430539026264566
+v050_rna_only,CD69,True,0.4748738440622148
+v050_rna_only,CD62L,False,0.8530072117237097
+v050_rna_only,CD161,False,0.5673585888105716
+v050_rna_only,CD152 (CTLA-4),False,0.6128233784194941
+v050_rna_only,CD223 (LAG-3),False,0.6755628249896066
+v050_rna_only,KLRG1 (MAFA),False,0.5641075301461819
+v050_rna_only,CD107a (LAMP-1),False,0.6037414102005055
+v050_rna_only,CD95 (Fas),False,0.4681484943750774
+v050_rna_only,CD134 (OX40),False,0.60715305389135
+v050_rna_only,CD1c,False,0.8963365842075065
+v050_rna_only,CD11b,False,0.6208916606734893
+v050_rna_only,CD64,False,0.500810015680069
+v050_rna_only,CD141 (Thrombomodulin),False,0.6940001370088218
+v050_rna_only,CD1d,False,0.7105994310093179
+v050_rna_only,CD314 (NKG2D),False,0.5278404940195891
+v050_rna_only,CD35,False,0.8659180821653842
+v050_rna_only,CD57 Recombinant,False,0.4132562155735859
+v050_rna_only,CD272 (BTLA),False,0.7792970500786314
+v050_rna_only,CD58 (LFA-3),False,0.5716370438092772
+v050_rna_only,CD39,False,0.962907857468067
+v050_rna_only,CX3CR1.1,False,0.6145341689035669
+v050_rna_only,CD24.1,False,0.6960156790583016
+v050_rna_only,CD21,False,0.9802747257403182
+v050_rna_only,CD11a,False,0.3941685621131595
+v050_rna_only,CD79b (Igβ),False,0.6480351591016824
+v050_rna_only,CD244 (2B4),False,0.4840947394445382
+v050_rna_only,CD169 (Sialoadhesin; Siglec-1),False,0.5747419149580091
+v050_rna_only,anti-human/mouse integrin β7,False,0.8611076709398191
+v050_rna_only,CD268 (BAFF-R),False,0.7046497572113142
+v050_rna_only,CD42b,False,0.5185509745079604
+v050_rna_only,CD54,False,0.5191942298503376
+v050_rna_only,CD62P (P-Selectin),False,0.8760531025910497
+v050_rna_only,CD119 (IFN-γ R α chain),False,0.6069167146798373
+v050_rna_only,TCR α/β,False,0.8175834618521339
+v050_rna_only,CD122 (IL-2Rβ),False,0.5235460315398518
+v050_rna_only,CD267 (TACI),False,0.616915962092914
+v050_rna_only,FcεRIα,False,0.808260552672
+v050_rna_only,CD41,False,0.8109601480778021
+v050_rna_only,CD137 (4-1BB),False,0.625326900805559
+v050_rna_only,CD163.1,False,0.8247000428022192
+v050_rna_only,CD83.1,False,0.6616637714252921
+v050_rna_only,CD124 (IL-4Rα),False,0.5954858525432216
+v050_rna_only,CD13,False,0.6859243100701613
+v050_rna_only,CD2.1,False,0.4419737630272227
+v050_rna_only,CD226 (DNAM-1),False,0.5877903177398149
+v050_rna_only,CD29,False,0.42149304866287374
+v050_rna_only,CD303 (BDCA-2),False,0.5008528475804144
+v050_rna_only,CD49b,False,0.7017533026281291
+v050_rna_only,CD81 (TAPA-1),False,0.8527163091494974
+v050_rna_only,IgD,False,0.6716488512489187
+v050_rna_only,CD18,False,0.3156370953821416
+v050_rna_only,CD45,False,0.4271764852061807
+v050_rna_only,CD22.1,False,0.7232419675732507
+v050_rna_only,CD71,False,0.44100175890885573
+v050_rna_only,CD26,False,0.7836178613293608
+v050_rna_only,CD36.1,False,0.8010487253298966
+v050_rna_only,CD158 (KIR2DL1/S1/S3/S5),False,0.4334524091167419
+v050_rna_only,CD49a,False,0.9043887751345239
+v050_rna_only,CD49d,False,0.5334493350474218
+v050_rna_only,CD73 (Ecto-5'-nucleotidase),False,0.9271160383584732
+v050_rna_only,TCR Vα7.2,False,0.6173559563414164
+v050_rna_only,TCR Vδ2,False,0.39329687222798376
+v050_rna_only,LOX-1,False,0.6544259199032109
+v050_rna_only,CD158b (KIR2DL2/L3;  NKAT2),False,0.4782808347247582
+v050_rna_only,CD158e1 (KIR3DL1; NKB1),False,0.6808070937534854
+v050_rna_only,CD319 (CRACC),False,0.5877413592672058
+v050_rna_only,CD99.1,False,0.4626984598221842
+v050_rna_only,CLEC12A.1,False,0.7076457766362063
+v050_rna_only,CD352 (NTB-A),False,0.5969203130217847
+v050_rna_only,CD94,False,0.28751799024550445
+v050_rna_only,Ig light chain κ,False,0.5811204608273587
+v050_rna_only,CD85j (ILT2),False,0.6343801372456768
+v050_rna_only,CD23,False,0.696850168183828
+v050_rna_only,Ig light chain λ,False,0.5406702054232924
+v050_rna_only,CD328 (Siglec-7),False,0.8328130311861182
+v050_rna_only,GPR56,False,0.45929798747242734
+v050_rna_only,HLA-E.1,False,0.6407108757965558
+v050_rna_only,CD82.1,False,0.5459492839266902
+v050_rna_only,CD101 (BB27),False,1.237631988035997
+v050_rna_only,CD88 (C5aR),False,0.6375775329681164
+v050_rna_only,CD224,False,0.6677083415726605
+v050_ungated,CD86.1,False,2.0968685808270068e-17
+v050_ungated,CD274 (B7-H1; PD-L1),False,0.2295046583671069
+v050_ungated,CD270 (HVEM; TR2),False,8.33443489119227e-17
+v050_ungated,CD155 (PVR),False,0.22153895809470475
+v050_ungated,CD112 (Nectin-2),False,0.15882803578560376
+v050_ungated,CD47.1,False,0.24809194773725318
+v050_ungated,CD48.1,False,0.3571560341110756
+v050_ungated,CD40.1,False,0.6366645666164122
+v050_ungated,CD154,False,0.21711942767160514
+v050_ungated,CD52.1,False,0.2468937507420355
+v050_ungated,CD3,False,0.26482499234947954
+v050_ungated,CD8,False,0.5995960030530703
+v050_ungated,CD56,False,0.38853534533105055
+v050_ungated,CD19.1,False,0.7162487122502083
+v050_ungated,CD33.1,False,0.32052980529893355
+v050_ungated,CD11c,False,0.4579165280782945
+v050_ungated,HLA-A;B;C,False,0.34628094602929005
+v050_ungated,CD45RA,False,0.5588806749853005
+v050_ungated,CD123,False,0.24534536207933333
+v050_ungated,CD7.1,False,0.4168682413117037
+v050_ungated,CD105,False,4.6724437540867654e-17
+v050_ungated,anti-human/mouse CD49f,False,0.2902715744360453
+v050_ungated,CD194 (CCR4),False,0.37115050144782746
+v050_ungated,CD4.1,False,0.5176897391136468
+v050_ungated,anti-mouse/human CD44,False,0.2289505387910272
+v050_ungated,CD14.1,False,0.6886122456780494
+v050_ungated,CD16,False,0.3959622532377988
+v050_ungated,CD25,True,0.2153117471099449
+v050_ungated,TIGIT (VSTM3),False,0.25765449158778164
+v050_ungated,CD20,False,0.6647042962654657
+v050_ungated,CD335 (NKp46),False,0.16423492172372142
+v050_ungated,CD31,False,0.5391972419006511
+v050_ungated,CD146,False,0.3211323202038779
+v050_ungated,IgM,False,0.5603125100810458
+v050_ungated,CD5.1,False,0.3084474165229947
+v050_ungated,CD183 (CXCR3),False,0.4383565089750169
+v050_ungated,CD195 (CCR5),False,0.6144364044961994
+v050_ungated,CD32,False,0.5476278250387698
+v050_ungated,CD196 (CCR6),False,0.40679483692880075
+v050_ungated,CD185 (CXCR5),False,0.23376717888209164
+v050_ungated,CD103 (Integrin αE),False,0.3924453672151058
+v050_ungated,CD69,True,0.3375517102730315
+v050_ungated,CD62L,False,0.6548891550542504
+v050_ungated,CD161,False,0.29173956531274337
+v050_ungated,CD152 (CTLA-4),False,0.26021889944353627
+v050_ungated,CD223 (LAG-3),False,0.2043513789541655
+v050_ungated,KLRG1 (MAFA),False,0.35980077628384194
+v050_ungated,CD107a (LAMP-1),False,0.18031695986071544
+v050_ungated,CD95 (Fas),False,0.20734316262579763
+v050_ungated,CD134 (OX40),False,9.458945320020651e-17
+v050_ungated,CD1c,False,0.6371455062747131
+v050_ungated,CD11b,False,0.319087775472583
+v050_ungated,CD64,False,0.3619482332142202
+v050_ungated,CD141 (Thrombomodulin),False,0.2872331236029054
+v050_ungated,CD1d,False,0.2817711866840652
+v050_ungated,CD314 (NKG2D),False,0.2181347218691771
+v050_ungated,CD35,False,0.7029234375568205
+v050_ungated,CD57 Recombinant,False,0.3371506336784399
+v050_ungated,CD272 (BTLA),False,0.2723248543271901
+v050_ungated,CD58 (LFA-3),False,0.11779142048415467
+v050_ungated,CD39,False,0.7033640827684229
+v050_ungated,CX3CR1.1,False,0.38422949433236
+v050_ungated,CD24.1,False,0.27105640417236115
+v050_ungated,CD21,False,0.7632984497583952
+v050_ungated,CD11a,False,0.1945559470845639
+v050_ungated,CD79b (Igβ),False,0.18955957408783558
+v050_ungated,CD244 (2B4),False,0.3288592404153753
+v050_ungated,CD169 (Sialoadhesin; Siglec-1),False,0.17773935725688583
+v050_ungated,anti-human/mouse integrin β7,False,0.7892141954599369
+v050_ungated,CD268 (BAFF-R),False,0.39894619482222576
+v050_ungated,CD42b,False,0.2767512600211187
+v050_ungated,CD54,False,1.3064857633887697e-17
+v050_ungated,CD62P (P-Selectin),False,1.1064374095407703
+v050_ungated,CD119 (IFN-γ R α chain),False,0.16246592630086049
+v050_ungated,TCR α/β,False,0.37906633175604126
+v050_ungated,CD122 (IL-2Rβ),False,3.880906215367925e-18
+v050_ungated,CD267 (TACI),False,0.17961370917272929
+v050_ungated,FcεRIα,False,0.32679671607749505
+v050_ungated,CD41,False,0.8455104909855304
+v050_ungated,CD137 (4-1BB),False,0.1267552925098354
+v050_ungated,CD163.1,False,0.395010473987607
+v050_ungated,CD83.1,False,0.2257557003839113
+v050_ungated,CD124 (IL-4Rα),False,0.16094360049500303
+v050_ungated,CD13,False,0.35196276136698573
+v050_ungated,CD2.1,False,0.28954733614027117
+v050_ungated,CD226 (DNAM-1),False,0.2520180830149511
+v050_ungated,CD29,False,0.17646870750410948
+v050_ungated,CD303 (BDCA-2),False,0.16036902443988416
+v050_ungated,CD49b,False,0.7445271971227132
+v050_ungated,CD81 (TAPA-1),False,0.44957234362230664
+v050_ungated,IgD,False,0.5143664436573494
+v050_ungated,CD18,False,0.3280151425541291
+v050_ungated,CD45,False,0.30459836371306304
+v050_ungated,CD22.1,False,0.4922610524968098
+v050_ungated,CD71,False,0.3715024716834153
+v050_ungated,CD26,False,0.3738703231723305
+v050_ungated,CD36.1,False,0.9134823140416681
+v050_ungated,CD158 (KIR2DL1/S1/S3/S5),False,0.4139690048645338
+v050_ungated,CD49a,False,0.8754174473109717
+v050_ungated,CD49d,False,0.20995219254081846
+v050_ungated,CD73 (Ecto-5'-nucleotidase),False,0.5656385497082109
+v050_ungated,TCR Vα7.2,False,0.4928877594326841
+v050_ungated,TCR Vδ2,False,0.33663337216087685
+v050_ungated,LOX-1,False,0.20329993567676397
+v050_ungated,CD158b (KIR2DL2/L3;  NKAT2),False,0.29493877975637584
+v050_ungated,CD158e1 (KIR3DL1; NKB1),False,0.5903488200256668
+v050_ungated,CD319 (CRACC),False,5.861508101490238e-17
+v050_ungated,CD99.1,False,0.24268206762976097
+v050_ungated,CLEC12A.1,False,0.41063472620240127
+v050_ungated,CD352 (NTB-A),False,0.1939885424970314
+v050_ungated,CD94,False,0.2235822995202518
+v050_ungated,Ig light chain κ,False,0.13833474680992988
+v050_ungated,CD85j (ILT2),False,0.17568141333019352
+v050_ungated,CD23,False,0.2882883459229586
+v050_ungated,Ig light chain λ,False,8.52607701395294e-17
+v050_ungated,CD328 (Siglec-7),False,0.6704911478183442
+v050_ungated,GPR56,False,0.4012518747129592
+v050_ungated,HLA-E.1,False,0.34311110530074224
+v050_ungated,CD82.1,False,0.2957162635061118
+v050_ungated,CD101 (BB27),False,1.19370867633662
+v050_ungated,CD88 (C5aR),False,0.1639801534064533
+v050_ungated,CD224,False,0.4238918923065186
+v050_joint_ridge,CD86.1,False,0.7333850260680969
+v050_joint_ridge,CD274 (B7-H1; PD-L1),False,0.7581591252365129
+v050_joint_ridge,CD270 (HVEM; TR2),False,0.7209983212778862
+v050_joint_ridge,CD155 (PVR),False,0.8280773068939403
+v050_joint_ridge,CD112 (Nectin-2),False,0.7662073587915732
+v050_joint_ridge,CD47.1,False,0.4782705329441983
+v050_joint_ridge,CD48.1,False,0.49784781119109434
+v050_joint_ridge,CD40.1,False,0.8610484796765288
+v050_joint_ridge,CD154,False,0.7171293376733109
+v050_joint_ridge,CD52.1,False,0.7248932862814815
+v050_joint_ridge,CD3,False,0.7864712363412464
+v050_joint_ridge,CD8,False,0.6702033581432776
+v050_joint_ridge,CD56,False,0.6300134092380479
+v050_joint_ridge,CD19.1,False,1.0194037863921004
+v050_joint_ridge,CD33.1,False,0.6667109383954773
+v050_joint_ridge,CD11c,False,0.7054833474470718
+v050_joint_ridge,HLA-A;B;C,False,0.5275240353223094
+v050_joint_ridge,CD45RA,False,0.987345607601229
+v050_joint_ridge,CD123,False,0.6987079340737722
+v050_joint_ridge,CD7.1,False,1.1026945784569577
+v050_joint_ridge,CD105,False,0.8227732570895061
+v050_joint_ridge,anti-human/mouse CD49f,False,0.503009407216617
+v050_joint_ridge,CD194 (CCR4),False,0.789991916121114
+v050_joint_ridge,CD4.1,False,1.0307079290540062
+v050_joint_ridge,anti-mouse/human CD44,False,0.5708250383721807
+v050_joint_ridge,CD14.1,False,0.6316081754790654
+v050_joint_ridge,CD16,False,0.6963012726572766
+v050_joint_ridge,CD25,True,0.8547040565639342
+v050_joint_ridge,TIGIT (VSTM3),False,0.6159406142317381
+v050_joint_ridge,CD20,False,1.0080796045136664
+v050_joint_ridge,CD335 (NKp46),False,0.6671944503351938
+v050_joint_ridge,CD31,False,0.9233984623295358
+v050_joint_ridge,CD146,False,0.7292199361338163
+v050_joint_ridge,IgM,False,0.7298218433909573
+v050_joint_ridge,CD5.1,False,0.8365461601481894
+v050_joint_ridge,CD183 (CXCR3),False,0.7594685993914165
+v050_joint_ridge,CD195 (CCR5),False,0.7851669773081751
+v050_joint_ridge,CD32,False,0.6938162227231046
+v050_joint_ridge,CD196 (CCR6),False,0.660427008215183
+v050_joint_ridge,CD185 (CXCR5),False,0.6539122944062801
+v050_joint_ridge,CD103 (Integrin αE),False,0.7483468811299365
+v050_joint_ridge,CD69,True,0.6626977643090692
+v050_joint_ridge,CD62L,False,1.0948200828183376
+v050_joint_ridge,CD161,False,0.6372560553132436
+v050_joint_ridge,CD152 (CTLA-4),False,0.7297851394979086
+v050_joint_ridge,CD223 (LAG-3),False,0.6905021038921466
+v050_joint_ridge,KLRG1 (MAFA),False,0.5178428167608364
+v050_joint_ridge,CD107a (LAMP-1),False,0.703128849121639
+v050_joint_ridge,CD95 (Fas),False,0.6740555154138169
+v050_joint_ridge,CD134 (OX40),False,0.743317799445388
+v050_joint_ridge,CD1c,False,0.9162296208298132
+v050_joint_ridge,CD11b,False,0.7675653079155221
+v050_joint_ridge,CD64,False,0.5913676447535454
+v050_joint_ridge,CD141 (Thrombomodulin),False,0.7577227903984843
+v050_joint_ridge,CD1d,False,0.7302806997505071
+v050_joint_ridge,CD314 (NKG2D),False,0.6063376986926573
+v050_joint_ridge,CD35,False,0.8826074765414752
+v050_joint_ridge,CD57 Recombinant,False,0.3340769063989797
+v050_joint_ridge,CD272 (BTLA),False,0.8646144429143497
+v050_joint_ridge,CD58 (LFA-3),False,0.6639125510520842
+v050_joint_ridge,CD39,False,0.9194269404983479
+v050_joint_ridge,CX3CR1.1,False,0.6004016126022969
+v050_joint_ridge,CD24.1,False,0.7047579052305385
+v050_joint_ridge,CD21,False,0.9601523157552206
+v050_joint_ridge,CD11a,False,0.4494364263294065
+v050_joint_ridge,CD79b (Igβ),False,0.7593382396442008
+v050_joint_ridge,CD244 (2B4),False,0.46179947829401324
+v050_joint_ridge,CD169 (Sialoadhesin; Siglec-1),False,0.7084117393759906
+v050_joint_ridge,anti-human/mouse integrin β7,False,0.9100694555868554
+v050_joint_ridge,CD268 (BAFF-R),False,0.8642284339317344
+v050_joint_ridge,CD42b,False,0.7043253396119955
+v050_joint_ridge,CD54,False,0.5172273616986985
+v050_joint_ridge,CD62P (P-Selectin),False,1.0475086144438701
+v050_joint_ridge,CD119 (IFN-γ R α chain),False,0.6601877517700894
+v050_joint_ridge,TCR α/β,False,0.9023803956981757
+v050_joint_ridge,CD122 (IL-2Rβ),False,0.571287184466329
+v050_joint_ridge,CD267 (TACI),False,0.6504481696186286
+v050_joint_ridge,FcεRIα,False,0.8677664648669563
+v050_joint_ridge,CD41,False,0.9218482139018793
+v050_joint_ridge,CD137 (4-1BB),False,0.7850074219122967
+v050_joint_ridge,CD163.1,False,0.8767407226328896
+v050_joint_ridge,CD83.1,False,0.7543150459535186
+v050_joint_ridge,CD124 (IL-4Rα),False,0.6553795820423509
+v050_joint_ridge,CD13,False,0.8999881991676224
+v050_joint_ridge,CD2.1,False,0.6293785030113748
+v050_joint_ridge,CD226 (DNAM-1),False,0.6417181743143681
+v050_joint_ridge,CD29,False,0.47574548241963227
+v050_joint_ridge,CD303 (BDCA-2),False,0.668859999778765
+v050_joint_ridge,CD49b,False,0.90249837694821
+v050_joint_ridge,CD81 (TAPA-1),False,0.8317606079383332
+v050_joint_ridge,IgD,False,0.7159103190753158
+v050_joint_ridge,CD18,False,0.35291189308423837
+v050_joint_ridge,CD45,False,0.5381504406804113
+v050_joint_ridge,CD22.1,False,0.7307480973750826
+v050_joint_ridge,CD71,False,0.754825704276779
+v050_joint_ridge,CD26,False,0.9557764532359736
+v050_joint_ridge,CD36.1,False,0.8684011110687366
+v050_joint_ridge,CD158 (KIR2DL1/S1/S3/S5),False,0.5468480000850084
+v050_joint_ridge,CD49a,False,0.82027609965391
+v050_joint_ridge,CD49d,False,0.7109082419924556
+v050_joint_ridge,CD73 (Ecto-5'-nucleotidase),False,1.016957149318894
+v050_joint_ridge,TCR Vα7.2,False,0.6304391359659849
+v050_joint_ridge,TCR Vδ2,False,0.637150628166606
+v050_joint_ridge,LOX-1,False,0.8704845710216571
+v050_joint_ridge,CD158b (KIR2DL2/L3;  NKAT2),False,0.47617905962983037
+v050_joint_ridge,CD158e1 (KIR3DL1; NKB1),False,0.695291733442511
+v050_joint_ridge,CD319 (CRACC),False,0.5822667186489245
+v050_joint_ridge,CD99.1,False,0.5848056091996658
+v050_joint_ridge,CLEC12A.1,False,0.7160336514350505
+v050_joint_ridge,CD352 (NTB-A),False,0.6976199977409652
+v050_joint_ridge,CD94,False,0.35994255486803334
+v050_joint_ridge,Ig light chain κ,False,0.7225364442638591
+v050_joint_ridge,CD85j (ILT2),False,0.617029645887112
+v050_joint_ridge,CD23,False,0.68914089134401
+v050_joint_ridge,Ig light chain λ,False,0.7201877960780015
+v050_joint_ridge,CD328 (Siglec-7),False,0.7361108095680942
+v050_joint_ridge,GPR56,False,0.43625277672572765
+v050_joint_ridge,HLA-E.1,False,0.6887087525288142
+v050_joint_ridge,CD82.1,False,0.6819407274153872
+v050_joint_ridge,CD101 (BB27),False,0.7947480344199251
+v050_joint_ridge,CD88 (C5aR),False,0.6688575334270728
+v050_joint_ridge,CD224,False,0.77653563084582
+v050_two_penalty_ridge,CD86.1,False,0.7333850260680969
+v050_two_penalty_ridge,CD274 (B7-H1; PD-L1),False,0.7581591252365129
+v050_two_penalty_ridge,CD270 (HVEM; TR2),False,0.7209983212778862
+v050_two_penalty_ridge,CD155 (PVR),False,0.8280773068939403
+v050_two_penalty_ridge,CD112 (Nectin-2),False,0.7662073587915732
+v050_two_penalty_ridge,CD47.1,False,0.4782705329441983
+v050_two_penalty_ridge,CD48.1,False,0.49784781119109434
+v050_two_penalty_ridge,CD40.1,False,0.8610484796765288
+v050_two_penalty_ridge,CD154,False,0.7171293376733109
+v050_two_penalty_ridge,CD52.1,False,0.7248932862814815
+v050_two_penalty_ridge,CD3,False,0.7864712363412464
+v050_two_penalty_ridge,CD8,False,0.6702033581432776
+v050_two_penalty_ridge,CD56,False,0.6300134092380479
+v050_two_penalty_ridge,CD19.1,False,1.0194037863921004
+v050_two_penalty_ridge,CD33.1,False,0.6667109383954773
+v050_two_penalty_ridge,CD11c,False,0.7054833474470718
+v050_two_penalty_ridge,HLA-A;B;C,False,0.5275240353223094
+v050_two_penalty_ridge,CD45RA,False,0.987345607601229
+v050_two_penalty_ridge,CD123,False,0.6987079340737722
+v050_two_penalty_ridge,CD7.1,False,1.1026945784569577
+v050_two_penalty_ridge,CD105,False,0.8227732570895061
+v050_two_penalty_ridge,anti-human/mouse CD49f,False,0.503009407216617
+v050_two_penalty_ridge,CD194 (CCR4),False,0.789991916121114
+v050_two_penalty_ridge,CD4.1,False,1.0307079290540062
+v050_two_penalty_ridge,anti-mouse/human CD44,False,0.5708250383721807
+v050_two_penalty_ridge,CD14.1,False,0.6316081754790654
+v050_two_penalty_ridge,CD16,False,0.6963012726572766
+v050_two_penalty_ridge,CD25,True,0.8547040565639342
+v050_two_penalty_ridge,TIGIT (VSTM3),False,0.6159406142317381
+v050_two_penalty_ridge,CD20,False,1.0080796045136664
+v050_two_penalty_ridge,CD335 (NKp46),False,0.6671944503351938
+v050_two_penalty_ridge,CD31,False,0.9233984623295358
+v050_two_penalty_ridge,CD146,False,0.7292199361338163
+v050_two_penalty_ridge,IgM,False,0.7298218433909573
+v050_two_penalty_ridge,CD5.1,False,0.8365461601481894
+v050_two_penalty_ridge,CD183 (CXCR3),False,0.7594685993914165
+v050_two_penalty_ridge,CD195 (CCR5),False,0.7851669773081751
+v050_two_penalty_ridge,CD32,False,0.6938162227231046
+v050_two_penalty_ridge,CD196 (CCR6),False,0.660427008215183
+v050_two_penalty_ridge,CD185 (CXCR5),False,0.6539122944062801
+v050_two_penalty_ridge,CD103 (Integrin αE),False,0.7483468811299365
+v050_two_penalty_ridge,CD69,True,0.6626977643090692
+v050_two_penalty_ridge,CD62L,False,1.0948200828183376
+v050_two_penalty_ridge,CD161,False,0.6372560553132436
+v050_two_penalty_ridge,CD152 (CTLA-4),False,0.7297851394979086
+v050_two_penalty_ridge,CD223 (LAG-3),False,0.6905021038921466
+v050_two_penalty_ridge,KLRG1 (MAFA),False,0.5178428167608364
+v050_two_penalty_ridge,CD107a (LAMP-1),False,0.703128849121639
+v050_two_penalty_ridge,CD95 (Fas),False,0.6740555154138169
+v050_two_penalty_ridge,CD134 (OX40),False,0.743317799445388
+v050_two_penalty_ridge,CD1c,False,0.9162296208298132
+v050_two_penalty_ridge,CD11b,False,0.7675653079155221
+v050_two_penalty_ridge,CD64,False,0.5913676447535454
+v050_two_penalty_ridge,CD141 (Thrombomodulin),False,0.7577227903984843
+v050_two_penalty_ridge,CD1d,False,0.7302806997505071
+v050_two_penalty_ridge,CD314 (NKG2D),False,0.6063376986926573
+v050_two_penalty_ridge,CD35,False,0.8826074765414752
+v050_two_penalty_ridge,CD57 Recombinant,False,0.3340769063989797
+v050_two_penalty_ridge,CD272 (BTLA),False,0.8646144429143497
+v050_two_penalty_ridge,CD58 (LFA-3),False,0.6639125510520842
+v050_two_penalty_ridge,CD39,False,0.9194269404983479
+v050_two_penalty_ridge,CX3CR1.1,False,0.6004016126022969
+v050_two_penalty_ridge,CD24.1,False,0.7047579052305385
+v050_two_penalty_ridge,CD21,False,0.9601523157552206
+v050_two_penalty_ridge,CD11a,False,0.4494364263294065
+v050_two_penalty_ridge,CD79b (Igβ),False,0.7593382396442008
+v050_two_penalty_ridge,CD244 (2B4),False,0.46179947829401324
+v050_two_penalty_ridge,CD169 (Sialoadhesin; Siglec-1),False,0.7084117393759906
+v050_two_penalty_ridge,anti-human/mouse integrin β7,False,0.9100694555868554
+v050_two_penalty_ridge,CD268 (BAFF-R),False,0.8642284339317344
+v050_two_penalty_ridge,CD42b,False,0.7043253396119955
+v050_two_penalty_ridge,CD54,False,0.5172273616986985
+v050_two_penalty_ridge,CD62P (P-Selectin),False,1.0475086144438701
+v050_two_penalty_ridge,CD119 (IFN-γ R α chain),False,0.6601877517700894
+v050_two_penalty_ridge,TCR α/β,False,0.9023803956981757
+v050_two_penalty_ridge,CD122 (IL-2Rβ),False,0.571287184466329
+v050_two_penalty_ridge,CD267 (TACI),False,0.6504481696186286
+v050_two_penalty_ridge,FcεRIα,False,0.8677664648669563
+v050_two_penalty_ridge,CD41,False,0.9218482139018793
+v050_two_penalty_ridge,CD137 (4-1BB),False,0.7850074219122967
+v050_two_penalty_ridge,CD163.1,False,0.8767407226328896
+v050_two_penalty_ridge,CD83.1,False,0.7543150459535186
+v050_two_penalty_ridge,CD124 (IL-4Rα),False,0.6553795820423509
+v050_two_penalty_ridge,CD13,False,0.8999881991676224
+v050_two_penalty_ridge,CD2.1,False,0.6293785030113748
+v050_two_penalty_ridge,CD226 (DNAM-1),False,0.6417181743143681
+v050_two_penalty_ridge,CD29,False,0.47574548241963227
+v050_two_penalty_ridge,CD303 (BDCA-2),False,0.668859999778765
+v050_two_penalty_ridge,CD49b,False,0.90249837694821
+v050_two_penalty_ridge,CD81 (TAPA-1),False,0.8317606079383332
+v050_two_penalty_ridge,IgD,False,0.7159103190753158
+v050_two_penalty_ridge,CD18,False,0.35291189308423837
+v050_two_penalty_ridge,CD45,False,0.5381504406804113
+v050_two_penalty_ridge,CD22.1,False,0.7307480973750826
+v050_two_penalty_ridge,CD71,False,0.754825704276779
+v050_two_penalty_ridge,CD26,False,0.9557764532359736
+v050_two_penalty_ridge,CD36.1,False,0.8684011110687366
+v050_two_penalty_ridge,CD158 (KIR2DL1/S1/S3/S5),False,0.5468480000850084
+v050_two_penalty_ridge,CD49a,False,0.82027609965391
+v050_two_penalty_ridge,CD49d,False,0.7109082419924556
+v050_two_penalty_ridge,CD73 (Ecto-5'-nucleotidase),False,1.016957149318894
+v050_two_penalty_ridge,TCR Vα7.2,False,0.6304391359659849
+v050_two_penalty_ridge,TCR Vδ2,False,0.637150628166606
+v050_two_penalty_ridge,LOX-1,False,0.8704845710216571
+v050_two_penalty_ridge,CD158b (KIR2DL2/L3;  NKAT2),False,0.47617905962983037
+v050_two_penalty_ridge,CD158e1 (KIR3DL1; NKB1),False,0.695291733442511
+v050_two_penalty_ridge,CD319 (CRACC),False,0.5822667186489245
+v050_two_penalty_ridge,CD99.1,False,0.5848056091996658
+v050_two_penalty_ridge,CLEC12A.1,False,0.7160336514350505
+v050_two_penalty_ridge,CD352 (NTB-A),False,0.6976199977409652
+v050_two_penalty_ridge,CD94,False,0.35994255486803334
+v050_two_penalty_ridge,Ig light chain κ,False,0.7225364442638591
+v050_two_penalty_ridge,CD85j (ILT2),False,0.617029645887112
+v050_two_penalty_ridge,CD23,False,0.68914089134401
+v050_two_penalty_ridge,Ig light chain λ,False,0.7201877960780015
+v050_two_penalty_ridge,CD328 (Siglec-7),False,0.7361108095680942
+v050_two_penalty_ridge,GPR56,False,0.43625277672572765
+v050_two_penalty_ridge,HLA-E.1,False,0.6887087525288142
+v050_two_penalty_ridge,CD82.1,False,0.6819407274153872
+v050_two_penalty_ridge,CD101 (BB27),False,0.7947480344199251
+v050_two_penalty_ridge,CD88 (C5aR),False,0.6688575334270728
+v050_two_penalty_ridge,CD224,False,0.77653563084582
+ensemble_cellbridge_v040,CD86.1,False,0.4841359856149592
+ensemble_cellbridge_v040,CD274 (B7-H1; PD-L1),False,0.25228385259246017
+ensemble_cellbridge_v040,CD270 (HVEM; TR2),False,0.1469530358012749
+ensemble_cellbridge_v040,CD155 (PVR),False,0.2945141341457518
+ensemble_cellbridge_v040,CD112 (Nectin-2),False,0.17690564801520786
+ensemble_cellbridge_v040,CD47.1,False,0.24064589890694119
+ensemble_cellbridge_v040,CD48.1,False,0.21418600846938593
+ensemble_cellbridge_v040,CD40.1,False,0.31472572379887637
+ensemble_cellbridge_v040,CD154,False,0.20407791154789398
+ensemble_cellbridge_v040,CD52.1,False,0.2395315768646483
+ensemble_cellbridge_v040,CD3,False,0.31700282226317905
+ensemble_cellbridge_v040,CD8,False,0.5147230123262886
+ensemble_cellbridge_v040,CD56,False,0.2648413789272452
+ensemble_cellbridge_v040,CD19.1,False,0.3734092965889436
+ensemble_cellbridge_v040,CD33.1,False,0.28609500848377833
+ensemble_cellbridge_v040,CD11c,False,0.3408777885839133
+ensemble_cellbridge_v040,HLA-A;B;C,False,0.31874374296516245
+ensemble_cellbridge_v040,CD45RA,False,0.48038240555189055
+ensemble_cellbridge_v040,CD123,False,0.29090556935991196
+ensemble_cellbridge_v040,CD7.1,False,0.46011718110517447
+ensemble_cellbridge_v040,CD105,False,0.22013716599727112
+ensemble_cellbridge_v040,anti-human/mouse CD49f,False,0.23007097976651628
+ensemble_cellbridge_v040,CD194 (CCR4),False,0.3186597755359714
+ensemble_cellbridge_v040,CD4.1,False,0.4124220986446345
+ensemble_cellbridge_v040,anti-mouse/human CD44,False,0.15674223173496182
+ensemble_cellbridge_v040,CD14.1,False,0.6584232634041276
+ensemble_cellbridge_v040,CD16,False,0.39066838994521225
+ensemble_cellbridge_v040,CD25,True,0.17299579364364787
+ensemble_cellbridge_v040,TIGIT (VSTM3),False,0.25166292485254305
+ensemble_cellbridge_v040,CD20,False,0.37015685819988264
+ensemble_cellbridge_v040,CD335 (NKp46),False,0.19881907939299387
+ensemble_cellbridge_v040,CD31,False,0.45926099846977053
+ensemble_cellbridge_v040,CD146,False,0.27571870828532774
+ensemble_cellbridge_v040,IgM,False,0.29998554977893044
+ensemble_cellbridge_v040,CD5.1,False,0.2939024944353721
+ensemble_cellbridge_v040,CD183 (CXCR3),False,0.3679043317124678
+ensemble_cellbridge_v040,CD195 (CCR5),False,0.4104371256395444
+ensemble_cellbridge_v040,CD32,False,0.33709186937467467
+ensemble_cellbridge_v040,CD196 (CCR6),False,0.38584975718803105
+ensemble_cellbridge_v040,CD185 (CXCR5),False,0.24311447065192943
+ensemble_cellbridge_v040,CD103 (Integrin αE),False,0.3167909479117843
+ensemble_cellbridge_v040,CD69,True,0.37276459990585653
+ensemble_cellbridge_v040,CD62L,False,0.6777025027157171
+ensemble_cellbridge_v040,CD161,False,0.22037238795629288
+ensemble_cellbridge_v040,CD152 (CTLA-4),False,0.26861690890539147
+ensemble_cellbridge_v040,CD223 (LAG-3),False,0.20007050278607103
+ensemble_cellbridge_v040,KLRG1 (MAFA),False,0.2681816133689444
+ensemble_cellbridge_v040,CD107a (LAMP-1),False,0.16587045461212493
+ensemble_cellbridge_v040,CD95 (Fas),False,0.17634045760960276
+ensemble_cellbridge_v040,CD134 (OX40),False,0.1508555176430348
+ensemble_cellbridge_v040,CD1c,False,0.2488757363722613
+ensemble_cellbridge_v040,CD11b,False,0.35301944830890375
+ensemble_cellbridge_v040,CD64,False,0.5131153874946964
+ensemble_cellbridge_v040,CD141 (Thrombomodulin),False,0.2378785245534815
+ensemble_cellbridge_v040,CD1d,False,0.26874697854760227
+ensemble_cellbridge_v040,CD314 (NKG2D),False,0.2166081622448166
+ensemble_cellbridge_v040,CD35,False,0.41497277251611886
+ensemble_cellbridge_v040,CD57 Recombinant,False,0.27955375529976867
+ensemble_cellbridge_v040,CD272 (BTLA),False,0.23118341464821607
+ensemble_cellbridge_v040,CD58 (LFA-3),False,0.13989501294171208
+ensemble_cellbridge_v040,CD39,False,0.3702087111682225
+ensemble_cellbridge_v040,CX3CR1.1,False,0.3707226352391872
+ensemble_cellbridge_v040,CD24.1,False,0.15403352155473277
+ensemble_cellbridge_v040,CD21,False,0.3807448086008537
+ensemble_cellbridge_v040,CD11a,False,0.21019415434460348
+ensemble_cellbridge_v040,CD79b (Igβ),False,0.1915992359662298
+ensemble_cellbridge_v040,CD244 (2B4),False,0.3011976056152838
+ensemble_cellbridge_v040,CD169 (Sialoadhesin; Siglec-1),False,0.17216655001106212
+ensemble_cellbridge_v040,anti-human/mouse integrin β7,False,0.720435860084383
+ensemble_cellbridge_v040,CD268 (BAFF-R),False,0.23101742593645294
+ensemble_cellbridge_v040,CD42b,False,0.35038761040834165
+ensemble_cellbridge_v040,CD54,False,0.15252216784404188
+ensemble_cellbridge_v040,CD62P (P-Selectin),False,1.1513017485230368
+ensemble_cellbridge_v040,CD119 (IFN-γ R α chain),False,0.11275543560515108
+ensemble_cellbridge_v040,TCR α/β,False,0.3559914565648078
+ensemble_cellbridge_v040,CD122 (IL-2Rβ),False,0.17567210939542421
+ensemble_cellbridge_v040,CD267 (TACI),False,0.1974077802069281
+ensemble_cellbridge_v040,FcεRIα,False,0.3528039846644589
+ensemble_cellbridge_v040,CD41,False,0.8368546896887625
+ensemble_cellbridge_v040,CD137 (4-1BB),False,0.20281928588323822
+ensemble_cellbridge_v040,CD163.1,False,0.4134851378917347
+ensemble_cellbridge_v040,CD83.1,False,0.2304799405690349
+ensemble_cellbridge_v040,CD124 (IL-4Rα),False,0.15955036460057415
+ensemble_cellbridge_v040,CD13,False,0.3532663586309289
+ensemble_cellbridge_v040,CD2.1,False,0.30634723583960144
+ensemble_cellbridge_v040,CD226 (DNAM-1),False,0.16308277381127725
+ensemble_cellbridge_v040,CD29,False,0.21532542490135548
+ensemble_cellbridge_v040,CD303 (BDCA-2),False,0.2142146004867655
+ensemble_cellbridge_v040,CD49b,False,0.7640277972323128
+ensemble_cellbridge_v040,CD81 (TAPA-1),False,0.38603008263537636
+ensemble_cellbridge_v040,IgD,False,0.18617265069947714
+ensemble_cellbridge_v040,CD18,False,0.18108979208117124
+ensemble_cellbridge_v040,CD45,False,0.23040117949865696
+ensemble_cellbridge_v040,CD22.1,False,0.22243017445779056
+ensemble_cellbridge_v040,CD71,False,0.49904237334009893
+ensemble_cellbridge_v040,CD26,False,0.24711350898540801
+ensemble_cellbridge_v040,CD36.1,False,0.9193971908939371
+ensemble_cellbridge_v040,CD158 (KIR2DL1/S1/S3/S5),False,0.3985718438577509
+ensemble_cellbridge_v040,CD49a,False,0.6080479571013628
+ensemble_cellbridge_v040,CD49d,False,0.1601508510744303
+ensemble_cellbridge_v040,CD73 (Ecto-5'-nucleotidase),False,0.4062704526092185
+ensemble_cellbridge_v040,TCR Vα7.2,False,0.41485883959919845
+ensemble_cellbridge_v040,TCR Vδ2,False,0.3916193421567836
+ensemble_cellbridge_v040,LOX-1,False,0.24851449525949776
+ensemble_cellbridge_v040,CD158b (KIR2DL2/L3;  NKAT2),False,0.31333120213793997
+ensemble_cellbridge_v040,CD158e1 (KIR3DL1; NKB1),False,0.4187896790923363
+ensemble_cellbridge_v040,CD319 (CRACC),False,0.21761546290131978
+ensemble_cellbridge_v040,CD99.1,False,0.22598284546160524
+ensemble_cellbridge_v040,CLEC12A.1,False,0.5210570682539457
+ensemble_cellbridge_v040,CD352 (NTB-A),False,0.23192013405220316
+ensemble_cellbridge_v040,CD94,False,0.20303232897521015
+ensemble_cellbridge_v040,Ig light chain κ,False,0.1657415463526791
+ensemble_cellbridge_v040,CD85j (ILT2),False,0.142588345774671
+ensemble_cellbridge_v040,CD23,False,0.2522235396073385
+ensemble_cellbridge_v040,Ig light chain λ,False,0.18028497735370747
+ensemble_cellbridge_v040,CD328 (Siglec-7),False,0.36126966675601724
+ensemble_cellbridge_v040,GPR56,False,0.3257480155496425
+ensemble_cellbridge_v040,HLA-E.1,False,0.3211731333716198
+ensemble_cellbridge_v040,CD82.1,False,0.18750273823208938
+ensemble_cellbridge_v040,CD101 (BB27),False,0.5276752512609222
+ensemble_cellbridge_v040,CD88 (C5aR),False,0.12964652159271745
+ensemble_cellbridge_v040,CD224,False,0.19452560907265343

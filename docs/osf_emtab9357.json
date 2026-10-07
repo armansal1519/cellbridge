@@ -1,0 +1,7 @@
+{
+  "document": "docs/prereg_emtab9357.md",
+  "protocol": "configs/protocol_cellbridge_v100_emtab9357.json",
+  "osf_url": null,
+  "status": "pending_author_upload",
+  "note": "The author posts the protocol and the preregistration. The freeze records a null URL until that upload exists, and the paper says the public timestamp was not available."
+}

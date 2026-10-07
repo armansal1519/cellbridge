@@ -1,0 +1,73 @@
+{
+  "metacells": [
+    {
+      "sigma": 1.0,
+      "grouping": "cells",
+      "slope_norm_ratio": 0.5084504541934095
+    },
+    {
+      "sigma": 1.0,
+      "grouping": "kmeans",
+      "slope_norm_ratio": 0.49093895780595675
+    },
+    {
+      "sigma": 1.0,
+      "grouping": "oracle_states",
+      "slope_norm_ratio": 0.9296399568210194
+    },
+    {
+      "sigma": 2.0,
+      "grouping": "cells",
+      "slope_norm_ratio": 0.17949412896260558
+    },
+    {
+      "sigma": 2.0,
+      "grouping": "kmeans",
+      "slope_norm_ratio": 0.18895806962295025
+    },
+    {
+      "sigma": 2.0,
+      "grouping": "oracle_states",
+      "slope_norm_ratio": 0.7568245152621829
+    }
+  ],
+  "conformal": {
+    "coverage": 0.895,
+    "n_repeats": 200,
+    "alpha": 0.1,
+    "nominal": 0.9
+  },
+  "scaling": [
+    {
+      "n_cells_per_arm": 10000,
+      "n_donors": 8,
+      "n_features": 30,
+      "build_seconds": 0.029042083013337106,
+      "fit_seconds": 0.0056496249890187755,
+      "peak_rss_bytes": 181338112
+    },
+    {
+      "n_cells_per_arm": 100000,
+      "n_donors": 8,
+      "n_features": 30,
+      "build_seconds": 0.31820595799945295,
+      "fit_seconds": 0.0013328750064829364,
+      "peak_rss_bytes": 284049408
+    },
+    {
+      "n_cells_per_arm": 1000000,
+      "n_donors": 8,
+      "n_features": 30,
+      "build_seconds": 3.1494048750028014,
+      "fit_seconds": 0.0014589999918825924,
+      "peak_rss_bytes": 1252179968
+    },
+    {
+      "method": "totalVI",
+      "n_cells_training": 89906,
+      "fit_seconds": 2349.99,
+      "source": "runs/cellbridge_v100/gse334503/totalvi_log.json",
+      "note": "One prespecified fit on the real training cells. Not re-run."
+    }
+  ]
+}

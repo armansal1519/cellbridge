@@ -1,0 +1,396 @@
+{
+  "project": "ResponseBridge 1.0 - CellBridge replication",
+  "version": "1.0.0-emtab9357",
+  "model": "cellbridge",
+  "seed": 20261007,
+  "dataset": "E-MTAB-9357",
+  "lineage": "T",
+  "control": "BL",
+  "perturbed": "AC",
+  "minimum_cells_per_arm": 30,
+  "estimand": "Per patient, RNA-defined T-cell mean of the deposited log1p(CPM) protein values, follow-up draw (AC) minus baseline (BL). RNA and the anchor proteins are observed in both arms. All other proteins are hidden for calibration and test patients.",
+  "eligibility": "A locked patient is eligible only with both a BL and an AC file and at least 30 RNA-labeled T cells in each arm. Unpaired patients are dropped. Eligibility uses RNA only.",
+  "role_lock": "runs/sealed_v050/emtab9357/patient_roles/donor_roles.json",
+  "role_lock_fingerprint": "ad2aa4c5d2714c2fdc9b8e8817da775f9f0ce7086d6497269a85a26e67c9a56a",
+  "roles_metadata": {
+    "train": [
+      "Healthy_3577BW",
+      "Healthy_5046BW",
+      "Healthy_6130BW",
+      "Healthy_7541BW",
+      "Healthy_BP08191115",
+      "Healthy_CL2",
+      "INCOV001",
+      "INCOV002",
+      "INCOV003",
+      "INCOV008",
+      "INCOV009",
+      "INCOV011",
+      "INCOV012",
+      "INCOV013",
+      "INCOV014",
+      "INCOV018",
+      "INCOV019",
+      "INCOV025",
+      "INCOV026",
+      "INCOV027",
+      "INCOV028",
+      "INCOV031",
+      "INCOV032",
+      "INCOV034",
+      "INCOV036",
+      "INCOV044",
+      "INCOV045",
+      "INCOV051",
+      "INCOV053",
+      "INCOV056",
+      "INCOV057",
+      "INCOV060",
+      "INCOV061",
+      "INCOV063",
+      "INCOV066",
+      "INCOV067",
+      "INCOV068",
+      "INCOV070",
+      "INCOV071",
+      "INCOV074",
+      "INCOV079",
+      "INCOV080",
+      "INCOV083",
+      "INCOV086",
+      "INCOV090",
+      "INCOV094",
+      "INCOV096",
+      "INCOV098",
+      "INCOV103",
+      "INCOV106",
+      "INCOV108",
+      "INCOV110",
+      "INCOV115",
+      "INCOV117",
+      "INCOV119",
+      "INCOV120",
+      "INCOV122",
+      "INCOV123",
+      "INCOV124",
+      "INCOV126",
+      "INCOV128",
+      "INCOV129",
+      "INCOV130",
+      "INCOV131",
+      "INCOV132",
+      "INCOV133",
+      "INCOV135",
+      "INCOV136",
+      "INCOV137",
+      "INCOV141",
+      "INCOV142",
+      "INCOV144",
+      "INCOV145"
+    ],
+    "calibration": [
+      "Healthy_1193BW",
+      "Healthy_2773BW",
+      "Healthy_2982BW",
+      "Healthy_BP0219101",
+      "INCOV004",
+      "INCOV006",
+      "INCOV007",
+      "INCOV010",
+      "INCOV015",
+      "INCOV016",
+      "INCOV017",
+      "INCOV020",
+      "INCOV022",
+      "INCOV030",
+      "INCOV033",
+      "INCOV039",
+      "INCOV040",
+      "INCOV048",
+      "INCOV049",
+      "INCOV052",
+      "INCOV059",
+      "INCOV076",
+      "INCOV077",
+      "INCOV078",
+      "INCOV087",
+      "INCOV091",
+      "INCOV092",
+      "INCOV097",
+      "INCOV100",
+      "INCOV102",
+      "INCOV105",
+      "INCOV109",
+      "INCOV112",
+      "INCOV113",
+      "INCOV127",
+      "INCOV134"
+    ],
+    "test": [
+      "Healthy_1053BW",
+      "Healthy_3126BW",
+      "Healthy_3283BW",
+      "Healthy_BP0319250",
+      "Healthy_BP05191345",
+      "Healthy_Mix_donor1",
+      "INCOV005",
+      "INCOV023",
+      "INCOV024",
+      "INCOV029",
+      "INCOV035",
+      "INCOV041",
+      "INCOV042",
+      "INCOV043",
+      "INCOV047",
+      "INCOV050",
+      "INCOV055",
+      "INCOV058",
+      "INCOV062",
+      "INCOV069",
+      "INCOV072",
+      "INCOV073",
+      "INCOV075",
+      "INCOV081",
+      "INCOV082",
+      "INCOV088",
+      "INCOV093",
+      "INCOV101",
+      "INCOV104",
+      "INCOV107",
+      "INCOV111",
+      "INCOV114",
+      "INCOV116",
+      "INCOV121",
+      "INCOV125",
+      "INCOV147"
+    ]
+  },
+  "expected_paired_before_cell_filter": {
+    "train": 65,
+    "calibration": 31,
+    "test": 29
+  },
+  "anchors_deposited": [
+    "CD38-1",
+    "CD278_ICOS",
+    "CD279_PD-1",
+    "HLA-DR",
+    "CD127_IL-7RA",
+    "CD27-1",
+    "CD28-1",
+    "CD45RO"
+  ],
+  "primary_targets_deposited": [
+    "CD25",
+    "CD69-1"
+  ],
+  "excluded_from_targets": [
+    "Mouse_IgG1_Isotype-Control",
+    "Mouse_IgG2a_Isotype-Control",
+    "Mouse_IgG2b_Isotype-Control",
+    "Rat_IgG2b_Isotype-Control"
+  ],
+  "missing_protein_rule": "Use deposited anchors that are present and require at least 6. If CD25 or CD69-1 is absent, E2 is the only primary endpoint. The metadata gate found all 8 anchors and both primary targets, so this rule is not triggered.",
+  "input_transform": "The ArrayExpress matrices are already log1p(CPM). CellBridge uses those values as its log-normalized RNA and log1p protein. It does not log them again. totalVI and the v0.4 abundance rows receive expm1 of those values (CPM), because raw UMI counts were not deposited. v0.4 abundance uses at most 100 T cells per donor-arm, sampled with the protocol seed. Donor-level RNA and the v0.4 cell rows use the 4000 genes with the highest training-cell variance; inner ridge selection then keeps 2000 of those.",
+  "lineage_rule": "Mean of deposited log1p(CPM) on the v0.5 RNA marker sets. A marker is detected when the value is positive. At least two detected markers and a margin of 0.1. Protein is not used. Atlas annotations are not used.",
+  "cellbridge": {
+    "n_genes": 1000,
+    "gene_rule": "cell",
+    "gene_selection_donors": "training donors only (RNA only); cognate genes of all panel proteins forced in",
+    "technical_covariates": [
+      "log1p RNA UMIs",
+      "log1p RNA genes detected"
+    ],
+    "feature_sets": [
+      "rna",
+      "rna_anchor"
+    ],
+    "metacell_sizes": [
+      1,
+      5,
+      20,
+      60
+    ],
+    "mixes": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.25,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        16.0,
+        0.0
+      ],
+      [
+        64.0,
+        0.0
+      ],
+      [
+        256.0,
+        0.0
+      ]
+    ],
+    "lambdas": [
+      1000000.0,
+      464158.8833612782,
+      215443.46900318822,
+      100000.0,
+      46415.88833612782,
+      21544.346900318866,
+      10000.0,
+      4641.588833612782,
+      2154.4346900318847,
+      1000.0,
+      464.1588833612782,
+      215.44346900318845,
+      100.0,
+      46.41588833612782,
+      21.544346900318867,
+      10.0,
+      4.641588833612782,
+      2.1544346900318865,
+      1.0,
+      0.4641588833612782,
+      0.21544346900318867,
+      0.1,
+      0.04641588833612782,
+      0.021544346900318867,
+      0.01
+    ],
+    "strategy": "shared_top",
+    "top": 0.05,
+    "selection": "Leave-one-training-donor-out over the full grid; average of the best 5% of configurations by target-pooled standardized MAE; no calibration or test outcome is used"
+  },
+  "baselines": {
+    "mean": "training-donor mean response",
+    "rna_ridge": "pseudobulk response ridge on 2000 response-variance HVGs, alpha in {0.1,1,10,100,None} by inner LODO over all hidden targets",
+    "joint_ridge": "as rna_ridge plus anchor responses",
+    "v040_abundance_shrinkage": "ResponseBridge 0.4 estimator, nested alpha x shrinkage by inner LODO over all hidden targets",
+    "totalvi": "scvi-tools TOTALVI, one prespecified fit (see totalvi block); query donors' non-anchor ADTs encoded as missing"
+  },
+  "totalvi": {
+    "n_genes": 4000,
+    "max_epochs": 200,
+    "batch_size": 256,
+    "max_training_cells_per_donor_arm": 1500,
+    "n_samples": 10,
+    "aggregation": "mean log1p of imputed protein counts per arm, transform_batch = training donors"
+  },
+  "metric": "Per donor standardized MAE (absolute error / training-donor response SD per protein), averaged over the endpoint's proteins, then over the test donors",
+  "endpoints": {
+    "E1_primary": "CD25 and CD69-1 (CD69)",
+    "E2_all_hidden": "all non-anchor, non-isotype proteins"
+  },
+  "alpha": 0.05,
+  "testing": "Fixed-sequence testing in the listed order. Each hypothesis is tested at two-sided alpha 0.05 only if every previous null was rejected. The p-value is the sign-flip test in responsebridge.response_downstream_v050.sign_flip_p: exact enumeration for up to 16 test donors, otherwise 10000 random sign flips with seed 20261007. The interval is a paired donor bootstrap with 10000 draws. A comparator that was not run before the seal is skipped and does not consume alpha.",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "endpoint": "E2_all_hidden",
+      "comparator": "mean"
+    },
+    {
+      "id": "H2",
+      "endpoint": "E2_all_hidden",
+      "comparator": "joint_ridge"
+    },
+    {
+      "id": "H3",
+      "endpoint": "E2_all_hidden",
+      "comparator": "rna_ridge"
+    },
+    {
+      "id": "H4",
+      "endpoint": "E1_primary",
+      "comparator": "mean"
+    },
+    {
+      "id": "H5",
+      "endpoint": "E1_primary",
+      "comparator": "joint_ridge"
+    },
+    {
+      "id": "H6",
+      "endpoint": "E1_primary",
+      "comparator": "rna_ridge"
+    },
+    {
+      "id": "H7",
+      "endpoint": "E2_all_hidden",
+      "comparator": "totalvi"
+    },
+    {
+      "id": "H8",
+      "endpoint": "E1_primary",
+      "comparator": "totalvi"
+    },
+    {
+      "id": "H9",
+      "endpoint": "E2_all_hidden",
+      "comparator": "v040_abundance_shrinkage"
+    },
+    {
+      "id": "H10",
+      "endpoint": "E1_primary",
+      "comparator": "v040_abundance_shrinkage"
+    }
+  ],
+  "primary_claim_hypotheses": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6"
+  ],
+  "noninferiority_margin_vs_v040": 0.05,
+  "conformal_alpha": 0.1,
+  "meta_analysis": {
+    "cohorts": [
+      "GSE334503",
+      "E-MTAB-9357"
+    ],
+    "effect": "Per cohort, the mean over test donors of (comparator loss - CellBridge loss) on the endpoint.",
+    "variance": "Sample variance of those donor-level differences, divided by the number of test donors.",
+    "fixed_effect": "Inverse-variance mean.",
+    "random_effects": "DerSimonian-Laird, via responsebridge.response_evaluate_v050.random_effects_mean.",
+    "contrasts": [
+      "mean",
+      "joint_ridge",
+      "rna_ridge",
+      "totalvi",
+      "v040_abundance_shrinkage"
+    ],
+    "endpoints": [
+      "E1_primary",
+      "E2_all_hidden"
+    ],
+    "role": "Secondary. It does not alter the fixed sequence inside either cohort."
+  },
+  "frozen_method": "src/responsebridge/cellbridge.py and src/responsebridge/cellbridge_data.py must match the SHA-256 values in runs/cellbridge_v100/gse334503/freeze.json. Panel names and the deposited transform live only in this protocol and the cohort adapter.",
+  "preregistration": {
+    "document": "docs/prereg_emtab9357.md",
+    "osf_url": null,
+    "osf_status": "pending_author_upload",
+    "rule": "Upload this protocol and docs/prereg_emtab9357.md before unblinding. The freeze stores their hashes. A null OSF URL means the public timestamp was not available; the paper must say so."
+  },
+  "gse334503_status": "Already unblinded. Not re-fit. Its donor-level losses enter the meta-analysis as a locked result.",
+  "v040_cells_per_arm": 100,
+  "v040_n_genes": 4000,
+  "dry_run_split": {
+    "train": 8,
+    "calibration": 4,
+    "source": "eligible training patients, sorted by id; real calibration and test patients are not used"
+  }
+}

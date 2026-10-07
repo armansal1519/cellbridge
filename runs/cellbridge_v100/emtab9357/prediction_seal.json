@@ -1,0 +1,10 @@
+{
+  "dry_run": false,
+  "files": {
+    "core.npz": "a4dc5829405bdb6da5e61f2dd917af2bc4b360d59146c5503703a2d10132e9d4",
+    "totalvi.npz": "c21dd87b3f5fe19fdb7115eaa76263a2faa1cb6d84376abde2ffdc50a55fdd32"
+  },
+  "hidden_outcomes_opened": false,
+  "sealed_at": "2026-10-07T19:02:05.865408+00:00",
+  "status": "sealed"
+}

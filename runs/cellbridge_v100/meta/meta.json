@@ -1,0 +1,285 @@
+{
+  "results": [
+    {
+      "cohorts": [
+        {
+          "cohort": "GSE334503",
+          "mean": 0.22715682856217798,
+          "n_donors": 10,
+          "variance": 0.0019234247439481485
+        },
+        {
+          "cohort": "E-MTAB-9357",
+          "mean": 0.3587832446559099,
+          "n_donors": 29,
+          "variance": 0.038285510112207356
+        }
+      ],
+      "contrast": "mean",
+      "endpoint": "E1_primary",
+      "fixed_effect_mean": 0.23345327751258188,
+      "fixed_effect_se": 0.0427950495938542,
+      "random_effects": {
+        "df": 1,
+        "mean": 0.23345327751258188,
+        "p_heterogeneity": 0.5115539572239418,
+        "q": 0.4308871517154332,
+        "se": 0.0427950495938542,
+        "tau2": 0.0
+      }
+    },
+    {
+      "cohorts": [
+        {
+          "cohort": "GSE334503",
+          "mean": 0.4721839375118275,
+          "n_donors": 10,
+          "variance": 0.023698469371788055
+        },
+        {
+          "cohort": "E-MTAB-9357",
+          "mean": 0.3587832446559099,
+          "n_donors": 29,
+          "variance": 0.038285510112207356
+        }
+      ],
+      "contrast": "joint_ridge",
+      "endpoint": "E1_primary",
+      "fixed_effect_mean": 0.4288272045502174,
+      "fixed_effect_se": 0.12098670238852773,
+      "random_effects": {
+        "df": 1,
+        "mean": 0.4288272045502174,
+        "p_heterogeneity": 0.648758922489673,
+        "q": 0.20746840146852163,
+        "se": 0.12098670238852773,
+        "tau2": 0.0
+      }
+    },
+    {
+      "cohorts": [
+        {
+          "cohort": "GSE334503",
+          "mean": 0.5156735040359185,
+          "n_donors": 10,
+          "variance": 0.028320603856877836
+        },
+        {
+          "cohort": "E-MTAB-9357",
+          "mean": 0.3587832446559099,
+          "n_donors": 29,
+          "variance": 0.038285510112207356
+        }
+      ],
+      "contrast": "rna_ridge",
+      "endpoint": "E1_primary",
+      "fixed_effect_mean": 0.44896450961888446,
+      "fixed_effect_se": 0.12758846881586483,
+      "random_effects": {
+        "df": 1,
+        "mean": 0.44896450961888446,
+        "p_heterogeneity": 0.54324749602499,
+        "q": 0.3695539646668333,
+        "se": 0.12758846881586483,
+        "tau2": 0.0
+      }
+    },
+    {
+      "cohorts": [
+        {
+          "cohort": "GSE334503",
+          "mean": 0.1090026195853649,
+          "n_donors": 10,
+          "variance": 0.001402780208310981
+        },
+        {
+          "cohort": "E-MTAB-9357",
+          "mean": 0.3988659665160513,
+          "n_donors": 29,
+          "variance": 0.04014084541500416
+        }
+      ],
+      "contrast": "totalvi",
+      "endpoint": "E1_primary",
+      "fixed_effect_mean": 0.11879027196496238,
+      "fixed_effect_se": 0.036815938383909175,
+      "random_effects": {
+        "df": 1,
+        "mean": 0.18711303810957114,
+        "p_heterogeneity": 0.1549867981444838,
+        "q": 2.0224705627692074,
+        "se": 0.1286083584435958,
+        "tau2": 0.021238567135272092
+      }
+    },
+    {
+      "cohorts": [
+        {
+          "cohort": "GSE334503",
+          "mean": 0.03155453009953333,
+          "n_donors": 10,
+          "variance": 0.0019181627264929166
+        },
+        {
+          "cohort": "E-MTAB-9357",
+          "mean": -0.0033876483648129,
+          "n_donors": 29,
+          "variance": 0.0013113035019463874
+        }
+      ],
+      "contrast": "v040_abundance_shrinkage",
+      "endpoint": "E1_primary",
+      "fixed_effect_mean": 0.010800393170483188,
+      "fixed_effect_se": 0.02790801582895725,
+      "random_effects": {
+        "df": 1,
+        "mean": 0.010800393170483188,
+        "p_heterogeneity": 0.5386393608990231,
+        "q": 0.3780673800153872,
+        "se": 0.02790801582895725,
+        "tau2": 0.0
+      }
+    },
+    {
+      "cohorts": [
+        {
+          "cohort": "GSE334503",
+          "mean": 0.32097827393739176,
+          "n_donors": 10,
+          "variance": 0.0021115745968667125
+        },
+        {
+          "cohort": "E-MTAB-9357",
+          "mean": 0.35313467170193014,
+          "n_donors": 29,
+          "variance": 0.021731946900233237
+        }
+      ],
+      "contrast": "mean",
+      "endpoint": "E2_all_hidden",
+      "fixed_effect_mean": 0.32382603418348627,
+      "fixed_effect_se": 0.043869969564017855,
+      "random_effects": {
+        "df": 1,
+        "mean": 0.32382603418348627,
+        "p_heterogeneity": 0.8350348244833207,
+        "q": 0.043367499944040426,
+        "se": 0.043869969564017855,
+        "tau2": 0.0
+      }
+    },
+    {
+      "cohorts": [
+        {
+          "cohort": "GSE334503",
+          "mean": 0.3996534940908161,
+          "n_donors": 10,
+          "variance": 0.019801527978930148
+        },
+        {
+          "cohort": "E-MTAB-9357",
+          "mean": 0.35313467170193014,
+          "n_donors": 29,
+          "variance": 0.021731946900233237
+        }
+      ],
+      "contrast": "joint_ridge",
+      "endpoint": "E2_all_hidden",
+      "fixed_effect_mean": 0.3774751484127729,
+      "fixed_effect_se": 0.10178869246700298,
+      "random_effects": {
+        "df": 1,
+        "mean": 0.3774751484127729,
+        "p_heterogeneity": 0.8194442149568447,
+        "q": 0.05210257130530527,
+        "se": 0.10178869246700298,
+        "tau2": 0.0
+      }
+    },
+    {
+      "cohorts": [
+        {
+          "cohort": "GSE334503",
+          "mean": 0.43246183578815545,
+          "n_donors": 10,
+          "variance": 0.023602740181295066
+        },
+        {
+          "cohort": "E-MTAB-9357",
+          "mean": 0.35313467170193014,
+          "n_donors": 29,
+          "variance": 0.021731946900233237
+        }
+      ],
+      "contrast": "rna_ridge",
+      "endpoint": "E2_all_hidden",
+      "fixed_effect_mean": 0.3911614857961287,
+      "fixed_effect_se": 0.10636903500000867,
+      "random_effects": {
+        "df": 1,
+        "mean": 0.3911614857961287,
+        "p_heterogeneity": 0.7094693116546704,
+        "q": 0.13880759672270743,
+        "se": 0.10636903500000867,
+        "tau2": 0.0
+      }
+    },
+    {
+      "cohorts": [
+        {
+          "cohort": "GSE334503",
+          "mean": 0.07225691845272661,
+          "n_donors": 10,
+          "variance": 0.0004705312853803329
+        },
+        {
+          "cohort": "E-MTAB-9357",
+          "mean": 0.37374614192796507,
+          "n_donors": 29,
+          "variance": 0.024514909753621087
+        }
+      ],
+      "contrast": "totalvi",
+      "endpoint": "E2_all_hidden",
+      "fixed_effect_mean": 0.07793462938961515,
+      "fixed_effect_se": 0.021486510591418734,
+      "random_effects": {
+        "df": 1,
+        "mean": 0.18312551374258773,
+        "p_heterogeneity": 0.05647647896105723,
+        "q": 3.637948664977221,
+        "se": 0.14537483028428136,
+        "tau2": 0.032955155416350246
+      }
+    },
+    {
+      "cohorts": [
+        {
+          "cohort": "GSE334503",
+          "mean": 0.03700449974877331,
+          "n_donors": 10,
+          "variance": 0.0005501631108213551
+        },
+        {
+          "cohort": "E-MTAB-9357",
+          "mean": 0.0013596158815060758,
+          "n_donors": 29,
+          "variance": 0.00022572423582137952
+        }
+      ],
+      "contrast": "v040_abundance_shrinkage",
+      "endpoint": "E2_all_hidden",
+      "fixed_effect_mean": 0.01172956740435974,
+      "fixed_effect_se": 0.012651309912046391,
+      "random_effects": {
+        "df": 1,
+        "mean": 0.014631069849964857,
+        "p_heterogeneity": 0.2006613433453983,
+        "q": 1.6375544096816022,
+        "se": 0.017231597285758966,
+        "tau2": 0.0002473351996341166
+      }
+    }
+  ],
+  "role": "Secondary. It does not alter the fixed sequence inside either cohort."
+}
