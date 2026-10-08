@@ -1,0 +1,171 @@
+%% Bioinformatics submission skeleton.
+%% Scientific sections are placeholders. Write them from OUTLINE.md.
+%% Do not leave FILLER or AUTHOR-PLACEHOLDER in the file you submit.
+\ifdefined\pdfminorversion
+  \pdfminorversion=5
+\fi
+\documentclass[unnumsec,webpdf,contemporary,large,namedate]{oup-authoring-template}
+\usepackage{booktabs}
+\usepackage[right]{lineno}
+\linenumbers
+\graphicspath{{../figures/}}
+\newcommand{\societylogo}{}
+\input{../numbers}
+
+\begin{document}
+
+\journaltitle{Bioinformatics}
+\DOI{Added during production}
+\copyrightyear{2026}
+\pubyear{2026}
+\vol{XX}
+\issue{x}
+\access{Date added during production}
+\appnotes{Original Paper}
+\firstpage{1}
+
+\title[CellBridge donor protein responses]{CellBridge: fast, closed-form prediction of donor protein responses from RNA and a small antibody panel}
+
+\author[1,$\ast$]{Arman Salehi}
+
+\address[1]{\orgdiv{Department to be added}, \orgname{Institution to be added}, \orgaddress{\street{Street to be added}, \postcode{Postal code to be added}, \state{City to be added}, \country{Country to be added}}}
+
+\corresp[$\ast$]{Corresponding author. \href{mailto:armansal1519@gmail.com}{armansal1519@gmail.com}. Replace with an institutional address if you have one. ORCID to be added.}
+
+%%ABSTRACT-START
+\abstract{%
+\textbf{Motivation:} AUTHOR: scientific question, at most 150 words for the whole abstract.\\
+\textbf{Results:} AUTHOR: what was found. Use the macros in \texttt{numbers.tex}.\\
+\textbf{Availability and implementation:} Source code and a synthetic test are MIT-licensed at \url{https://github.com/armansal1519/cellbridge}, tag \texttt{v1.0.1}. SWHID: SWHID-PENDING.\\
+\textbf{Contact:} \href{mailto:armansal1519@gmail.com}{armansal1519@gmail.com}\\
+\textbf{Supplementary information:} Supplementary data are available at \textit{Bioinformatics} online.%
+}
+%%ABSTRACT-END
+
+\keywords{CITE-seq, donor response, surface protein, antibody panel, closed form}
+
+\maketitle
+
+\section{Introduction}
+\label{sec:introduction}
+%%BUDGET:700
+AUTHOR-PLACEHOLDER
+
+\section{Methods}
+\label{sec:methods}
+%%BUDGET:1400
+AUTHOR-PLACEHOLDER
+
+\subsection{Training, cross-validation and the independent test}
+\label{sec:ml}
+%%BUDGET:300
+AUTHOR-PLACEHOLDER
+
+\section{Implementation}
+\label{sec:implementation}
+%%BUDGET:350
+AUTHOR-PLACEHOLDER
+
+\section{Results}
+\label{sec:results}
+%%BUDGET:1200
+AUTHOR-PLACEHOLDER
+
+\begin{figure*}
+\centering
+\includegraphics[width=174mm]{figure1_model.pdf}
+\caption{AUTHOR: write this legend from OUTLINE.md.}
+\label{fig:model}
+\end{figure*}
+Alt text: Panel a lists the three steps of the task: both arms observed for RNA and eight anchors, the donor-level change, and the hidden proteins. Panel b shows the equation of one slope per protein after donor effects are removed. Panel c is a horizontal bar chart of the largest terms in one CD69 prediction. Teal bars are anchor antibodies and grey bars are genes.
+
+% Figure 2 is Supplementary Figure 1. See PAGE_FIT.md.
+
+\begin{table*}
+\centering
+\caption{AUTHOR: write this title from OUTLINE.md.}
+\label{tab:cohorts}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+ & GSE334503 & E-MTAB-9357 \\
+\midrule
+Contrast & Typhim Vi, day 7 minus day 0 & Follow-up minus baseline \\
+Lineage & T cells & T cells \\
+Train / calibration / test & \NGseTrain{} / \NGseCal{} / \NGseTest{} & \NEmTrain{} / \NEmCal{} / \NEmTest{} \\
+Anchors & 8, prespecified & the same 8, after name aliasing \\
+Primary proteins & CD25, CD69 & CD25, CD69 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{figure*}
+\centering
+\includegraphics[width=174mm]{figure3_gse334503.pdf}
+\caption{AUTHOR: write this legend from OUTLINE.md.}
+\label{fig:gse}
+\end{figure*}
+Alt text: Panel a plots donor-level gains of CellBridge over five comparators on all hidden proteins for the GSE334503 test. Panel b is a forest plot of hypotheses H1 to H10. Teal intervals were rejected, orange was tested and not rejected, and grey was not tested. Panel c plots predicted against observed CD25 and CD69 responses.
+
+\begin{figure*}
+\centering
+\includegraphics[width=174mm]{figure4_emtab9357.pdf}
+\caption{AUTHOR: write this legend from OUTLINE.md.}
+\label{fig:emtab}
+\end{figure*}
+Alt text: The layout matches the GSE334503 figure, for 29 E-MTAB-9357 test donors. In panel b the sequence stops at H4. Panel d connects each donor's CellBridge error to its RNA-only error. A black line marks the mean. Some totalVI gains are above the axis and are counted in the corner of panel a.
+
+\begin{table*}
+\centering
+\caption{AUTHOR: write this title from OUTLINE.md.}
+\label{tab:main}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+ & \multicolumn{2}{c}{GSE334503} & \multicolumn{2}{c}{E-MTAB-9357} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+ & E1 & E2 & E1 & E2 \\
+\midrule
+CellBridge & \MaeGseCbEone & \MaeGseCbEtwo & \MaeEmCbEone & \MaeEmCbEtwo \\
+Abundance shrinkage & \MaeGseAbEone & \MaeGseAbEtwo & \MaeEmAbEone & \MaeEmAbEtwo \\
+totalVI & \MaeGseTvEone & \MaeGseTvEtwo & \MaeEmTvEone & \MaeEmTvEtwo \\
+RNA-only CellBridge & \MaeGseRoEone & \MaeGseRoEtwo & \MaeEmRoEone & \MaeEmRoEtwo \\
+Joint ridge & \MaeGseJtEone & \MaeGseJtEtwo & \MaeEmJtEone & \MaeEmJtEtwo \\
+RNA ridge & \MaeGseRnEone & \MaeGseRnEtwo & \MaeEmRnEone & \MaeEmRnEtwo \\
+Training mean & \MaeGseMnEone & \MaeGseMnEtwo & \MaeEmMnEone & \MaeEmMnEtwo \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{figure*}
+\centering
+\includegraphics[width=174mm]{figure5_synthesis.pdf}
+\caption{AUTHOR: write this legend from OUTLINE.md.}
+\label{fig:both}
+\end{figure*}
+Alt text: Panel a shows donor-level gains in both cohorts and the random-effects estimate. Panel b shows split-conformal coverage near the nominal level. The GSE334503 totalVI coverage bar is absent. Panel c compares fit time on a log scale for CellBridge and totalVI.
+
+% Figure 6 is Supplementary Figure 2. See PAGE_FIT.md.
+
+\section{Discussion}
+\label{sec:discussion}
+%%BUDGET:600
+AUTHOR-PLACEHOLDER
+
+\section{Acknowledgements}
+\subsection{Funding}
+This work received no specific funding. Confirm or replace this sentence before submission.
+
+The manuscript text is written by the author. A language model was used to search for candidate references, to draft software documentation and these formal statements, to generate figure scripts, and to produce an earlier draft that is not submitted. The supplement lists each use.
+
+\subsection{Conflict of interest}
+None declared. Confirm or replace this sentence before submission.
+
+\section{Data availability}
+GSE334503 is the Zenodo record \cite{king2026data}. E-MTAB-9357 is the ArrayExpress study of the same name \cite{emtab9357data}. The Lawlor development matrices are the Human Cell Atlas project used by \cite{lawlor2021data}. Sealed predictions, decisions and donor-level losses are in the code repository. The outcome vault used at unblinding is not included. Count matrices are not redistributed.
+
+\section{Code availability}
+CellBridge 1.0.1 is MIT-licensed at \url{https://github.com/armansal1519/cellbridge}. The archived snapshot is SWHID-PENDING. The repository contains the frozen solver, both protocols, a synthetic test with its expected output, and the commands that reproduce the sealed results when the count matrices are supplied by the user.
+
+\bibliographystyle{oup-abbrvnat}
+\bibliography{references}
+
+\end{document}

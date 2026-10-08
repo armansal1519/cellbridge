@@ -7,4 +7,4 @@ the tutorial.
 from .api import FittedCellBridge, fit, fit_anndata
 
 __all__ = ["FittedCellBridge", "fit", "fit_anndata"]
-__version__ = "1.0.0"
+__version__ = "1.0.1"

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cellbridge"
-version = "1.0.0"
+version = "1.0.1"
 description = "Closed-form prediction of donor protein responses from RNA and a small antibody panel"
 readme = "README.md"
 requires-python = ">=3.11,<3.13"

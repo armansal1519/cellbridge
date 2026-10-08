@@ -47,4 +47,4 @@ python scripts/cellbridge_numbers_v100.py
 python scripts/cellbridge_paper_figures_v100.py
 ```
 
-`paper/main.tex` and `paper/supplement.tex` compile with [tectonic](https://tectonic-typesetting.github.io/). The numbers in the text come from `paper/numbers.tex`.
+`paper/submission/main.tex` and `paper/submission/supplement.tex` compile with [tectonic](https://tectonic-typesetting.github.io/). The numbers in the text come from `paper/numbers.tex`. The scientific sections are placeholders.

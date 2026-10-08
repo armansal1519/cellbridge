@@ -1,0 +1,79 @@
+# References
+
+Each DOI below was returned by doi.org for that identifier. Cite about 35 to 45 of these in the manuscript. `OUTLINE.md` says which claim each group supports.
+
+Not added:
+
+- The DOI 10.1186/s13059-022-02627-9 is HyperChIP, not dsb. dsb is `mule2022`.
+- The DOI 10.1186/s13059-022-02647-5 is a Brassica paper, not SuperCell. SuperCell is `bilous2022`.
+- The DOI 10.1111/rssb.12377 is a black-box visualization paper, not sign flipping. Sign flipping is `hemerik2020`.
+- The DOI 10.1038/s41592-023-01905-1 did not resolve. CPA is `lotfollahi2023`.
+- The DOI 10.1016/S0378-3758(00)00325-3 did not resolve. The fixed-sequence paper is `westfall2001`.
+- The CiteSeer DOI for scikit-learn did not resolve. `pedregosa2011` uses the JMLR page.
+- No protein-imputation benchmark was added. A Crossref search did not return a paper whose title was that benchmark. `luecken2022` is an integration benchmark.
+- `savi2026` is renamed `king2026data`. The arXiv-only conformal entry is replaced by `angelopoulos2023`.
+
+- `ahlmann2025` (2025). linear baselines for perturbation prediction. Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines DOI:10.1038/s41592-025-02772-6
+- `angelopoulos2023` (2023). published conformal guide. Replaces the arXiv-only entry. Conformal Prediction: A Gentle Introduction DOI:10.1561/2200000101
+- `argelaguet2020` (2020). MOFA+. MOFA+: a statistical framework for comprehensive integration of multi-modal single-cell data DOI:10.1186/s13059-020-02015-1
+- `ashuach2023` (2023). MultiVI. MultiVI: deep generative model for the integration of multimodal data DOI:10.1038/s41592-023-01909-9
+- `baran2019` (2019). MetaCell. MetaCell: analysis of single-cell RNA-seq data using K-nn graph partitions DOI:10.1186/s13059-019-1812-2
+- `bilous2022` (2022). SuperCell metacells. Metacells untangle large and complex single-cell transcriptome networks DOI:10.1186/s12859-022-04861-1
+- `buchka2021` (2021). optimistic evaluation of a new method. On the optimistic performance evaluation of newly introduced bioinformatic methods DOI:10.1186/s13059-021-02365-4
+- `bunne2023` (2023). CellOT. Learning single-cell perturbation responses using neural optimal transport DOI:10.1038/s41592-023-01969-x
+- `cibrian2017` (2017). CD69. CD69: from activation marker to metabolic gatekeeper DOI:10.1002/eji.201646837
+- `crowell2020` (2020). muscat, multi-sample differential state. muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data DOI:10.1038/s41467-020-19894-4
+- `dersimonian1986` (1986). random-effects meta-analysis. Meta-analysis in clinical trials DOI:10.1016/0197-2456(86)90046-2
+- `du2022` (2022). scVAEIT. Robust probabilistic modeling for single-cell multimodal mosaic integration and imputation via scVAEIT DOI:10.1073/pnas.2214414119
+- `efron1979` (1979). bootstrap. Bootstrap Methods: Another Look at the Jackknife DOI:10.1214/aos/1176344552
+- `fuller1987` (1987). measurement-error models. Measurement Error Models DOI:10.1002/9780470316665
+- `gayoso2021` (2021). totalVI. Joint probabilistic modeling of single-cell multi-omic data with totalVI DOI:10.1038/s41592-020-01050-x
+- `gayoso2022` (2022). scvi-tools, the library used for totalVI. A Python library for probabilistic analysis of single-cell omics data DOI:10.1038/s41587-021-01206-w
+- `hager1989` (1989). Woodbury identity. Updating the Inverse of a Matrix DOI:10.1137/1031049
+- `hanhart2024` (2024). scLinear. Not a sealed comparator. ScLinear predicts protein abundance at single-cell resolution DOI:10.1038/s42003-024-05958-4
+- `hao2021` (2021). multimodal Seurat integration. Integrated analysis of multimodal single-cell data DOI:10.1016/j.cell.2021.04.048
+- `hao2024` (2023). Seurat v5 dictionary learning. Dictionary learning for integrative, multimodal and scalable single-cell analysis DOI:10.1038/s41587-023-01767-y
+- `harris2020` (2020). NumPy. Array programming with NumPy DOI:10.1038/s41586-020-2649-2
+- `hemerik2020` (2020). sign-flip tests. Robust Testing in Generalized Linear Models by Sign Flipping Score Contributions DOI:10.1111/rssb.12369
+- `higgins2002` (2002). heterogeneity in a meta-analysis. Quantifying heterogeneity in a meta‐analysis DOI:10.1002/sim.1186
+- `hoerl1970` (1970). ridge regression. Ridge Regression: Biased Estimation for Nonorthogonal Problems DOI:10.1080/00401706.1970.10488634
+- `hunter2007` (2007). matplotlib. Matplotlib: A 2D Graphics Environment DOI:10.1109/MCSE.2007.55
+- `junttila2022` (2022). false positives from cell-level tests. Exaggerated false positives by popular differential expression methods when analyzing human population samples DOI:10.1186/s13059-022-02648-4
+- `kapoor2023` (2023). leakage. Leakage and the reproducibility crisis in machine-learning-based science DOI:10.1016/j.patter.2023.100804
+- `king2026data` (2026). [dataset] GSE334503 on Zenodo. Replaces the key savi2026. Mapping immune cellular landscapes and vaccine responses across a spectrum of health and immunodeficiency with single-cell RNA-seq. DOI:10.5281/zenodo.20266085
+- `kotliarov2020` (2020). vaccine-response set points. Broad immune activation underlies shared set point signatures for vaccine responsiveness in healthy individuals and disease activity in patients with lupus DOI:10.1038/s41591-020-0769-8
+- `lakkis2022` (2022). sciPENN protein prediction. Not a sealed comparator. A multi-use deep learning method for CITE-seq and single-cell RNA-seq data integration with cell surface protein prediction and imputation DOI:10.1038/s42256-022-00545-w
+- `lawlor2021` (2021). the Lawlor stimulation paper. Development only. Single Cell Analysis of Blood Mononuclear Cells Stimulated Through Either LPS or Anti-CD3 and Anti-CD28 DOI:10.3389/fimmu.2021.636720
+- `lei2018` (2018). split conformal prediction. Distribution-Free Predictive Inference for Regression DOI:10.1080/01621459.2017.1307116
+- `lin2023` (2023). shared and distinct information in multimodal data. Quantifying common and distinct information in single-cell multimodal data with Tilted Canonical Correlation Analysis DOI:10.1073/pnas.2303647120
+- `lopez2018` (2018). scVI. Deep generative modeling for single-cell transcriptomics DOI:10.1038/s41592-018-0229-2
+- `lotfollahi2019` (2019). scGen perturbation prediction. scGen predicts single-cell perturbation responses DOI:10.1038/s41592-019-0494-8
+- `lotfollahi2023` (2023). CPA perturbation prediction. Predicting cellular responses to complex perturbations in high‐throughput screens DOI:10.15252/msb.202211517
+- `luecken2022` (2021). atlas-level integration benchmark, not a protein-imputation benchmark. Benchmarking atlas-level data integration in single-cell genomics DOI:10.1038/s41592-021-01336-8
+- `malek2010` (2010). IL-2 receptor and CD25. Interleukin-2 Receptor Signaling: At the Interface between Tolerance and Immunity DOI:10.1016/j.immuni.2010.08.004
+- `mathew2020` (2020). COVID-19 T-cell immunotypes. Deep immune profiling of COVID-19 patients reveals distinct immunotypes with therapeutic implications DOI:10.1126/science.abc8511
+- `mckinney2010` (2010). pandas. Data Structures for Statistical Computing in Python DOI:10.25080/Majora-92bf1922-00a
+- `mimitou2019` (2019). ECCITE-seq. Multiplexed detection of proteins, transcriptomes, clonotypes and CRISPR perturbations in single cells DOI:10.1038/s41592-019-0392-0
+- `mule2022` (2022). dsb denoising of droplet protein counts. Normalizing and denoising protein expression data from droplet-based single cell profiling DOI:10.1038/s41467-022-29356-8
+- `nosek2018` (2018). preregistration. The preregistration revolution DOI:10.1073/pnas.1708274114
+- `persad2023` (2023). SEACells. SEACells infers transcriptional and epigenomic cellular states from single-cell genomics data DOI:10.1038/s41587-023-01716-9
+- `peterson2017` (2017). REAP-seq, protein and RNA in the same cell. Multiplexed quantification of proteins and transcripts in single cells DOI:10.1038/nbt.3973
+- `piaggio2012` (2012). non-inferiority reporting. Reporting of Noninferiority and Equivalence Randomized Trials DOI:10.1001/jama.2012.87802
+- `roohani2024` (2023). GEARS. Predicting transcriptional outcomes of novel multigene perturbations with GEARS DOI:10.1038/s41587-023-01905-6
+- `squair2021` (2021). false discoveries when cells are treated as replicates. Confronting false discoveries in single-cell differential expression DOI:10.1038/s41467-021-25960-2
+- `stoeckius2017` (2017). CITE-seq. Simultaneous epitope and transcriptome measurement in single cells DOI:10.1038/nmeth.4380
+- `stoeckius2018` (2018). cell hashing. Cell Hashing with barcoded antibodies enables multiplexing and doublet detection for single cell genomics DOI:10.1186/s13059-018-1603-1
+- `stuart2019` (2019). Seurat v3 integration. Comprehensive Integration of Single-Cell Data DOI:10.1016/j.cell.2019.05.031
+- `su2020` (2020). the E-MTAB-9357 study paper. Multi-Omics Resolves a Sharp Disease-State Shift between Mild and Moderate COVID-19 DOI:10.1016/j.cell.2020.10.037
+- `varma2006` (2006). nested cross-validation. Bias in error estimation when using cross-validation for model selection DOI:10.1186/1471-2105-7-91
+- `virtanen2020` (2020). SciPy. SciPy 1.0: fundamental algorithms for scientific computing in Python DOI:10.1038/s41592-019-0686-2
+- `weber2019` (2019). benchmarking guidelines. Essential guidelines for computational method benchmarking DOI:10.1186/s13059-019-1738-8
+- `westfall2001` (2001). fixed-sequence testing. Optimally weighted, fixed sequence and gatekeeper multiple testing procedures DOI:10.1016/S0378-3758(01)00077-5
+- `whalen2022` (2021). pitfalls of machine learning in genomics. Navigating the pitfalls of applying machine learning in genomics DOI:10.1038/s41576-021-00434-9
+- `wu2021` (2021). BABEL cross-modality translation. BABEL enables cross-modality translation between multiomic profiles at single-cell resolution DOI:10.1073/pnas.2023070118
+- `zhou2020` (2020). surface-protein imputation from RNA. Surface protein imputation from single cell transcriptomes by deep neural networks DOI:10.1038/s41467-020-14391-0
+- `zimmerman2021` (2021). pseudoreplication. A practical solution to pseudoreplication bias in single-cell studies DOI:10.1038/s41467-021-21038-1
+- `emtab9357data`. [dataset] ArrayExpress accession E-MTAB-9357. No separate DOI.
+- `lawlor2021data`. [dataset] Human Cell Atlas project efea6426-510a-4b60-9a19-277e52bfa815. The paper is `lawlor2021`.
+- `pedregosa2011`. scikit-learn. Verified from the JMLR page, no resolving DOI.
+- `salehi2026`. CellBridge. The Software Heritage identifier is still SWHID-PENDING.

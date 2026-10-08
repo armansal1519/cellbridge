@@ -22,7 +22,7 @@ pip install -e ".[dev]"
 pytest -q
 ```
 
-Python 3.11 is the tested version.
+Python 3.11 and 3.12 are the tested versions. Every argument of `fit`, `fit_anndata`, `predict`, `contributions` and `intervals` is listed in `docs/api.md`. The defaults are not the grid used in the paper. `examples/cellbridge_example.py` fits four synthetic donors with seed 0, and `examples/expected_output.json` is the output that test checks.
 
 ## Quickstart
 

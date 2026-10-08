@@ -1,0 +1,111 @@
+%% Supplementary file. Scientific legends are placeholders.
+%% The AI-use log below is a formal statement for the author to review.
+\ifdefined\pdfminorversion
+  \pdfminorversion=5
+\fi
+\documentclass[unnumsec,webpdf,contemporary,large,namedate]{oup-authoring-template}
+\usepackage{booktabs}
+\graphicspath{{../figures/}}
+\newcommand{\societylogo}{}
+\input{../numbers}
+
+\begin{document}
+
+\journaltitle{Bioinformatics}
+\DOI{Added during production}
+\copyrightyear{2026}
+\pubyear{2026}
+\vol{XX}
+\issue{x}
+\access{Date added during production}
+\appnotes{Original Paper}
+\firstpage{1}
+
+\title[CellBridge supplement]{CellBridge: supplementary information}
+
+\author[1]{Arman Salehi}
+
+\address[1]{\orgdiv{Department to be added}, \orgname{Institution to be added}, \orgaddress{\street{Street to be added}, \postcode{Postal code to be added}, \state{City to be added}, \country{Country to be added}}}
+
+\corresp{Corresponding author. \href{mailto:armansal1519@gmail.com}{armansal1519@gmail.com}}
+
+\abstract{%
+Supplementary figures and the log of language-model use for the CellBridge submission.%
+}
+
+\keywords{CITE-seq, donor response, supplementary information}
+
+\maketitle
+
+\section{Language-model use}
+\label{sec:ai-log}
+
+The scientific sections and the figure legends are written by the author. A language model was used, and this section is the log required with that use.
+
+\begin{itemize}
+\item Code, tests and the submission checker.
+\item Figure scripts, including the 1200-dpi export.
+\item Searching for candidate references and checking that each DOI resolves.
+\item Formal statements: alternative text, data and code availability, the funding line, the conflict-of-interest line, and this log.
+\item Software documentation in the public repository.
+\item An earlier draft of the scientific sections. That draft is not submitted. In the research repository it is kept at \texttt{paper/ai\_draft}, with a note that it is not for submission.
+\end{itemize}
+
+The model did not set the sealed hypotheses, did not open the outcome vault, and did not change the frozen solver. This log was prepared on 8 October 2026.
+
+\section{Derivation}
+\label{sec:derivation}
+%% The closed-form argument belongs to the author.
+AUTHOR-PLACEHOLDER
+
+\section{Supplementary figures}
+
+\begin{figure*}
+\centering
+\includegraphics[width=174mm]{figure2_development.pdf}
+\caption{AUTHOR: write this legend from OUTLINE.md. This is the development figure moved out of the main text.}
+\label{fig:dev}
+\end{figure*}
+Alt text: Panel a is a strip plot of standardized error for five methods on nine development tasks. Panel b is a horizontal bar chart of the full model against ablations and two pseudobulk baselines. Panel c is a line with a shaded range showing error as the number of anchors grows from zero to eight. The shaded range is the minimum to the maximum across tasks.
+
+\begin{figure*}
+\centering
+\includegraphics[width=174mm]{figure6_panel.pdf}
+\caption{AUTHOR: write this legend from OUTLINE.md. This is the panel figure moved out of the main text.}
+\label{fig:panel}
+\end{figure*}
+Alt text: Panel a shows mean error against the number of anchors, with an interquartile band. Panel b is a histogram of the share of absolute contribution coming from the eight anchors, with lines for CD25 and CD69. Panel c shows the percentage of bootstrap draws in which the largest feature is an anchor, for CD154, CD25 and CD69.
+
+\begin{figure*}
+\centering
+\includegraphics[width=174mm]{figureS1_per_protein.pdf}
+\caption{AUTHOR: write this legend from OUTLINE.md.}
+\label{fig:perprotein}
+\end{figure*}
+Alt text: Two curves, one per cohort, of standardized error with proteins ordered from smallest to largest error. CD25 and CD69 are marked.
+
+\begin{figure*}
+\centering
+\includegraphics[width=174mm]{figureS2_simulation.pdf}
+\caption{AUTHOR: write this legend from OUTLINE.md.}
+\label{fig:simulation}
+\end{figure*}
+Alt text: Panel a compares recovered slope size for single cells, k-means and a shared state. Panel b shows seconds against the number of cells on a log axis.
+
+\begin{figure*}
+\centering
+\includegraphics[width=174mm]{figureS3_totalvi.pdf}
+\caption{AUTHOR: write this legend from OUTLINE.md.}
+\label{fig:totalvi}
+\end{figure*}
+Alt text: Training and validation ELBO traces for the GSE334503 and E-MTAB-9357 totalVI fits, on a log axis.
+
+\begin{figure}
+\centering
+\includegraphics[width=85mm]{figureS4_genes.pdf}
+\caption{AUTHOR: write this legend from OUTLINE.md.}
+\label{fig:genes}
+\end{figure}
+Alt text: A line of mean standardized error against the number of genes on a reduced grid.
+
+\end{document}
