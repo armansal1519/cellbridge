@@ -1,0 +1,128 @@
+{
+  "name": "final_analysis_v110",
+  "written": "2026-10-08",
+  "post_hoc": true,
+  "changes_frozen_solver": false,
+  "changes_v100_protocols": false,
+  "question": "On the already unblinded cohorts, what, if anything, separates CellBridge from abundance shrinkage (ResponseBridge 0.4), once the closed form, the additive decomposition and the donor-level intervals are set aside because both estimators have them?",
+  "not_a_hypothesis_in_H1_H10": true,
+  "public_timestamp_required_before_score": true,
+  "timestamp_file": "docs/final_v110_timestamp.json",
+  "destination": "runs/cellbridge_v100/{gse334503,emtab9357}_posthoc/final/",
+  "decision_destination": "runs/cellbridge_v110/open/venue_decision.json",
+  "reporting": "Every analysis below is reported in either direction. These tests do not reopen H1-H10. A main-text mention says post hoc. An analysis abandoned before scoring is one line in paper/submission/AMENDMENTS.md and is not a result.",
+  "metric": "Standardized MAE. Per test donor, absolute error divided by the training-donor response SD (response_scale) of that protein, averaged over the endpoint proteins. The scale and the truth are the ones the sealed evaluation used.",
+  "endpoints": ["E1_primary", "E2_all_hidden"],
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 20261008,
+    "interval": "Percentile 0.025 and 0.975 of the resampled mean. Each interval draws a new Generator from this seed, so intervals do not depend on call order.",
+    "difference": "Second method minus CellBridge, except where a block below names another order. A positive value means the second method has higher loss."
+  },
+  "reproduction": {
+    "max_abs_gap": 1e-4,
+    "donors": "Sealed test donors",
+    "methods": ["cellbridge", "v040_abundance_shrinkage"],
+    "rule": "The full training-donor refit must match the sealed predictions within this gap. The calibration-donor gap is stored and is not the pass rule."
+  },
+  "gene_selection_disclosure": "CellBridge genes stay the sealed training-donor selection on every subset and every split. The v0.4 gene universe stays the sealed one: E-MTAB gene_pool of v040_n_genes on all training donors, GSE the prepared group gene list. v0.4 then chooses its 2000 HVGs inside each fit, because that choice is inside select_abundance_shrinkage. Subsets do not recompute the universe.",
+  "learning_curve": {
+    "hypothesis": "CellBridge has lower E2 loss than v0.4 when the number of training donors is small. GSE334503 has 11 training donors and CellBridge had the lower sealed E2. E-MTAB-9357 has 64 and the sealed E2 values tie.",
+    "expected_direction": "v0.4 minus CellBridge is positive at the small sizes.",
+    "emtab": {"sizes": [8, 16, 32], "draws": 5, "full": 64, "draw_seed": 20261008},
+    "gse": {"sizes": [4, 6, 8], "draws": 5, "full": 11, "draw_seed": 20261009},
+    "draw_rule": "For each size, each draw is choice(n_train, size, replace=False) on a Generator started at draw_seed. Training order is the sealed training order. The chosen index lists are stored.",
+    "same_draws": "Both methods use the same donor lists.",
+    "cellbridge_seed": "donor_stats seed is the sealed protocol seed 20261007 plus 101 times the donor's index in the full sealed training list. The full list therefore reproduces the sealed metacell draws.",
+    "v040_emtab": "Rows are built by the sealed fit() procedure: gene_pool on all training donors, v040_cells_per_arm and the Generator at the sealed seed 20261007 walking donors in sealed order. Rows are subset after that build. The fit calls select_abundance_shrinkage with the arguments baselines_queries uses.",
+    "v040_gse": "paired_rows supplies the training rows. Each draw passes the chosen donors, in sorted-name order, to baselines_queries.",
+    "summary": "Within a size, average the per-donor standardized loss across draws, then average donors. The paired interval resamples test donors.",
+    "output": "learning_curve.csv and learning_draws.json"
+  },
+  "attribution": {
+    "hypothesis": "Split-half per-gene attributions agree more strongly for CellBridge than for v0.4.",
+    "expected_direction": "CellBridge Spearman minus v0.4 Spearman is positive.",
+    "uses_test_protein": false,
+    "emtab": {"splits": 10, "first_half": 32, "second_half": 32, "seed": 20261010},
+    "gse": {"splits": 10, "first_half": 5, "second_half": 6, "seed": 20261011},
+    "split_rule": "permutation of the sealed training order. The first half is the prefix of length first_half. The second half is the remainder.",
+    "comparison": "For one method, Spearman of per-gene contributions between the two halves, on gene names present in both halves, for the same test donor and the same E2 target. Average over donors and targets, then over splits.",
+    "minimum_shared_genes": 5,
+    "skip_rule": "A target is skipped when the shared set is smaller than the minimum or either contribution vector has zero variance. A split with no remaining targets is missing. A cohort with a missing split does not meet the reproducibility claim.",
+    "top20": "Within each half, the 20 genes with largest absolute contribution. Overlap is the size of the intersection divided by 20. This number is reported and is not in the claim rule.",
+    "cellbridge_terms": "contributions(dz, t) on gene columns 0:n_genes. Technical columns and anchors are excluded.",
+    "v040_terms": "Abundance formulation only. For selected feature j and target t, (x[j] / x_scale[j]) * coef[t, j] * y_scale[t], with x the query RNA response on the v0.4 gene universe. These terms must sum to rna_contribution within 1e-8.",
+    "guard_failure": "If the sum guard fails, stop the contribution comparison, write one line in AMENDMENTS.md, and use Spearman of the coefficient vectors on the shared genes instead. The claim rule is then applied to that Spearman.",
+    "cognate": {
+      "fit": "The full training fit, which is the reproduction fit.",
+      "eligible": "An E2 target whose cognate gene is in both models' selected features. E-MTAB uses cognate_for_deposited. GSE uses cognate_gene.",
+      "percentile": "100 times the number of selected genes with a strictly smaller absolute contribution, divided by n_genes - 1.",
+      "null_permutations": 1000,
+      "null_seed": 20261013,
+      "null": "Permute gene labels of the contribution vector and recompute the cognate percentile."
+    },
+    "per_protein": "Descriptive. On the sealed predictions, per-protein standardized MAE. Group E2 proteins by whether the cognate gene is in the CellBridge selected gene set. This block does use test protein values. It is not part of the reproducibility claim.",
+    "output": "attribution.csv, cognate.csv, per_protein.csv"
+  },
+  "ensemble": {
+    "definition": "0.5 * (cellbridge + v040_abundance_shrinkage), the secondary definition named in the GSE334503 protocol. Applied to the sealed E-MTAB-9357 prediction vectors. The GSE value is already sealed and is not rescaled.",
+    "inference": "Paired bootstrap of ensemble loss minus each component, E1 and E2.",
+    "error_correlation": "Pearson correlation of per-donor standardized losses between CellBridge and v0.4, both endpoints, both cohorts.",
+    "output": "ensemble.csv and error_correlation.csv"
+  },
+  "scale_free": {
+    "inputs": "Sealed prediction vectors, plus the post hoc sciPENN and scLinear vectors, plus the E-MTAB ensemble.",
+    "per_protein": "Across test donors: Pearson correlation, and the fraction of donors with prediction times outcome strictly positive.",
+    "undefined": "A correlation is undefined when either side has zero variance. It is not recorded as zero.",
+    "summary": "Median correlation and median sign agreement inside E1 and inside E2, ignoring undefined proteins.",
+    "constant_predictions": "A protein whose predictions are all equal.",
+    "output": "scale_free.csv"
+  },
+  "scipenn_rescaled": {
+    "reason": "sciPENN z-scores proteins and the sealed post hoc score used the returned units.",
+    "scale": "Training cells only, after the published min_genes filter of 200. scanpy.pp.normalize_total and scanpy.pp.log1p with the defaults sciPENN calls, then the column SD that scanpy.pp.scale divides by, including the replacement of a zero SD by 1. Computed with .venv_scipenn.",
+    "application": "Multiply the sealed donor-level sciPENN response by that per-protein SD. The training mean cancels in the arm difference and is not applied.",
+    "report": "Standardized MAE of the returned units and of the rescaled units.",
+    "output": "scipenn_rescaled.csv"
+  },
+  "h4_heterogeneity": {
+    "cohort": "E-MTAB-9357",
+    "endpoint": "E1_primary",
+    "source": "evaluation/donor_losses.csv",
+    "gain": "Training-mean loss minus the method loss. Positive means the method has lower loss.",
+    "methods": ["cellbridge", "v040_abundance_shrinkage"],
+    "correlations": "Spearman of each method's per-donor gain with n_control, with n_perturbed, and with that donor's E1 noise ceiling.",
+    "output": "h4_donors.csv"
+  },
+  "noise_ceiling": {
+    "hypothesis": "None. This is a descriptive floor for the scored estimand.",
+    "draws": 200,
+    "seed": 20261012,
+    "procedure": "Resample cells with replacement inside each test-donor arm, same count, and recompute the arm-mean difference. sigma is the sample SD of those differences, with divisor n - 1. The protein floor is sigma * sqrt(2/pi) / response_scale. The endpoint floor is the mean over test donors and endpoint proteins.",
+    "emtab_cells": "runs/cellbridge_v100/emtab9357_prepared/vault, the matrices whose means are the sealed test truth.",
+    "gse_cells": "Prepared cells. The resampled value is the unweighted mean of log1p(ADT counts), perturbed minus control, which is the CellTable outcome. The scored GSE truth is the group-weighted response. The mean absolute gap between those two responses is stored.",
+    "gap_fraction": "(method standardized MAE - floor) / (training-mean standardized MAE - floor). Undefined when the denominator is not positive.",
+    "output": "noise_ceiling.csv"
+  },
+  "noise_regime_note": "No new fit. The RNA-noise row already in runs/cellbridge_v110/open/regime_guidance.md is the guidance for when abundance shrinkage has the lower error. It stays exploratory.",
+  "totalvi": {
+    "script": "scripts/cellbridge_totalvi_sensitivity_v110.py",
+    "environment": ".venv_totalvi",
+    "destination": "runs/cellbridge_v100/{cohort}_posthoc/final/totalvi/",
+    "order": "GSE334503 first. E-MTAB-9357 only after the E-MTAB learning curve and the E-MTAB attribution fits have finished.",
+    "cells": "The sealed subsample, Generator at the sealed seed. The three extra fits do not redraw cells.",
+    "seeds": "scvi.settings.seed equal to the sealed seed plus 1, plus 2 and plus 3. Settings otherwise match the sealed script, including the E-MTAB learning rate 0.0004.",
+    "defaults": "One further fit. TOTALVI() with no latent_distribution argument. train() with no max_epochs, learning rate, batch size or early_stopping argument. accelerator is cpu because this machine has no CUDA. Same genes and the same cell cap. A non-finite loss is recorded as unavailable and is not refit.",
+    "cache": "The E-MTAB AnnData is written to h5ad only if that file is under 15 GiB. Otherwise it is not written, and the script rebuilds the matrix for each variant.",
+    "report": "E1 and E2 range across the sealed seed and the three extra seeds. For every one of those four seeds, the number of test donors on which CellBridge has the strictly lower loss. The defaults fit is separate. Sealed H7 and H8 stay the confirmatory comparisons.",
+    "output": "totalvi/scores.csv"
+  },
+  "venue_rule": {
+    "evaluated_after": ["learning_curve", "attribution"],
+    "few_donor_claim": "Holds only if the E-MTAB E2 interval for v0.4 minus CellBridge lies strictly above 0 at both 8 and 16 training donors, and the GSE E2 point estimate at 6 training donors is strictly positive.",
+    "reproducibility_claim": "Holds only if the interval for CellBridge split-half Spearman minus v0.4 split-half Spearman lies strictly above 0 on both cohorts.",
+    "original_paper": "If either claim holds, the framing is an Original Paper and that claim is the differentiator. A claim that does not hold is not added.",
+    "application_note": "If neither claim holds, the framing is an Application Note. The paper states that on these two cohorts the two estimators are equivalent. The task, the anchors, the benchmark and the package are the contribution.",
+    "other_blocks": "The ensemble, the scale-free metric, the sciPENN rescaling, the H4 table, the noise ceiling, the simulation row and the totalVI seeds do not enter this rule. They are still reported."
+  }
+}
