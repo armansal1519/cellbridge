@@ -81,6 +81,18 @@ FittedCellBridge.intervals(dz, calibration_scores, alpha=0.1)
 
 The interval is split conformal. The quantile uses NumPy's `higher` method at `ceil((n + 1) * (1 - alpha)) / n`, capped at 1. The same half-width is subtracted from and added to the point prediction. The two return arrays have the same shape as `predict`.
 
+## `panel_curve`
+
+```python
+panel_curve(donors, query, observed, *, n_genes, anchor_counts, **fit_kwargs)
+```
+
+`donors` is the same list `fit` accepts. The anchor columns are the last columns of `z`. `anchor_counts` is a sequence of integers. For each count `k`, the function keeps the genes, the two technical columns and the first `k` anchors, calls `fit`, and returns the mean absolute error of `predict` against `observed`.
+
+`query` is the donor-level feature difference, one row per donor. `observed` is the protein response for those donors. The two must have the same number of rows. `fit_kwargs` is passed to `fit`, including `ks`, `mixes`, `lambdas`, `strategy`, `top` and `seed`.
+
+The return value is a list of mappings with `n_anchors` and `mae`. This is a refit for each panel size. It does not reuse a model fitted on a larger panel.
+
 ## What this page does not do
 
 Passing the paper grid does not reproduce a sealed cohort. The cohort matrices are not in this repository. The commands that read those matrices are in `reproduce/README.md`.

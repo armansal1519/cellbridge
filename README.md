@@ -47,7 +47,7 @@ print(model.predict(np.zeros(6)))
 print(model.contributions(np.zeros(6), target=0))
 ```
 
-`notebooks/cellbridge_tutorial.ipynb` is the same example. An object with `X`, `obs` and `obsm['protein']` can be passed to `fit_anndata`. AnnData itself is optional.
+`notebooks/cellbridge_tutorial.ipynb` is the same example. An object with `X`, `obs` and `obsm['protein']` can be passed to `fit_anndata`. AnnData itself is optional. `examples/anndata_tutorial.py` builds that object from synthetic cells, fits it, and calls `panel_curve`. Version 1.1.0 adds that helper. The sealed results remain the v1.0.1 release. The solver is unchanged.
 
 ## Reproduce the paper
 

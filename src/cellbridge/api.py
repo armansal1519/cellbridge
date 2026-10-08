@@ -109,3 +109,35 @@ def fit_anndata(adata, *, donor="donor", arm="arm", protein="protein", control="
             "z_perturbed": arms[perturbed][0], "y_perturbed": arms[perturbed][1],
         })
     return fit(donors, n_genes=n_genes, n_anchors=n_anchors, **kwargs)
+
+
+def panel_curve(donors, query, observed, *, n_genes, anchor_counts, **fit_kwargs):
+    """Refit with the first k anchors and return the mean absolute error.
+
+    ``z`` columns are genes, two technical columns, then anchors. ``query`` is
+    the donor-level difference of that matrix. ``observed`` is the matching
+    protein response. ``anchor_counts`` lists how many leading anchors to keep.
+    The solver is called as it stands. This function only slices columns.
+    """
+    query = np.atleast_2d(np.asarray(query, dtype=float))
+    observed = np.atleast_2d(np.asarray(observed, dtype=float))
+    if query.shape[0] != observed.shape[0]:
+        raise ValueError("Query donors and observed responses must be aligned")
+    width = int(np.asarray(donors[0]["z_control"]).shape[1])
+    rows = []
+    for k in anchor_counts:
+        k = int(k)
+        if k < 0 or n_genes + 2 + k > width:
+            raise ValueError(f"{k} anchors do not fit in the feature matrix")
+        cols = np.arange(n_genes + 2 + k)
+        sliced = []
+        for donor in donors:
+            sliced.append({
+                **donor,
+                "z_control": np.asarray(donor["z_control"], dtype=float)[:, cols],
+                "z_perturbed": np.asarray(donor["z_perturbed"], dtype=float)[:, cols],
+            })
+        model = fit(sliced, n_genes=n_genes, n_anchors=k, **fit_kwargs)
+        predicted = model.predict(query[:, cols])
+        rows.append({"n_anchors": k, "mae": float(np.mean(np.abs(predicted - observed)))})
+    return rows
