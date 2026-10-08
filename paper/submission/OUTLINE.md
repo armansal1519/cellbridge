@@ -25,7 +25,7 @@ Five headings, in this order: Motivation, Results, Availability and implementati
 
 - Motivation: donor-level protein change, RNA plus eight antibodies, not cell-level imputation.
 - Results: name both cohorts. GSE334503 primary claim `\GseClaim`. E-MTAB-9357 primary claim `\EmClaim`. Use `\MaeGseCbEone`, `\MaeGseCbEtwo`, `\MaeEmCbEone`, `\MaeEmCbEtwo` if they fit. Do not add numbers that are not macros.
-- Availability: GitHub `https://github.com/armansal1519/cellbridge`, tag `v1.0.1`, and the Software Heritage identifier. The identifier is filled in after archiving. Contact is armansal1519@gmail.com until an institutional address exists.
+- Availability: GitHub `https://github.com/armansal1519/cellbridge`, tag `v1.0.1`. Release `swh:1:rel:03348d00ccd9f724d2ca51961f4bca30eaeb0559`. Snapshot `swh:1:snp:f854154bf0eacc86ed2cb29c5911f8c4fcfdacc4`. Contact is armansal1519@gmail.com until an institutional address exists.
 - Supplementary information: one line pointing to the supplement.
 
 Candidate citations are not required in the abstract.

@@ -11,6 +11,13 @@ url: https://github.com/armansal1519/cellbridge
 version: 1.0.1
 license: MIT
 date-released: 2026-10-08
+identifiers:
+  - type: swh
+    value: swh:1:rel:03348d00ccd9f724d2ca51961f4bca30eaeb0559
+    description: Software Heritage release of tag v1.0.1
+  - type: swh
+    value: swh:1:snp:f854154bf0eacc86ed2cb29c5911f8c4fcfdacc4
+    description: Software Heritage snapshot of the GitHub origin
 abstract: >-
   CellBridge fits one closed-form slope per protein and predicts a donor's
   protein change from RNA and eight anchor antibodies. On GSE334503 the

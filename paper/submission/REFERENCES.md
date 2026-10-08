@@ -76,4 +76,4 @@ Not added:
 - `emtab9357data`. [dataset] ArrayExpress accession E-MTAB-9357. No separate DOI.
 - `lawlor2021data`. [dataset] Human Cell Atlas project efea6426-510a-4b60-9a19-277e52bfa815. The paper is `lawlor2021`.
 - `pedregosa2011`. scikit-learn. Verified from the JMLR page, no resolving DOI.
-- `salehi2026`. CellBridge. The Software Heritage identifier is still SWHID-PENDING.
+- `salehi2026`. CellBridge. Release `swh:1:rel:03348d00ccd9f724d2ca51961f4bca30eaeb0559`. Snapshot `swh:1:snp:f854154bf0eacc86ed2cb29c5911f8c4fcfdacc4`.
